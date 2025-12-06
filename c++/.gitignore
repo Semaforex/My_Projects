@@ -1,0 +1,6 @@
+*.in
+*.idea
+*.exe
+*.o
+*.gz
+*.tex
