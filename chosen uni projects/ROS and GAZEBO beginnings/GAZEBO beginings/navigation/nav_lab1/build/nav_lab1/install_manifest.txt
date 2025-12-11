@@ -1,0 +1,17 @@
+/home/student/Desktop/stero_25z_mp_ms/nawigacja/nav_lab1/install/nav_lab1/lib/nav_lab1/piaciokotforemny
+/home/student/Desktop/stero_25z_mp_ms/nawigacja/nav_lab1/install/nav_lab1/lib/nav_lab1/odometry_info
+/home/student/Desktop/stero_25z_mp_ms/nawigacja/nav_lab1/install/nav_lab1/share/ament_index/resource_index/package_run_dependencies/nav_lab1
+/home/student/Desktop/stero_25z_mp_ms/nawigacja/nav_lab1/install/nav_lab1/share/ament_index/resource_index/parent_prefix_path/nav_lab1
+/home/student/Desktop/stero_25z_mp_ms/nawigacja/nav_lab1/install/nav_lab1/share/nav_lab1/environment/ament_prefix_path.sh
+/home/student/Desktop/stero_25z_mp_ms/nawigacja/nav_lab1/install/nav_lab1/share/nav_lab1/environment/ament_prefix_path.dsv
+/home/student/Desktop/stero_25z_mp_ms/nawigacja/nav_lab1/install/nav_lab1/share/nav_lab1/environment/path.sh
+/home/student/Desktop/stero_25z_mp_ms/nawigacja/nav_lab1/install/nav_lab1/share/nav_lab1/environment/path.dsv
+/home/student/Desktop/stero_25z_mp_ms/nawigacja/nav_lab1/install/nav_lab1/share/nav_lab1/local_setup.bash
+/home/student/Desktop/stero_25z_mp_ms/nawigacja/nav_lab1/install/nav_lab1/share/nav_lab1/local_setup.sh
+/home/student/Desktop/stero_25z_mp_ms/nawigacja/nav_lab1/install/nav_lab1/share/nav_lab1/local_setup.zsh
+/home/student/Desktop/stero_25z_mp_ms/nawigacja/nav_lab1/install/nav_lab1/share/nav_lab1/local_setup.dsv
+/home/student/Desktop/stero_25z_mp_ms/nawigacja/nav_lab1/install/nav_lab1/share/nav_lab1/package.dsv
+/home/student/Desktop/stero_25z_mp_ms/nawigacja/nav_lab1/install/nav_lab1/share/ament_index/resource_index/packages/nav_lab1
+/home/student/Desktop/stero_25z_mp_ms/nawigacja/nav_lab1/install/nav_lab1/share/nav_lab1/cmake/nav_lab1Config.cmake
+/home/student/Desktop/stero_25z_mp_ms/nawigacja/nav_lab1/install/nav_lab1/share/nav_lab1/cmake/nav_lab1Config-version.cmake
+/home/student/Desktop/stero_25z_mp_ms/nawigacja/nav_lab1/install/nav_lab1/share/nav_lab1/package.xml

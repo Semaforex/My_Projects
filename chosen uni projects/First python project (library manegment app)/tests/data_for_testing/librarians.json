@@ -1,0 +1,14 @@
+[
+    {
+        "username": "librarian1",
+        "data": {
+            "password": "password"
+        }
+    },
+    {
+        "username": "librarian2",
+        "data": {
+            "password": "password"
+        }
+    }
+]

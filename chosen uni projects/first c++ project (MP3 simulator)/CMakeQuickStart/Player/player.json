@@ -1,0 +1,22 @@
+{
+    "battery": {
+        "battery_left": 30,
+        "capacity": 200
+    },
+    "memory": {
+        "capacity": 200,
+        "playlists": [],
+        "songs": [
+            {
+                "artist": "Gorrilaz",
+                "length": 12,
+                "title": "Clint Eastwood"
+            },
+            {
+                "artist": "blur",
+                "length": 12,
+                "title": "Song 2"
+            }
+        ]
+    }
+}

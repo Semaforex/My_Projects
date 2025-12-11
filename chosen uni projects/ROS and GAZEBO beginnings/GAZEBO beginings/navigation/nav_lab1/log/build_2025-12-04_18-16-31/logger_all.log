@@ -1,0 +1,109 @@
+[0.277s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.277s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=4, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x7767b1f828c0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7767b2056e90>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7767b2056e90>>, mixin_verb=('build',))
+[0.637s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.637s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.637s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.637s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.637s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.638s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.638s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/student/Desktop/stero_25z_mp_ms/nawigacja/nav_lab1'
+[0.638s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.638s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.638s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.638s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.639s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.639s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.639s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.639s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.639s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.678s] DEBUG:colcon.colcon_core.package_identification:Package '.' with type 'ros.ament_cmake' and name 'nav_lab1'
+[0.678s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.679s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.679s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.679s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.679s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.716s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.717s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.718s] WARNING:colcon.colcon_core.prefix_path.colcon:The path '/home/student/Desktop/stero_25z_mp_ms/nawigacja/install' in the environment variable COLCON_PREFIX_PATH doesn't exist
+[0.719s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/student/Desktop/stero_25z_mp_ms/nawigacja/install/nav_lab1' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.721s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/student/Desktop/stero_25z_mp_ms/nawigacja/install/nav_lab1' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[0.725s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 40 installed packages in /home/student/tiago_public_ws/install
+[0.729s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 398 installed packages in /opt/ros/iron
+[0.737s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.834s] Level 5:colcon.colcon_core.verb:set package 'nav_lab1' build argument 'cmake_args' from command line to 'None'
+[0.834s] Level 5:colcon.colcon_core.verb:set package 'nav_lab1' build argument 'cmake_target' from command line to 'None'
+[0.834s] Level 5:colcon.colcon_core.verb:set package 'nav_lab1' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.834s] Level 5:colcon.colcon_core.verb:set package 'nav_lab1' build argument 'cmake_clean_cache' from command line to 'False'
+[0.834s] Level 5:colcon.colcon_core.verb:set package 'nav_lab1' build argument 'cmake_clean_first' from command line to 'False'
+[0.834s] Level 5:colcon.colcon_core.verb:set package 'nav_lab1' build argument 'cmake_force_configure' from command line to 'False'
+[0.834s] Level 5:colcon.colcon_core.verb:set package 'nav_lab1' build argument 'ament_cmake_args' from command line to 'None'
+[0.834s] Level 5:colcon.colcon_core.verb:set package 'nav_lab1' build argument 'catkin_cmake_args' from command line to 'None'
+[0.834s] Level 5:colcon.colcon_core.verb:set package 'nav_lab1' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.835s] DEBUG:colcon.colcon_core.verb:Building package 'nav_lab1' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/student/Desktop/stero_25z_mp_ms/nawigacja/nav_lab1/build/nav_lab1', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/student/Desktop/stero_25z_mp_ms/nawigacja/nav_lab1/install/nav_lab1', 'merge_install': False, 'path': '/home/student/Desktop/stero_25z_mp_ms/nawigacja/nav_lab1', 'symlink_install': False, 'test_result_base': None}
+[0.835s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.837s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.837s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/student/Desktop/stero_25z_mp_ms/nawigacja/nav_lab1' with build type 'ament_cmake'
+[0.837s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/student/Desktop/stero_25z_mp_ms/nawigacja/nav_lab1'
+[0.840s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.840s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.840s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.871s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/student/Desktop/stero_25z_mp_ms/nawigacja/nav_lab1/build/nav_lab1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/student/tiago_public_ws/install/launch_pal:/opt/ros/iron /usr/bin/cmake /home/student/Desktop/stero_25z_mp_ms/nawigacja/nav_lab1 -DCMAKE_INSTALL_PREFIX=/home/student/Desktop/stero_25z_mp_ms/nawigacja/nav_lab1/install/nav_lab1
+[3.946s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/student/Desktop/stero_25z_mp_ms/nawigacja/nav_lab1/build/nav_lab1' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/student/tiago_public_ws/install/launch_pal:/opt/ros/iron /usr/bin/cmake /home/student/Desktop/stero_25z_mp_ms/nawigacja/nav_lab1 -DCMAKE_INSTALL_PREFIX=/home/student/Desktop/stero_25z_mp_ms/nawigacja/nav_lab1/install/nav_lab1
+[3.947s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/student/Desktop/stero_25z_mp_ms/nawigacja/nav_lab1/build/nav_lab1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/student/tiago_public_ws/install/launch_pal:/opt/ros/iron /usr/bin/cmake --build /home/student/Desktop/stero_25z_mp_ms/nawigacja/nav_lab1/build/nav_lab1 -- -j4 -l4
+[35.118s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/student/Desktop/stero_25z_mp_ms/nawigacja/nav_lab1/build/nav_lab1' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/student/tiago_public_ws/install/launch_pal:/opt/ros/iron /usr/bin/cmake --build /home/student/Desktop/stero_25z_mp_ms/nawigacja/nav_lab1/build/nav_lab1 -- -j4 -l4
+[35.206s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/student/Desktop/stero_25z_mp_ms/nawigacja/nav_lab1/build/nav_lab1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/student/tiago_public_ws/install/launch_pal:/opt/ros/iron /usr/bin/cmake --install /home/student/Desktop/stero_25z_mp_ms/nawigacja/nav_lab1/build/nav_lab1
+[35.259s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(nav_lab1)
+[35.262s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/student/Desktop/stero_25z_mp_ms/nawigacja/nav_lab1/build/nav_lab1' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/student/tiago_public_ws/install/launch_pal:/opt/ros/iron /usr/bin/cmake --install /home/student/Desktop/stero_25z_mp_ms/nawigacja/nav_lab1/build/nav_lab1
+[35.264s] Level 1:colcon.colcon_core.environment:checking '/home/student/Desktop/stero_25z_mp_ms/nawigacja/nav_lab1/install/nav_lab1' for CMake module files
+[35.265s] Level 1:colcon.colcon_core.environment:checking '/home/student/Desktop/stero_25z_mp_ms/nawigacja/nav_lab1/install/nav_lab1' for CMake config files
+[35.265s] Level 1:colcon.colcon_core.shell:create_environment_hook('nav_lab1', 'cmake_prefix_path')
+[35.266s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/student/Desktop/stero_25z_mp_ms/nawigacja/nav_lab1/install/nav_lab1/share/nav_lab1/hook/cmake_prefix_path.ps1'
+[35.268s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/student/Desktop/stero_25z_mp_ms/nawigacja/nav_lab1/install/nav_lab1/share/nav_lab1/hook/cmake_prefix_path.dsv'
+[35.269s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/student/Desktop/stero_25z_mp_ms/nawigacja/nav_lab1/install/nav_lab1/share/nav_lab1/hook/cmake_prefix_path.sh'
+[35.272s] Level 1:colcon.colcon_core.environment:checking '/home/student/Desktop/stero_25z_mp_ms/nawigacja/nav_lab1/install/nav_lab1/lib'
+[35.272s] Level 1:colcon.colcon_core.environment:checking '/home/student/Desktop/stero_25z_mp_ms/nawigacja/nav_lab1/install/nav_lab1/bin'
+[35.272s] Level 1:colcon.colcon_core.environment:checking '/home/student/Desktop/stero_25z_mp_ms/nawigacja/nav_lab1/install/nav_lab1/lib/pkgconfig/nav_lab1.pc'
+[35.273s] Level 1:colcon.colcon_core.environment:checking '/home/student/Desktop/stero_25z_mp_ms/nawigacja/nav_lab1/install/nav_lab1/lib/python3.10/site-packages'
+[35.273s] Level 1:colcon.colcon_core.environment:checking '/home/student/Desktop/stero_25z_mp_ms/nawigacja/nav_lab1/install/nav_lab1/bin'
+[35.274s] INFO:colcon.colcon_core.shell:Creating package script '/home/student/Desktop/stero_25z_mp_ms/nawigacja/nav_lab1/install/nav_lab1/share/nav_lab1/package.ps1'
+[35.277s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/student/Desktop/stero_25z_mp_ms/nawigacja/nav_lab1/install/nav_lab1/share/nav_lab1/package.dsv'
+[35.279s] INFO:colcon.colcon_core.shell:Creating package script '/home/student/Desktop/stero_25z_mp_ms/nawigacja/nav_lab1/install/nav_lab1/share/nav_lab1/package.sh'
+[35.280s] INFO:colcon.colcon_core.shell:Creating package script '/home/student/Desktop/stero_25z_mp_ms/nawigacja/nav_lab1/install/nav_lab1/share/nav_lab1/package.bash'
+[35.283s] INFO:colcon.colcon_core.shell:Creating package script '/home/student/Desktop/stero_25z_mp_ms/nawigacja/nav_lab1/install/nav_lab1/share/nav_lab1/package.zsh'
+[35.285s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/student/Desktop/stero_25z_mp_ms/nawigacja/nav_lab1/install/nav_lab1/share/colcon-core/packages/nav_lab1)
+[35.361s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(nav_lab1)
+[35.362s] Level 1:colcon.colcon_core.environment:checking '/home/student/Desktop/stero_25z_mp_ms/nawigacja/nav_lab1/install/nav_lab1' for CMake module files
+[35.362s] Level 1:colcon.colcon_core.environment:checking '/home/student/Desktop/stero_25z_mp_ms/nawigacja/nav_lab1/install/nav_lab1' for CMake config files
+[35.362s] Level 1:colcon.colcon_core.shell:create_environment_hook('nav_lab1', 'cmake_prefix_path')
+[35.363s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/student/Desktop/stero_25z_mp_ms/nawigacja/nav_lab1/install/nav_lab1/share/nav_lab1/hook/cmake_prefix_path.ps1'
+[35.366s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/student/Desktop/stero_25z_mp_ms/nawigacja/nav_lab1/install/nav_lab1/share/nav_lab1/hook/cmake_prefix_path.dsv'
+[35.367s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/student/Desktop/stero_25z_mp_ms/nawigacja/nav_lab1/install/nav_lab1/share/nav_lab1/hook/cmake_prefix_path.sh'
+[35.368s] Level 1:colcon.colcon_core.environment:checking '/home/student/Desktop/stero_25z_mp_ms/nawigacja/nav_lab1/install/nav_lab1/lib'
+[35.368s] Level 1:colcon.colcon_core.environment:checking '/home/student/Desktop/stero_25z_mp_ms/nawigacja/nav_lab1/install/nav_lab1/bin'
+[35.368s] Level 1:colcon.colcon_core.environment:checking '/home/student/Desktop/stero_25z_mp_ms/nawigacja/nav_lab1/install/nav_lab1/lib/pkgconfig/nav_lab1.pc'
+[35.369s] Level 1:colcon.colcon_core.environment:checking '/home/student/Desktop/stero_25z_mp_ms/nawigacja/nav_lab1/install/nav_lab1/lib/python3.10/site-packages'
+[35.369s] Level 1:colcon.colcon_core.environment:checking '/home/student/Desktop/stero_25z_mp_ms/nawigacja/nav_lab1/install/nav_lab1/bin'
+[35.370s] INFO:colcon.colcon_core.shell:Creating package script '/home/student/Desktop/stero_25z_mp_ms/nawigacja/nav_lab1/install/nav_lab1/share/nav_lab1/package.ps1'
+[35.372s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/student/Desktop/stero_25z_mp_ms/nawigacja/nav_lab1/install/nav_lab1/share/nav_lab1/package.dsv'
+[35.373s] INFO:colcon.colcon_core.shell:Creating package script '/home/student/Desktop/stero_25z_mp_ms/nawigacja/nav_lab1/install/nav_lab1/share/nav_lab1/package.sh'
+[35.374s] INFO:colcon.colcon_core.shell:Creating package script '/home/student/Desktop/stero_25z_mp_ms/nawigacja/nav_lab1/install/nav_lab1/share/nav_lab1/package.bash'
+[35.375s] INFO:colcon.colcon_core.shell:Creating package script '/home/student/Desktop/stero_25z_mp_ms/nawigacja/nav_lab1/install/nav_lab1/share/nav_lab1/package.zsh'
+[35.376s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/student/Desktop/stero_25z_mp_ms/nawigacja/nav_lab1/install/nav_lab1/share/colcon-core/packages/nav_lab1)
+[35.378s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[35.379s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[35.379s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[35.379s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[35.398s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[35.398s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[35.398s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[35.439s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[35.440s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/student/Desktop/stero_25z_mp_ms/nawigacja/nav_lab1/install/local_setup.ps1'
+[35.441s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/student/Desktop/stero_25z_mp_ms/nawigacja/nav_lab1/install/_local_setup_util_ps1.py'
+[35.444s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/student/Desktop/stero_25z_mp_ms/nawigacja/nav_lab1/install/setup.ps1'
+[35.449s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/student/Desktop/stero_25z_mp_ms/nawigacja/nav_lab1/install/local_setup.sh'
+[35.452s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/student/Desktop/stero_25z_mp_ms/nawigacja/nav_lab1/install/_local_setup_util_sh.py'
+[35.454s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/student/Desktop/stero_25z_mp_ms/nawigacja/nav_lab1/install/setup.sh'
+[35.460s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/student/Desktop/stero_25z_mp_ms/nawigacja/nav_lab1/install/local_setup.bash'
+[35.462s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/student/Desktop/stero_25z_mp_ms/nawigacja/nav_lab1/install/setup.bash'
+[35.467s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/student/Desktop/stero_25z_mp_ms/nawigacja/nav_lab1/install/local_setup.zsh'
+[35.468s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/student/Desktop/stero_25z_mp_ms/nawigacja/nav_lab1/install/setup.zsh'

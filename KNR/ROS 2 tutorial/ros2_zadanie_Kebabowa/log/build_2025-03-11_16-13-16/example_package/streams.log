@@ -1,0 +1,26 @@
+[0.251s] Invoking command in '/home/mparadow/Desktop/ROS2_tutorial/ros2_zadanie_Kebabowa/src/example_package': PYTHONPATH=/home/mparadow/Desktop/ROS2_tutorial/ros2_zadanie_Kebabowa/build/example_package/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/mparadow/Desktop/ROS2_tutorial/ros2_zadanie_Kebabowa/install/example_package/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/example_package build --build-base /home/mparadow/Desktop/ROS2_tutorial/ros2_zadanie_Kebabowa/build/example_package/build install --record /home/mparadow/Desktop/ROS2_tutorial/ros2_zadanie_Kebabowa/build/example_package/install.log --single-version-externally-managed install_data
+[0.354s] running egg_info
+[0.354s] writing ../../build/example_package/example_package.egg-info/PKG-INFO
+[0.354s] writing dependency_links to ../../build/example_package/example_package.egg-info/dependency_links.txt
+[0.354s] writing entry points to ../../build/example_package/example_package.egg-info/entry_points.txt
+[0.354s] writing requirements to ../../build/example_package/example_package.egg-info/requires.txt
+[0.354s] writing top-level names to ../../build/example_package/example_package.egg-info/top_level.txt
+[0.355s] reading manifest file '../../build/example_package/example_package.egg-info/SOURCES.txt'
+[0.355s] adding license file 'LICENSE'
+[0.355s] writing manifest file '../../build/example_package/example_package.egg-info/SOURCES.txt'
+[0.355s] running build
+[0.355s] running build_py
+[0.355s] copying example_package/pose_processor.py -> /home/mparadow/Desktop/ROS2_tutorial/ros2_zadanie_Kebabowa/build/example_package/build/lib/example_package
+[0.355s] running install
+[0.356s] running install_lib
+[0.356s] copying /home/mparadow/Desktop/ROS2_tutorial/ros2_zadanie_Kebabowa/build/example_package/build/lib/example_package/pose_processor.py -> /home/mparadow/Desktop/ROS2_tutorial/ros2_zadanie_Kebabowa/install/example_package/lib/python3.10/site-packages/example_package
+[0.356s] byte-compiling /home/mparadow/Desktop/ROS2_tutorial/ros2_zadanie_Kebabowa/install/example_package/lib/python3.10/site-packages/example_package/pose_processor.py to pose_processor.cpython-310.pyc
+[0.356s] running install_data
+[0.356s] running install_egg_info
+[0.357s] removing '/home/mparadow/Desktop/ROS2_tutorial/ros2_zadanie_Kebabowa/install/example_package/lib/python3.10/site-packages/example_package-0.0.0-py3.10.egg-info' (and everything under it)
+[0.357s] Copying ../../build/example_package/example_package.egg-info to /home/mparadow/Desktop/ROS2_tutorial/ros2_zadanie_Kebabowa/install/example_package/lib/python3.10/site-packages/example_package-0.0.0-py3.10.egg-info
+[0.358s] running install_scripts
+[0.367s] Installing listener script to /home/mparadow/Desktop/ROS2_tutorial/ros2_zadanie_Kebabowa/install/example_package/lib/example_package
+[0.367s] Installing talker script to /home/mparadow/Desktop/ROS2_tutorial/ros2_zadanie_Kebabowa/install/example_package/lib/example_package
+[0.367s] writing list of installed files to '/home/mparadow/Desktop/ROS2_tutorial/ros2_zadanie_Kebabowa/build/example_package/install.log'
+[0.377s] Invoked command in '/home/mparadow/Desktop/ROS2_tutorial/ros2_zadanie_Kebabowa/src/example_package' returned '0': PYTHONPATH=/home/mparadow/Desktop/ROS2_tutorial/ros2_zadanie_Kebabowa/build/example_package/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/mparadow/Desktop/ROS2_tutorial/ros2_zadanie_Kebabowa/install/example_package/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/example_package build --build-base /home/mparadow/Desktop/ROS2_tutorial/ros2_zadanie_Kebabowa/build/example_package/build install --record /home/mparadow/Desktop/ROS2_tutorial/ros2_zadanie_Kebabowa/build/example_package/install.log --single-version-externally-managed install_data

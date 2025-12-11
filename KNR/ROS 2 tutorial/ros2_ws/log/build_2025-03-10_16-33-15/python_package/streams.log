@@ -1,0 +1,38 @@
+[0.265s] Invoking command in '/home/mparadow/Desktop/ROS2_tutorial/ros2_ws/src/python_package': PYTHONPATH=/home/mparadow/Desktop/ROS2_tutorial/ros2_ws/build/python_package/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/mparadow/Desktop/ROS2_tutorial/ros2_ws/install/python_package/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/python_package build --build-base /home/mparadow/Desktop/ROS2_tutorial/ros2_ws/build/python_package/build install --record /home/mparadow/Desktop/ROS2_tutorial/ros2_ws/build/python_package/install.log --single-version-externally-managed install_data
+[0.361s] running egg_info
+[0.362s] creating ../../build/python_package/python_package.egg-info
+[0.362s] writing ../../build/python_package/python_package.egg-info/PKG-INFO
+[0.362s] writing dependency_links to ../../build/python_package/python_package.egg-info/dependency_links.txt
+[0.362s] writing entry points to ../../build/python_package/python_package.egg-info/entry_points.txt
+[0.362s] writing requirements to ../../build/python_package/python_package.egg-info/requires.txt
+[0.362s] writing top-level names to ../../build/python_package/python_package.egg-info/top_level.txt
+[0.362s] writing manifest file '../../build/python_package/python_package.egg-info/SOURCES.txt'
+[0.362s] reading manifest file '../../build/python_package/python_package.egg-info/SOURCES.txt'
+[0.363s] adding license file 'LICENSE'
+[0.363s] writing manifest file '../../build/python_package/python_package.egg-info/SOURCES.txt'
+[0.363s] running build
+[0.363s] running build_py
+[0.363s] creating /home/mparadow/Desktop/ROS2_tutorial/ros2_ws/build/python_package/build
+[0.363s] creating /home/mparadow/Desktop/ROS2_tutorial/ros2_ws/build/python_package/build/lib
+[0.363s] creating /home/mparadow/Desktop/ROS2_tutorial/ros2_ws/build/python_package/build/lib/python_package
+[0.363s] copying python_package/my_node.py -> /home/mparadow/Desktop/ROS2_tutorial/ros2_ws/build/python_package/build/lib/python_package
+[0.363s] copying python_package/__init__.py -> /home/mparadow/Desktop/ROS2_tutorial/ros2_ws/build/python_package/build/lib/python_package
+[0.363s] running install
+[0.363s] running install_lib
+[0.363s] creating /home/mparadow/Desktop/ROS2_tutorial/ros2_ws/install/python_package/lib/python3.10/site-packages/python_package
+[0.363s] copying /home/mparadow/Desktop/ROS2_tutorial/ros2_ws/build/python_package/build/lib/python_package/my_node.py -> /home/mparadow/Desktop/ROS2_tutorial/ros2_ws/install/python_package/lib/python3.10/site-packages/python_package
+[0.363s] copying /home/mparadow/Desktop/ROS2_tutorial/ros2_ws/build/python_package/build/lib/python_package/__init__.py -> /home/mparadow/Desktop/ROS2_tutorial/ros2_ws/install/python_package/lib/python3.10/site-packages/python_package
+[0.364s] byte-compiling /home/mparadow/Desktop/ROS2_tutorial/ros2_ws/install/python_package/lib/python3.10/site-packages/python_package/my_node.py to my_node.cpython-310.pyc
+[0.364s] byte-compiling /home/mparadow/Desktop/ROS2_tutorial/ros2_ws/install/python_package/lib/python3.10/site-packages/python_package/__init__.py to __init__.cpython-310.pyc
+[0.364s] running install_data
+[0.364s] creating /home/mparadow/Desktop/ROS2_tutorial/ros2_ws/install/python_package/share/ament_index
+[0.364s] creating /home/mparadow/Desktop/ROS2_tutorial/ros2_ws/install/python_package/share/ament_index/resource_index
+[0.364s] creating /home/mparadow/Desktop/ROS2_tutorial/ros2_ws/install/python_package/share/ament_index/resource_index/packages
+[0.364s] copying resource/python_package -> /home/mparadow/Desktop/ROS2_tutorial/ros2_ws/install/python_package/share/ament_index/resource_index/packages
+[0.364s] copying package.xml -> /home/mparadow/Desktop/ROS2_tutorial/ros2_ws/install/python_package/share/python_package
+[0.364s] running install_egg_info
+[0.365s] Copying ../../build/python_package/python_package.egg-info to /home/mparadow/Desktop/ROS2_tutorial/ros2_ws/install/python_package/lib/python3.10/site-packages/python_package-0.0.0-py3.10.egg-info
+[0.365s] running install_scripts
+[0.374s] Installing my_node script to /home/mparadow/Desktop/ROS2_tutorial/ros2_ws/install/python_package/lib/python_package
+[0.375s] writing list of installed files to '/home/mparadow/Desktop/ROS2_tutorial/ros2_ws/build/python_package/install.log'
+[0.385s] Invoked command in '/home/mparadow/Desktop/ROS2_tutorial/ros2_ws/src/python_package' returned '0': PYTHONPATH=/home/mparadow/Desktop/ROS2_tutorial/ros2_ws/build/python_package/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/mparadow/Desktop/ROS2_tutorial/ros2_ws/install/python_package/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/python_package build --build-base /home/mparadow/Desktop/ROS2_tutorial/ros2_ws/build/python_package/build install --record /home/mparadow/Desktop/ROS2_tutorial/ros2_ws/build/python_package/install.log --single-version-externally-managed install_data

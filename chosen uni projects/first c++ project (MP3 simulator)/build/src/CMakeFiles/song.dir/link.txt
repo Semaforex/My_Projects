@@ -1,0 +1,2 @@
+/usr/bin/ar qc libsong.a CMakeFiles/song.dir/song.cpp.o
+/usr/bin/ranlib libsong.a

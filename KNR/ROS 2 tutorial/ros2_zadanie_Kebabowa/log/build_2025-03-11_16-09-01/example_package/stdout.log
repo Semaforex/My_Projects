@@ -1,0 +1,40 @@
+running egg_info
+creating ../../build/example_package/example_package.egg-info
+writing ../../build/example_package/example_package.egg-info/PKG-INFO
+writing dependency_links to ../../build/example_package/example_package.egg-info/dependency_links.txt
+writing entry points to ../../build/example_package/example_package.egg-info/entry_points.txt
+writing requirements to ../../build/example_package/example_package.egg-info/requires.txt
+writing top-level names to ../../build/example_package/example_package.egg-info/top_level.txt
+writing manifest file '../../build/example_package/example_package.egg-info/SOURCES.txt'
+reading manifest file '../../build/example_package/example_package.egg-info/SOURCES.txt'
+adding license file 'LICENSE'
+writing manifest file '../../build/example_package/example_package.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/mparadow/Desktop/ROS2_tutorial/ros2_zadanie_Kebabowa/build/example_package/build
+creating /home/mparadow/Desktop/ROS2_tutorial/ros2_zadanie_Kebabowa/build/example_package/build/lib
+creating /home/mparadow/Desktop/ROS2_tutorial/ros2_zadanie_Kebabowa/build/example_package/build/lib/example_package
+copying example_package/pose_generator.py -> /home/mparadow/Desktop/ROS2_tutorial/ros2_zadanie_Kebabowa/build/example_package/build/lib/example_package
+copying example_package/pose_processor.py -> /home/mparadow/Desktop/ROS2_tutorial/ros2_zadanie_Kebabowa/build/example_package/build/lib/example_package
+copying example_package/__init__.py -> /home/mparadow/Desktop/ROS2_tutorial/ros2_zadanie_Kebabowa/build/example_package/build/lib/example_package
+running install
+running install_lib
+creating /home/mparadow/Desktop/ROS2_tutorial/ros2_zadanie_Kebabowa/install/example_package/lib/python3.10/site-packages/example_package
+copying /home/mparadow/Desktop/ROS2_tutorial/ros2_zadanie_Kebabowa/build/example_package/build/lib/example_package/pose_generator.py -> /home/mparadow/Desktop/ROS2_tutorial/ros2_zadanie_Kebabowa/install/example_package/lib/python3.10/site-packages/example_package
+copying /home/mparadow/Desktop/ROS2_tutorial/ros2_zadanie_Kebabowa/build/example_package/build/lib/example_package/pose_processor.py -> /home/mparadow/Desktop/ROS2_tutorial/ros2_zadanie_Kebabowa/install/example_package/lib/python3.10/site-packages/example_package
+copying /home/mparadow/Desktop/ROS2_tutorial/ros2_zadanie_Kebabowa/build/example_package/build/lib/example_package/__init__.py -> /home/mparadow/Desktop/ROS2_tutorial/ros2_zadanie_Kebabowa/install/example_package/lib/python3.10/site-packages/example_package
+byte-compiling /home/mparadow/Desktop/ROS2_tutorial/ros2_zadanie_Kebabowa/install/example_package/lib/python3.10/site-packages/example_package/pose_generator.py to pose_generator.cpython-310.pyc
+byte-compiling /home/mparadow/Desktop/ROS2_tutorial/ros2_zadanie_Kebabowa/install/example_package/lib/python3.10/site-packages/example_package/pose_processor.py to pose_processor.cpython-310.pyc
+byte-compiling /home/mparadow/Desktop/ROS2_tutorial/ros2_zadanie_Kebabowa/install/example_package/lib/python3.10/site-packages/example_package/__init__.py to __init__.cpython-310.pyc
+running install_data
+creating /home/mparadow/Desktop/ROS2_tutorial/ros2_zadanie_Kebabowa/install/example_package/share/ament_index
+creating /home/mparadow/Desktop/ROS2_tutorial/ros2_zadanie_Kebabowa/install/example_package/share/ament_index/resource_index
+creating /home/mparadow/Desktop/ROS2_tutorial/ros2_zadanie_Kebabowa/install/example_package/share/ament_index/resource_index/packages
+copying resource/example_package -> /home/mparadow/Desktop/ROS2_tutorial/ros2_zadanie_Kebabowa/install/example_package/share/ament_index/resource_index/packages
+copying package.xml -> /home/mparadow/Desktop/ROS2_tutorial/ros2_zadanie_Kebabowa/install/example_package/share/example_package
+running install_egg_info
+Copying ../../build/example_package/example_package.egg-info to /home/mparadow/Desktop/ROS2_tutorial/ros2_zadanie_Kebabowa/install/example_package/lib/python3.10/site-packages/example_package-0.0.0-py3.10.egg-info
+running install_scripts
+Installing listener script to /home/mparadow/Desktop/ROS2_tutorial/ros2_zadanie_Kebabowa/install/example_package/lib/example_package
+Installing talker script to /home/mparadow/Desktop/ROS2_tutorial/ros2_zadanie_Kebabowa/install/example_package/lib/example_package
+writing list of installed files to '/home/mparadow/Desktop/ROS2_tutorial/ros2_zadanie_Kebabowa/build/example_package/install.log'

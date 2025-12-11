@@ -1,0 +1,68 @@
+[0.034s] Invoking command in '/home/student/Desktop/stero_25z_mp_ms/nawigacja/nav_lab1/build/nav_lab1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/student/tiago_public_ws/install/launch_pal:/opt/ros/iron /usr/bin/cmake /home/student/Desktop/stero_25z_mp_ms/nawigacja/nav_lab1 -DCMAKE_INSTALL_PREFIX=/home/student/Desktop/stero_25z_mp_ms/nawigacja/nav_lab1/install/nav_lab1
+[0.165s] -- The C compiler identification is GNU 11.4.0
+[0.271s] -- The CXX compiler identification is GNU 11.4.0
+[0.282s] -- Detecting C compiler ABI info
+[0.482s] -- Detecting C compiler ABI info - done
+[0.492s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.492s] -- Detecting C compile features
+[0.493s] -- Detecting C compile features - done
+[0.497s] -- Detecting CXX compiler ABI info
+[0.685s] -- Detecting CXX compiler ABI info - done
+[0.697s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.698s] -- Detecting CXX compile features
+[0.698s] -- Detecting CXX compile features - done
+[0.709s] -- Found ament_cmake: 2.0.6 (/opt/ros/iron/share/ament_cmake/cmake)
+[1.089s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[1.318s] -- Found rclcpp: 21.0.7 (/opt/ros/iron/share/rclcpp/cmake)
+[1.431s] -- Found rosidl_generator_c: 4.0.1 (/opt/ros/iron/share/rosidl_generator_c/cmake)
+[1.458s] -- Found rosidl_generator_cpp: 4.0.1 (/opt/ros/iron/share/rosidl_generator_cpp/cmake)
+[1.501s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.542s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.811s] -- Found rmw_implementation_cmake: 7.1.0 (/opt/ros/iron/share/rmw_implementation_cmake/cmake)
+[1.820s] -- Found rmw_fastrtps_cpp: 7.1.4 (/opt/ros/iron/share/rmw_fastrtps_cpp/cmake)
+[2.066s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[2.142s] -- Found FastRTPS: /opt/ros/iron/include  
+[2.227s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.489s] -- Found nav_msgs: 5.0.1 (/opt/ros/iron/share/nav_msgs/cmake)
+[2.819s] -- Found ament_lint_auto: 0.14.4 (/opt/ros/iron/share/ament_lint_auto/cmake)
+[3.033s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[3.033s] -- Configured cppcheck include dirs: 
+[3.034s] -- Configured cppcheck exclude dirs and/or files: 
+[3.036s] -- Added test 'lint_cmake' to check CMake code style
+[3.044s] -- Added test 'uncrustify' to check C / C++ code style
+[3.044s] -- Configured uncrustify additional arguments: 
+[3.046s] -- Added test 'xmllint' to check XML markup files
+[3.051s] -- Configuring done
+[3.084s] -- Generating done
+[3.087s] -- Build files have been written to: /home/student/Desktop/stero_25z_mp_ms/nawigacja/nav_lab1/build/nav_lab1
+[3.109s] Invoked command in '/home/student/Desktop/stero_25z_mp_ms/nawigacja/nav_lab1/build/nav_lab1' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/student/tiago_public_ws/install/launch_pal:/opt/ros/iron /usr/bin/cmake /home/student/Desktop/stero_25z_mp_ms/nawigacja/nav_lab1 -DCMAKE_INSTALL_PREFIX=/home/student/Desktop/stero_25z_mp_ms/nawigacja/nav_lab1/install/nav_lab1
+[3.110s] Invoking command in '/home/student/Desktop/stero_25z_mp_ms/nawigacja/nav_lab1/build/nav_lab1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/student/tiago_public_ws/install/launch_pal:/opt/ros/iron /usr/bin/cmake --build /home/student/Desktop/stero_25z_mp_ms/nawigacja/nav_lab1/build/nav_lab1 -- -j4 -l4
+[3.256s] [ 25%] [32mBuilding CXX object CMakeFiles/piaciokotforemny.dir/src/piaciokotforemny.cpp.o[0m
+[18.580s] [ 50%] [32m[1mLinking CXX executable piaciokotforemny[0m
+[19.522s] [ 50%] Built target piaciokotforemny
+[19.560s] [ 75%] [32mBuilding CXX object CMakeFiles/odometry_info.dir/src/odometry_info.cpp.o[0m
+[33.474s] [100%] [32m[1mLinking CXX executable odometry_info[0m
+[34.255s] [100%] Built target odometry_info
+[34.281s] Invoked command in '/home/student/Desktop/stero_25z_mp_ms/nawigacja/nav_lab1/build/nav_lab1' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/student/tiago_public_ws/install/launch_pal:/opt/ros/iron /usr/bin/cmake --build /home/student/Desktop/stero_25z_mp_ms/nawigacja/nav_lab1/build/nav_lab1 -- -j4 -l4
+[34.368s] Invoking command in '/home/student/Desktop/stero_25z_mp_ms/nawigacja/nav_lab1/build/nav_lab1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/student/tiago_public_ws/install/launch_pal:/opt/ros/iron /usr/bin/cmake --install /home/student/Desktop/stero_25z_mp_ms/nawigacja/nav_lab1/build/nav_lab1
+[34.398s] -- Install configuration: ""
+[34.398s] -- Installing: /home/student/Desktop/stero_25z_mp_ms/nawigacja/nav_lab1/install/nav_lab1/lib/nav_lab1/piaciokotforemny
+[34.409s] -- Set runtime path of "/home/student/Desktop/stero_25z_mp_ms/nawigacja/nav_lab1/install/nav_lab1/lib/nav_lab1/piaciokotforemny" to ""
+[34.409s] -- Installing: /home/student/Desktop/stero_25z_mp_ms/nawigacja/nav_lab1/install/nav_lab1/lib/nav_lab1/odometry_info
+[34.415s] -- Set runtime path of "/home/student/Desktop/stero_25z_mp_ms/nawigacja/nav_lab1/install/nav_lab1/lib/nav_lab1/odometry_info" to ""
+[34.416s] -- Installing: /home/student/Desktop/stero_25z_mp_ms/nawigacja/nav_lab1/install/nav_lab1/share/ament_index/resource_index/package_run_dependencies/nav_lab1
+[34.417s] -- Installing: /home/student/Desktop/stero_25z_mp_ms/nawigacja/nav_lab1/install/nav_lab1/share/ament_index/resource_index/parent_prefix_path/nav_lab1
+[34.417s] -- Installing: /home/student/Desktop/stero_25z_mp_ms/nawigacja/nav_lab1/install/nav_lab1/share/nav_lab1/environment/ament_prefix_path.sh
+[34.418s] -- Installing: /home/student/Desktop/stero_25z_mp_ms/nawigacja/nav_lab1/install/nav_lab1/share/nav_lab1/environment/ament_prefix_path.dsv
+[34.418s] -- Installing: /home/student/Desktop/stero_25z_mp_ms/nawigacja/nav_lab1/install/nav_lab1/share/nav_lab1/environment/path.sh
+[34.418s] -- Installing: /home/student/Desktop/stero_25z_mp_ms/nawigacja/nav_lab1/install/nav_lab1/share/nav_lab1/environment/path.dsv
+[34.418s] -- Installing: /home/student/Desktop/stero_25z_mp_ms/nawigacja/nav_lab1/install/nav_lab1/share/nav_lab1/local_setup.bash
+[34.418s] -- Installing: /home/student/Desktop/stero_25z_mp_ms/nawigacja/nav_lab1/install/nav_lab1/share/nav_lab1/local_setup.sh
+[34.418s] -- Installing: /home/student/Desktop/stero_25z_mp_ms/nawigacja/nav_lab1/install/nav_lab1/share/nav_lab1/local_setup.zsh
+[34.418s] -- Installing: /home/student/Desktop/stero_25z_mp_ms/nawigacja/nav_lab1/install/nav_lab1/share/nav_lab1/local_setup.dsv
+[34.419s] -- Installing: /home/student/Desktop/stero_25z_mp_ms/nawigacja/nav_lab1/install/nav_lab1/share/nav_lab1/package.dsv
+[34.419s] -- Installing: /home/student/Desktop/stero_25z_mp_ms/nawigacja/nav_lab1/install/nav_lab1/share/ament_index/resource_index/packages/nav_lab1
+[34.419s] -- Installing: /home/student/Desktop/stero_25z_mp_ms/nawigacja/nav_lab1/install/nav_lab1/share/nav_lab1/cmake/nav_lab1Config.cmake
+[34.419s] -- Installing: /home/student/Desktop/stero_25z_mp_ms/nawigacja/nav_lab1/install/nav_lab1/share/nav_lab1/cmake/nav_lab1Config-version.cmake
+[34.419s] -- Installing: /home/student/Desktop/stero_25z_mp_ms/nawigacja/nav_lab1/install/nav_lab1/share/nav_lab1/package.xml
+[34.425s] Invoked command in '/home/student/Desktop/stero_25z_mp_ms/nawigacja/nav_lab1/build/nav_lab1' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/student/tiago_public_ws/install/launch_pal:/opt/ros/iron /usr/bin/cmake --install /home/student/Desktop/stero_25z_mp_ms/nawigacja/nav_lab1/build/nav_lab1

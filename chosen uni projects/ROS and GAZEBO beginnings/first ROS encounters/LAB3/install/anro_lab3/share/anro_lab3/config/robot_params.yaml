@@ -1,0 +1,30 @@
+
+pi: '3.14159265358979323846'
+#
+base_height: '0.05'
+base_limit_lower: '-1.57'
+base_limit_upper: '1.57'
+base_velocity: '5.58'
+
+#
+link1_length: '0.088'
+link1_limit_lower: '0.0'
+link1_limit_upper: '1.48'
+
+#
+link2_length: '0.135'
+link2_limit_lower: '-0.17'
+link2_limit_upper: '1.57'
+
+#
+link3_length: '0.147'
+link3_limit_lower: '-1.57'
+link3_limit_upper: '1.57'
+
+#
+link4_length: '0.05'
+link4_limit_lower: '-1.57'
+link4_limit_upper: '1.57'
+
+#
+link5_length: '0.02'

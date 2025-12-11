@@ -1,0 +1,163 @@
+[0.185s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.185s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=4, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x755a548e1e20>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x755a549ea360>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x755a549ea360>>, mixin_verb=('build',))
+[0.259s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.259s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.259s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.260s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.260s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.260s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.260s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/student/Desktop/paradowski-sosnowski-arno-25l-grupa103/LAB3'
+[0.260s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.260s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.260s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.260s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.260s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.260s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.260s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.260s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.260s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.305s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.305s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.305s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.305s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.305s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.305s] Level 1:colcon.colcon_core.package_identification:_identify(anro_lab3) by extensions ['ignore', 'ignore_ament_install']
+[0.305s] Level 1:colcon.colcon_core.package_identification:_identify(anro_lab3) by extension 'ignore'
+[0.305s] Level 1:colcon.colcon_core.package_identification:_identify(anro_lab3) by extension 'ignore_ament_install'
+[0.305s] Level 1:colcon.colcon_core.package_identification:_identify(anro_lab3) by extensions ['colcon_pkg']
+[0.305s] Level 1:colcon.colcon_core.package_identification:_identify(anro_lab3) by extension 'colcon_pkg'
+[0.306s] Level 1:colcon.colcon_core.package_identification:_identify(anro_lab3) by extensions ['colcon_meta']
+[0.306s] Level 1:colcon.colcon_core.package_identification:_identify(anro_lab3) by extension 'colcon_meta'
+[0.306s] Level 1:colcon.colcon_core.package_identification:_identify(anro_lab3) by extensions ['ros']
+[0.306s] Level 1:colcon.colcon_core.package_identification:_identify(anro_lab3) by extension 'ros'
+[0.310s] DEBUG:colcon.colcon_core.package_identification:Package 'anro_lab3' with type 'ros.ament_python' and name 'anro_lab3'
+[0.310s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.310s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.310s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.310s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.310s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.310s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.310s] Level 1:colcon.colcon_core.package_identification:_identify(lab3_pd) by extensions ['ignore', 'ignore_ament_install']
+[0.310s] Level 1:colcon.colcon_core.package_identification:_identify(lab3_pd) by extension 'ignore'
+[0.310s] Level 1:colcon.colcon_core.package_identification:_identify(lab3_pd) by extension 'ignore_ament_install'
+[0.310s] Level 1:colcon.colcon_core.package_identification:_identify(lab3_pd) by extensions ['colcon_pkg']
+[0.310s] Level 1:colcon.colcon_core.package_identification:_identify(lab3_pd) by extension 'colcon_pkg'
+[0.310s] Level 1:colcon.colcon_core.package_identification:_identify(lab3_pd) by extensions ['colcon_meta']
+[0.310s] Level 1:colcon.colcon_core.package_identification:_identify(lab3_pd) by extension 'colcon_meta'
+[0.310s] Level 1:colcon.colcon_core.package_identification:_identify(lab3_pd) by extensions ['ros']
+[0.310s] Level 1:colcon.colcon_core.package_identification:_identify(lab3_pd) by extension 'ros'
+[0.311s] DEBUG:colcon.colcon_core.package_identification:Package 'lab3_pd' with type 'ros.ament_python' and name 'lab3_pd'
+[0.311s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.311s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.311s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.311s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.311s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.311s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.311s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.311s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.336s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.336s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.340s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 13 installed packages in /opt/dobot_anro_system/install
+[0.342s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 297 installed packages in /opt/ros/jazzy
+[0.343s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.395s] Level 5:colcon.colcon_core.verb:set package 'anro_lab3' build argument 'cmake_args' from command line to 'None'
+[0.395s] Level 5:colcon.colcon_core.verb:set package 'anro_lab3' build argument 'cmake_target' from command line to 'None'
+[0.395s] Level 5:colcon.colcon_core.verb:set package 'anro_lab3' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.395s] Level 5:colcon.colcon_core.verb:set package 'anro_lab3' build argument 'cmake_clean_cache' from command line to 'False'
+[0.395s] Level 5:colcon.colcon_core.verb:set package 'anro_lab3' build argument 'cmake_clean_first' from command line to 'False'
+[0.395s] Level 5:colcon.colcon_core.verb:set package 'anro_lab3' build argument 'cmake_force_configure' from command line to 'False'
+[0.395s] Level 5:colcon.colcon_core.verb:set package 'anro_lab3' build argument 'ament_cmake_args' from command line to 'None'
+[0.395s] Level 5:colcon.colcon_core.verb:set package 'anro_lab3' build argument 'catkin_cmake_args' from command line to 'None'
+[0.395s] Level 5:colcon.colcon_core.verb:set package 'anro_lab3' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.395s] DEBUG:colcon.colcon_core.verb:Building package 'anro_lab3' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/student/Desktop/paradowski-sosnowski-arno-25l-grupa103/LAB3/build/anro_lab3', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/student/Desktop/paradowski-sosnowski-arno-25l-grupa103/LAB3/install/anro_lab3', 'merge_install': False, 'path': '/home/student/Desktop/paradowski-sosnowski-arno-25l-grupa103/LAB3/anro_lab3', 'symlink_install': False, 'test_result_base': None}
+[0.395s] Level 5:colcon.colcon_core.verb:set package 'lab3_pd' build argument 'cmake_args' from command line to 'None'
+[0.395s] Level 5:colcon.colcon_core.verb:set package 'lab3_pd' build argument 'cmake_target' from command line to 'None'
+[0.395s] Level 5:colcon.colcon_core.verb:set package 'lab3_pd' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.395s] Level 5:colcon.colcon_core.verb:set package 'lab3_pd' build argument 'cmake_clean_cache' from command line to 'False'
+[0.395s] Level 5:colcon.colcon_core.verb:set package 'lab3_pd' build argument 'cmake_clean_first' from command line to 'False'
+[0.395s] Level 5:colcon.colcon_core.verb:set package 'lab3_pd' build argument 'cmake_force_configure' from command line to 'False'
+[0.395s] Level 5:colcon.colcon_core.verb:set package 'lab3_pd' build argument 'ament_cmake_args' from command line to 'None'
+[0.395s] Level 5:colcon.colcon_core.verb:set package 'lab3_pd' build argument 'catkin_cmake_args' from command line to 'None'
+[0.395s] Level 5:colcon.colcon_core.verb:set package 'lab3_pd' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.395s] DEBUG:colcon.colcon_core.verb:Building package 'lab3_pd' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/student/Desktop/paradowski-sosnowski-arno-25l-grupa103/LAB3/build/lab3_pd', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/student/Desktop/paradowski-sosnowski-arno-25l-grupa103/LAB3/install/lab3_pd', 'merge_install': False, 'path': '/home/student/Desktop/paradowski-sosnowski-arno-25l-grupa103/LAB3/lab3_pd', 'symlink_install': False, 'test_result_base': None}
+[0.395s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.396s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.396s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/student/Desktop/paradowski-sosnowski-arno-25l-grupa103/LAB3/anro_lab3' with build type 'ament_python'
+[0.397s] Level 1:colcon.colcon_core.shell:create_environment_hook('anro_lab3', 'ament_prefix_path')
+[0.402s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.402s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/student/Desktop/paradowski-sosnowski-arno-25l-grupa103/LAB3/install/anro_lab3/share/anro_lab3/hook/ament_prefix_path.ps1'
+[0.403s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/student/Desktop/paradowski-sosnowski-arno-25l-grupa103/LAB3/install/anro_lab3/share/anro_lab3/hook/ament_prefix_path.dsv'
+[0.404s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/student/Desktop/paradowski-sosnowski-arno-25l-grupa103/LAB3/install/anro_lab3/share/anro_lab3/hook/ament_prefix_path.sh'
+[0.405s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.405s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.409s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/student/Desktop/paradowski-sosnowski-arno-25l-grupa103/LAB3/lab3_pd' with build type 'ament_python'
+[0.409s] Level 1:colcon.colcon_core.shell:create_environment_hook('lab3_pd', 'ament_prefix_path')
+[0.409s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/student/Desktop/paradowski-sosnowski-arno-25l-grupa103/LAB3/install/lab3_pd/share/lab3_pd/hook/ament_prefix_path.ps1'
+[0.410s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/student/Desktop/paradowski-sosnowski-arno-25l-grupa103/LAB3/install/lab3_pd/share/lab3_pd/hook/ament_prefix_path.dsv'
+[0.410s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/student/Desktop/paradowski-sosnowski-arno-25l-grupa103/LAB3/install/lab3_pd/share/lab3_pd/hook/ament_prefix_path.sh'
+[0.411s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.411s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.696s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/student/Desktop/paradowski-sosnowski-arno-25l-grupa103/LAB3/anro_lab3'
+[0.696s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.696s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.979s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/student/Desktop/paradowski-sosnowski-arno-25l-grupa103/LAB3/lab3_pd'
+[0.979s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.979s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.039s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/student/Desktop/paradowski-sosnowski-arno-25l-grupa103/LAB3/lab3_pd': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/student/Desktop/paradowski-sosnowski-arno-25l-grupa103/LAB3/build/lab3_pd/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/student/Desktop/paradowski-sosnowski-arno-25l-grupa103/LAB3/install/lab3_pd/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/lab3_pd build --build-base /home/student/Desktop/paradowski-sosnowski-arno-25l-grupa103/LAB3/build/lab3_pd/build install --record /home/student/Desktop/paradowski-sosnowski-arno-25l-grupa103/LAB3/build/lab3_pd/install.log --single-version-externally-managed install_data
+[2.044s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/student/Desktop/paradowski-sosnowski-arno-25l-grupa103/LAB3/anro_lab3': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/student/Desktop/paradowski-sosnowski-arno-25l-grupa103/LAB3/build/anro_lab3/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/student/Desktop/paradowski-sosnowski-arno-25l-grupa103/LAB3/install/anro_lab3/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/anro_lab3 build --build-base /home/student/Desktop/paradowski-sosnowski-arno-25l-grupa103/LAB3/build/anro_lab3/build install --record /home/student/Desktop/paradowski-sosnowski-arno-25l-grupa103/LAB3/build/anro_lab3/install.log --single-version-externally-managed install_data
+[2.850s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/student/Desktop/paradowski-sosnowski-arno-25l-grupa103/LAB3/anro_lab3' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/student/Desktop/paradowski-sosnowski-arno-25l-grupa103/LAB3/build/anro_lab3/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/student/Desktop/paradowski-sosnowski-arno-25l-grupa103/LAB3/install/anro_lab3/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/anro_lab3 build --build-base /home/student/Desktop/paradowski-sosnowski-arno-25l-grupa103/LAB3/build/anro_lab3/build install --record /home/student/Desktop/paradowski-sosnowski-arno-25l-grupa103/LAB3/build/anro_lab3/install.log --single-version-externally-managed install_data
+[2.862s] Level 1:colcon.colcon_core.environment:checking '/home/student/Desktop/paradowski-sosnowski-arno-25l-grupa103/LAB3/install/anro_lab3' for CMake module files
+[2.862s] Level 1:colcon.colcon_core.environment:checking '/home/student/Desktop/paradowski-sosnowski-arno-25l-grupa103/LAB3/install/anro_lab3' for CMake config files
+[2.863s] Level 1:colcon.colcon_core.environment:checking '/home/student/Desktop/paradowski-sosnowski-arno-25l-grupa103/LAB3/install/anro_lab3/lib'
+[2.863s] Level 1:colcon.colcon_core.environment:checking '/home/student/Desktop/paradowski-sosnowski-arno-25l-grupa103/LAB3/install/anro_lab3/bin'
+[2.863s] Level 1:colcon.colcon_core.environment:checking '/home/student/Desktop/paradowski-sosnowski-arno-25l-grupa103/LAB3/install/anro_lab3/lib/pkgconfig/anro_lab3.pc'
+[2.863s] Level 1:colcon.colcon_core.environment:checking '/home/student/Desktop/paradowski-sosnowski-arno-25l-grupa103/LAB3/install/anro_lab3/lib/python3.12/site-packages'
+[2.864s] Level 1:colcon.colcon_core.shell:create_environment_hook('anro_lab3', 'pythonpath')
+[2.864s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/student/Desktop/paradowski-sosnowski-arno-25l-grupa103/LAB3/install/anro_lab3/share/anro_lab3/hook/pythonpath.ps1'
+[2.864s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/student/Desktop/paradowski-sosnowski-arno-25l-grupa103/LAB3/install/anro_lab3/share/anro_lab3/hook/pythonpath.dsv'
+[2.864s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/student/Desktop/paradowski-sosnowski-arno-25l-grupa103/LAB3/install/anro_lab3/share/anro_lab3/hook/pythonpath.sh'
+[2.865s] Level 1:colcon.colcon_core.environment:checking '/home/student/Desktop/paradowski-sosnowski-arno-25l-grupa103/LAB3/install/anro_lab3/bin'
+[2.865s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(anro_lab3)
+[2.865s] INFO:colcon.colcon_core.shell:Creating package script '/home/student/Desktop/paradowski-sosnowski-arno-25l-grupa103/LAB3/install/anro_lab3/share/anro_lab3/package.ps1'
+[2.866s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/student/Desktop/paradowski-sosnowski-arno-25l-grupa103/LAB3/install/anro_lab3/share/anro_lab3/package.dsv'
+[2.867s] INFO:colcon.colcon_core.shell:Creating package script '/home/student/Desktop/paradowski-sosnowski-arno-25l-grupa103/LAB3/install/anro_lab3/share/anro_lab3/package.sh'
+[2.868s] INFO:colcon.colcon_core.shell:Creating package script '/home/student/Desktop/paradowski-sosnowski-arno-25l-grupa103/LAB3/install/anro_lab3/share/anro_lab3/package.bash'
+[2.869s] INFO:colcon.colcon_core.shell:Creating package script '/home/student/Desktop/paradowski-sosnowski-arno-25l-grupa103/LAB3/install/anro_lab3/share/anro_lab3/package.zsh'
+[2.870s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/student/Desktop/paradowski-sosnowski-arno-25l-grupa103/LAB3/install/anro_lab3/share/colcon-core/packages/anro_lab3)
+[2.871s] Level 1:colcon.colcon_core.environment:checking '/home/student/Desktop/paradowski-sosnowski-arno-25l-grupa103/LAB3/install/lab3_pd' for CMake module files
+[2.872s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/student/Desktop/paradowski-sosnowski-arno-25l-grupa103/LAB3/lab3_pd' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/student/Desktop/paradowski-sosnowski-arno-25l-grupa103/LAB3/build/lab3_pd/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/student/Desktop/paradowski-sosnowski-arno-25l-grupa103/LAB3/install/lab3_pd/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/lab3_pd build --build-base /home/student/Desktop/paradowski-sosnowski-arno-25l-grupa103/LAB3/build/lab3_pd/build install --record /home/student/Desktop/paradowski-sosnowski-arno-25l-grupa103/LAB3/build/lab3_pd/install.log --single-version-externally-managed install_data
+[2.872s] Level 1:colcon.colcon_core.environment:checking '/home/student/Desktop/paradowski-sosnowski-arno-25l-grupa103/LAB3/install/lab3_pd' for CMake config files
+[2.873s] Level 1:colcon.colcon_core.environment:checking '/home/student/Desktop/paradowski-sosnowski-arno-25l-grupa103/LAB3/install/lab3_pd/lib'
+[2.873s] Level 1:colcon.colcon_core.environment:checking '/home/student/Desktop/paradowski-sosnowski-arno-25l-grupa103/LAB3/install/lab3_pd/bin'
+[2.873s] Level 1:colcon.colcon_core.environment:checking '/home/student/Desktop/paradowski-sosnowski-arno-25l-grupa103/LAB3/install/lab3_pd/lib/pkgconfig/lab3_pd.pc'
+[2.873s] Level 1:colcon.colcon_core.environment:checking '/home/student/Desktop/paradowski-sosnowski-arno-25l-grupa103/LAB3/install/lab3_pd/lib/python3.12/site-packages'
+[2.874s] Level 1:colcon.colcon_core.shell:create_environment_hook('lab3_pd', 'pythonpath')
+[2.874s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/student/Desktop/paradowski-sosnowski-arno-25l-grupa103/LAB3/install/lab3_pd/share/lab3_pd/hook/pythonpath.ps1'
+[2.874s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/student/Desktop/paradowski-sosnowski-arno-25l-grupa103/LAB3/install/lab3_pd/share/lab3_pd/hook/pythonpath.dsv'
+[2.875s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/student/Desktop/paradowski-sosnowski-arno-25l-grupa103/LAB3/install/lab3_pd/share/lab3_pd/hook/pythonpath.sh'
+[2.875s] Level 1:colcon.colcon_core.environment:checking '/home/student/Desktop/paradowski-sosnowski-arno-25l-grupa103/LAB3/install/lab3_pd/bin'
+[2.876s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(lab3_pd)
+[2.876s] INFO:colcon.colcon_core.shell:Creating package script '/home/student/Desktop/paradowski-sosnowski-arno-25l-grupa103/LAB3/install/lab3_pd/share/lab3_pd/package.ps1'
+[2.876s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/student/Desktop/paradowski-sosnowski-arno-25l-grupa103/LAB3/install/lab3_pd/share/lab3_pd/package.dsv'
+[2.877s] INFO:colcon.colcon_core.shell:Creating package script '/home/student/Desktop/paradowski-sosnowski-arno-25l-grupa103/LAB3/install/lab3_pd/share/lab3_pd/package.sh'
+[2.877s] INFO:colcon.colcon_core.shell:Creating package script '/home/student/Desktop/paradowski-sosnowski-arno-25l-grupa103/LAB3/install/lab3_pd/share/lab3_pd/package.bash'
+[2.877s] INFO:colcon.colcon_core.shell:Creating package script '/home/student/Desktop/paradowski-sosnowski-arno-25l-grupa103/LAB3/install/lab3_pd/share/lab3_pd/package.zsh'
+[2.878s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/student/Desktop/paradowski-sosnowski-arno-25l-grupa103/LAB3/install/lab3_pd/share/colcon-core/packages/lab3_pd)
+[2.878s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[2.878s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[2.878s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[2.879s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[2.886s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[2.886s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[2.886s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[2.911s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[2.911s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/student/Desktop/paradowski-sosnowski-arno-25l-grupa103/LAB3/install/local_setup.ps1'
+[2.912s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/student/Desktop/paradowski-sosnowski-arno-25l-grupa103/LAB3/install/_local_setup_util_ps1.py'
+[2.914s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/student/Desktop/paradowski-sosnowski-arno-25l-grupa103/LAB3/install/setup.ps1'
+[2.915s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/student/Desktop/paradowski-sosnowski-arno-25l-grupa103/LAB3/install/local_setup.sh'
+[2.916s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/student/Desktop/paradowski-sosnowski-arno-25l-grupa103/LAB3/install/_local_setup_util_sh.py'
+[2.917s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/student/Desktop/paradowski-sosnowski-arno-25l-grupa103/LAB3/install/setup.sh'
+[2.919s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/student/Desktop/paradowski-sosnowski-arno-25l-grupa103/LAB3/install/local_setup.bash'
+[2.919s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/student/Desktop/paradowski-sosnowski-arno-25l-grupa103/LAB3/install/setup.bash'
+[2.921s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/student/Desktop/paradowski-sosnowski-arno-25l-grupa103/LAB3/install/local_setup.zsh'
+[2.922s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/student/Desktop/paradowski-sosnowski-arno-25l-grupa103/LAB3/install/setup.zsh'

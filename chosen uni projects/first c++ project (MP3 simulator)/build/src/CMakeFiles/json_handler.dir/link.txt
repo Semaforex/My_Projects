@@ -1,0 +1,2 @@
+/usr/bin/ar qc libjson_handler.a CMakeFiles/json_handler.dir/json_handler.cpp.o
+/usr/bin/ranlib libjson_handler.a

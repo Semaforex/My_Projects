@@ -1,0 +1,212 @@
+<?xml version="1.0" ?>
+<robot xmlns:xacro="http://ros.org/wiki/xacro" name="my_robot">
+    <!-- Parameters -->
+    <xacro:arg name="base_height" default="0.0001"/>
+    <xacro:property name="base_height" value="$(arg base_height)"/>
+    <xacro:arg name="base_limit_upper" default="0.0001"/>
+    <xacro:property name="base_limit_upper" value="$(arg base_limit_upper)"/>
+    <xacro:arg name="base_limit_lower" default="0.0001"/>
+    <xacro:property name="base_limit_lower" value="$(arg base_limit_lower)"/>
+
+
+    <xacro:arg name="link1_length" default="0.0001"/>
+    <xacro:property name="link1_length" value="$(arg link1_length)"/>
+    <xacro:arg name="link1_limit_lower" default="0.0001"/>
+    <xacro:property name="link1_limit_lower" value="$(arg link1_limit_lower)"/>
+    <xacro:arg name="link1_limit_upper" default="0.0001"/>
+    <xacro:property name="link1_limit_upper" value="$(arg link1_limit_upper)"/>
+
+    <xacro:arg name="link2_length" default="0.0001"/>
+    <xacro:property name="link2_length" value="$(arg link2_length)"/>
+    <xacro:arg name="link2_limit_lower" default="0.0001"/>
+    <xacro:property name="link2_limit_lower" value="$(arg link2_limit_lower)"/>
+    <xacro:arg name="link2_limit_upper" default="0.0001"/>
+    <xacro:property name="link2_limit_upper" value="$(arg link2_limit_upper)"/>
+
+    <xacro:arg name="link3_length" default="0.0001"/>
+    <xacro:property name="link3_length" value="$(arg link3_length)"/>
+    <xacro:arg name="link3_limit_lower" default="0.0001"/>
+    <xacro:property name="link3_limit_lower" value="$(arg link3_limit_lower)"/>
+    <xacro:arg name="link3_limit_upper" default="0.0001"/>
+    <xacro:property name="link3_limit_upper" value="$(arg link3_limit_upper)"/>
+
+
+    <xacro:arg name="link4_length" default="0.0001"/>
+    <xacro:property name="link4_length" value="$(arg link4_length)"/>
+    <xacro:arg name="link4_limit_lower" default="0.0001"/>
+    <xacro:property name="link4_limit_lower" value="$(arg link4_limit_lower)"/>
+    <xacro:arg name="link4_limit_upper" default="0.0001"/>
+    <xacro:property name="link4_limit_upper" value="$(arg link4_limit_upper)"/>
+
+    <xacro:arg name="link5_length" default="0.0001"/>
+    <xacro:property name="link5_length" value="$(arg link5_length)"/>
+
+    <!-- Materials -->
+    <material name="gray">
+        <color rgba="0.5 0.5 0.5 1.0"/>
+    </material>
+    <material name="red">
+        <color rgba="1.0 0.0 0.0 1.0"/>
+    </material>
+    <material name="blue">
+        <color rgba="0.0 0.0 1.0 1.0"/>
+    </material>
+    <material name="green">
+        <color rgba="0.0 1.0 0.0 1.0"/>
+    </material>
+    <material name="orange">
+        <color rgba="1.0 0.65 0.0 1.0"/>
+    </material>
+    <material name="black">
+        <color rgba="0.0 0.5 0.3 1.0"/>
+    </material>
+    <material name="silver">
+        <color rgba="0.75 0.75 0.75 1.0"/>
+    </material>
+
+    <!-- Base Link -->
+    <link name="base_link">
+        <visual>
+            <geometry>
+                <box size="${base_height/0.05*0.158} ${base_height/0.05*0.158} ${base_height}"/>
+            </geometry>
+            <material name="gray"/>
+        </visual>
+    </link>
+
+    <link name="plate">
+        <visual>
+            <origin xyz="0 0 0" rpy="0 0 0"/>
+            <geometry>
+                <box size="${base_height/0.05*0.01/4} ${base_height/0.05*0.158/4} ${base_height/2}"/>
+            </geometry>
+            <material name="blue"/>
+        </visual>
+    </link>
+
+    <joint name="plate_joint" type="fixed">
+        <parent link="base_link"/>
+        <child link="plate"/>
+        <origin xyz="${base_height/0.05*0.158/2 + base_height/0.05*0.01/8} 0 0" rpy="0 0 0"/>
+    </joint>
+
+
+    <!-- Joint 1: Base to Link1 -->
+    <joint name="Base" type="revolute">
+        <parent link="base_link"/>
+        <child link="link1"/>
+        <origin xyz="0 0 ${base_height/2}" rpy="0 0 0"/>
+        <axis xyz="0 0 1"/>
+        <limit effort="10" lower="${base_limit_lower}" upper="${base_limit_upper}" velocity="5.58"/>
+    </joint>
+
+    <link name="link1">
+        <visual>
+            <origin xyz="0 0 ${link1_length/2}" rpy="0 0 0"/>
+            <geometry>
+                <box size="${link1_length/0.088*0.05} ${link1_length/0.088*0.05} ${link1_length}"/>
+            </geometry>
+            <material name="orange"/>
+        </visual>
+    </link>
+
+    <!-- Joint 2: Link1 to Link2 -->
+    <joint name="Rear_Arm" type="revolute">
+        <parent link="link1"/>
+        <child link="link2"/>
+        <origin xyz="0 0 ${link1_length}" rpy="0 0 0"/>
+        <axis xyz="0 1 0"/>
+        <limit effort="10" lower="${link1_limit_lower}" upper="${link1_limit_upper}" velocity="5.58"/>
+    </joint>
+
+    <link name="link2">
+        <visual>
+            <origin xyz="0 0 ${link2_length/2}" rpy="0 0 0"/>
+            <geometry>
+                <box size="${link2_length/0.135*0.05} ${link2_length/0.135*0.05} ${link2_length}"/>
+            </geometry>
+            <material name="orange"/>
+        </visual>
+    </link>
+
+    <!-- Joint 3: Link2 to Link3 -->
+    <joint name="Forearm" type="revolute">
+        <parent link="link2"/>
+        <child link="link3"/>
+        <origin xyz="0 0 ${link2_length}" rpy="0 0 0"/>
+        <axis xyz="0 1 0"/>
+        <limit effort="10" lower="${link2_limit_lower}" upper="${link2_limit_upper}" velocity="5.58"/>
+    </joint>
+
+    <link name="link3">
+        <visual>
+            <origin xyz="0 0 ${link3_length/2}" rpy="0 0 0"/>
+            <geometry>
+                <box size="${link3_length/0.147*0.05} ${link3_length/0.147*0.05} ${link3_length}"/>
+            </geometry>
+            <material name="orange"/>
+        </visual>
+    </link>
+
+    <!-- Joint 4: Link3 to Link4 -->
+    <joint name="End-effector_rotation" type="revolute">
+        <parent link="link3"/>
+        <child link="link4"/>
+        <origin xyz="0 0 ${link3_length}" rpy="0 0 0"/>
+        <axis xyz="0 1 0"/>
+        <limit effort="10" lower="${link3_limit_lower}" upper="${link3_limit_upper}" velocity="5.58"/>
+    </joint>
+
+    <link name="link4">
+        <visual>
+            <origin xyz="0 0 ${link4_length/2}" rpy="0 0 0"/>
+            <geometry>
+                <box size="${link4_length/0.05*0.04} ${link4_length/0.05*0.04} ${link4_length}"/>
+            </geometry>
+            <material name="orange"/>
+        </visual>
+    </link>
+
+    <!-- Joint 5: Link4 to Gripper -->
+    <joint name="Gripper_rotation" type="revolute">
+        <parent link="link4"/>
+        <child link="gripper"/>
+        <origin xyz="0 0 ${link4_length}" rpy="0 0 0"/>
+        <axis xyz="0 0 1"/>
+        <limit effort="10" lower="${link4_limit_lower}" upper="${link4_limit_upper}" velocity="8.37"/>
+    </joint>
+
+    <link name="gripper">
+        <visual>
+            <origin xyz="0 0 ${link5_length/2}" rpy="0 0 0"/>
+            <geometry>
+                <box size="${link5_length*3} ${link5_length} ${link5_length}"/>
+            </geometry>
+            <material name="black"/>
+        </visual>
+        <visual>
+            <origin xyz="${link5_length/2} 0 ${link5_length*2}" rpy="0 0 0"/>
+            <geometry>
+                <box size="${link5_length/2*3} ${link5_length} ${link5_length*2}"/>
+            </geometry>
+            <material name="silver"/>
+        </visual>
+    </link>
+
+    <link name="pump">
+    <visual>
+        <origin xyz="${link5_length*0.75} 0 ${link5_length/2}" rpy="0 0 0"/>
+        <geometry>
+            <box size="${link5_length*1.5} ${link5_length} ${link5_length}"/>
+        </geometry>
+        <material name="gray"/>
+    </visual>
+    </link>
+
+    <joint name="pump_joint" type="fixed">
+        <parent link="gripper"/>
+        <child link="pump"/>
+        <origin xyz="${-link5_length*3} 0 0" rpy="0 0 0"/>
+    </joint>
+
+</robot>

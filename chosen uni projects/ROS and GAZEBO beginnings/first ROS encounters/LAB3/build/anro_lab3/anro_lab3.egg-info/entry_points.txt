@@ -1,0 +1,3 @@
+[console_scripts]
+forward_kin = anro_lab3.forward_kin:main
+rvizToDobot = anro_lab3.rvizToDobot:main

@@ -1,0 +1,432 @@
+[0.000000] (-) TimerEvent: {}
+[0.000118] (turtlesim) JobQueued: {'identifier': 'turtlesim', 'dependencies': OrderedDict()}
+[0.000143] (turtlesim) JobStarted: {'identifier': 'turtlesim'}
+[0.003502] (turtlesim) JobProgress: {'identifier': 'turtlesim', 'progress': 'cmake'}
+[0.003759] (turtlesim) JobProgress: {'identifier': 'turtlesim', 'progress': 'build'}
+[0.004106] (turtlesim) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/mparadow/Desktop/ROS2_tutorial/ros2_ws/build/turtlesim', '--', '-j24', '-l24'], 'cwd': '/home/mparadow/Desktop/ROS2_tutorial/ros2_ws/build/turtlesim', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'mparadow'), ('LC_TIME', 'pl_PL.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda-12.2/lib64:'), ('HOME', '/home/mparadow'), ('OLDPWD', '/home/mparadow/Desktop/ROS2_tutorial/ros2_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'pl_PL.UTF-8'), ('SYSTEMD_EXEC_PID', '1583'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_colcon_cd_root', '/opt/ros/humble/'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'mparadow'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'mparadow'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ISAAC_ROS_WS', '/home/mparadow/workspaces/isaac_ros-dev/'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/usr/local/cuda-12.2/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/mparadow-B760-Pro-RS-WiFi:@/tmp/.ICE-unix/1555,unix/mparadow-B760-Pro-RS-WiFi:/tmp/.ICE-unix/1555'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'pl_PL.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/d191e432_c10c_4f97_a9d0_70bf7207c6ad'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'pl_PL.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.177'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '69'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'pl_PL.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'pl_PL.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'pl_PL.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/mparadow/Desktop/ROS2_tutorial/ros2_ws/build/turtlesim'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'pl_PL.UTF-8'), ('LC_PAPER', 'pl_PL.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.041246] (turtlesim) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target turtlesim__rosidl_generator_c\x1b[0m\n'}
+[0.049792] (turtlesim) StdoutLine: {'line': b'[  1%] Built target turtlesim__cpp\n'}
+[0.051668] (turtlesim) StdoutLine: {'line': b'[ 11%] Built target turtlesim__rosidl_generator_c\n'}
+[0.055833] (turtlesim) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target turtlesim__rosidl_typesupport_introspection_cpp\x1b[0m\n'}
+[0.056205] (turtlesim) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target turtlesim__rosidl_typesupport_fastrtps_cpp\x1b[0m\n'}
+[0.056717] (turtlesim) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target turtlesim__rosidl_typesupport_c\x1b[0m\n'}
+[0.057239] (turtlesim) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target turtlesim__rosidl_typesupport_introspection_c\x1b[0m\n'}
+[0.057547] (turtlesim) StdoutLine: {'line': b'[ 11%] Built target ament_cmake_python_copy_turtlesim\n'}
+[0.057707] (turtlesim) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target turtlesim__rosidl_typesupport_cpp\x1b[0m\n'}
+[0.059456] (turtlesim) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target turtlesim__rosidl_typesupport_fastrtps_c\x1b[0m\n'}
+[0.063203] (turtlesim) StdoutLine: {'line': b'[ 21%] Built target turtlesim__rosidl_typesupport_c\n'}
+[0.063828] (turtlesim) StdoutLine: {'line': b'[ 31%] Built target turtlesim__rosidl_typesupport_introspection_cpp\n'}
+[0.064471] (turtlesim) StdoutLine: {'line': b'[ 41%] Built target turtlesim__rosidl_typesupport_introspection_c\n'}
+[0.065379] (turtlesim) StdoutLine: {'line': b'[ 51%] Built target turtlesim__rosidl_typesupport_cpp\n'}
+[0.066294] (turtlesim) StdoutLine: {'line': b'[ 61%] Built target turtlesim__rosidl_typesupport_fastrtps_cpp\n'}
+[0.070731] (turtlesim) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target turtle_teleop_key\x1b[0m\n'}
+[0.071061] (turtlesim) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target mimic\x1b[0m\n'}
+[0.071668] (turtlesim) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target draw_square\x1b[0m\n'}
+[0.071909] (turtlesim) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target turtlesim_node\x1b[0m\n'}
+[0.072306] (turtlesim) StdoutLine: {'line': b'[ 71%] Built target turtlesim__rosidl_typesupport_fastrtps_c\n'}
+[0.080352] (turtlesim) StdoutLine: {'line': b'[ 75%] Built target mimic\n'}
+[0.080493] (turtlesim) StdoutLine: {'line': b'[ 75%] Built target turtle_teleop_key\n'}
+[0.080560] (turtlesim) StdoutLine: {'line': b'[ 77%] Built target draw_square\n'}
+[0.084555] (turtlesim) StdoutLine: {'line': b'[ 77%] Built target turtlesim\n'}
+[0.087124] (turtlesim) StdoutLine: {'line': b'[ 78%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim_node.dir/src/turtle_frame.cpp.o\x1b[0m\n'}
+[0.094786] (turtlesim) StdoutLine: {'line': b'[ 79%] Built target turtlesim__py\n'}
+[0.099651] (-) TimerEvent: {}
+[0.100955] (turtlesim) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target turtlesim__rosidl_generator_py\x1b[0m\n'}
+[0.109525] (turtlesim) StdoutLine: {'line': b'[ 88%] Built target turtlesim__rosidl_generator_py\n'}
+[0.114052] (turtlesim) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target turtlesim__rosidl_typesupport_c__pyext\x1b[0m\n'}
+[0.115799] (turtlesim) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target turtlesim__rosidl_typesupport_introspection_c__pyext\x1b[0m\n'}
+[0.116131] (turtlesim) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target turtlesim__rosidl_typesupport_fastrtps_c__pyext\x1b[0m\n'}
+[0.121796] (turtlesim) StdoutLine: {'line': b'[ 90%] Built target turtlesim__rosidl_typesupport_c__pyext\n'}
+[0.123400] (turtlesim) StdoutLine: {'line': b'[ 92%] Built target turtlesim__rosidl_typesupport_introspection_c__pyext\n'}
+[0.124551] (turtlesim) StdoutLine: {'line': b'[ 94%] Built target turtlesim__rosidl_typesupport_fastrtps_c__pyext\n'}
+[0.158455] (turtlesim) StdoutLine: {'line': b'running egg_info\n'}
+[0.158803] (turtlesim) StdoutLine: {'line': b'writing turtlesim.egg-info/PKG-INFO\n'}
+[0.158917] (turtlesim) StdoutLine: {'line': b'writing dependency_links to turtlesim.egg-info/dependency_links.txt\n'}
+[0.158987] (turtlesim) StdoutLine: {'line': b'writing top-level names to turtlesim.egg-info/top_level.txt\n'}
+[0.159926] (turtlesim) StdoutLine: {'line': b"reading manifest file 'turtlesim.egg-info/SOURCES.txt'\n"}
+[0.160176] (turtlesim) StdoutLine: {'line': b"writing manifest file 'turtlesim.egg-info/SOURCES.txt'\n"}
+[0.174796] (turtlesim) StdoutLine: {'line': b'[ 94%] Built target ament_cmake_python_build_turtlesim_egg\n'}
+[0.199721] (-) TimerEvent: {}
+[0.299987] (-) TimerEvent: {}
+[0.400304] (-) TimerEvent: {}
+[0.500620] (-) TimerEvent: {}
+[0.600910] (-) TimerEvent: {}
+[0.701244] (-) TimerEvent: {}
+[0.801564] (-) TimerEvent: {}
+[0.901895] (-) TimerEvent: {}
+[1.002329] (-) TimerEvent: {}
+[1.102691] (-) TimerEvent: {}
+[1.203002] (-) TimerEvent: {}
+[1.303309] (-) TimerEvent: {}
+[1.403612] (-) TimerEvent: {}
+[1.503945] (-) TimerEvent: {}
+[1.604280] (-) TimerEvent: {}
+[1.704592] (-) TimerEvent: {}
+[1.804894] (-) TimerEvent: {}
+[1.905217] (-) TimerEvent: {}
+[2.005497] (-) TimerEvent: {}
+[2.105816] (-) TimerEvent: {}
+[2.206137] (-) TimerEvent: {}
+[2.306453] (-) TimerEvent: {}
+[2.406772] (-) TimerEvent: {}
+[2.507070] (-) TimerEvent: {}
+[2.607374] (-) TimerEvent: {}
+[2.707697] (-) TimerEvent: {}
+[2.807996] (-) TimerEvent: {}
+[2.908327] (-) TimerEvent: {}
+[3.008601] (-) TimerEvent: {}
+[3.108897] (-) TimerEvent: {}
+[3.209174] (-) TimerEvent: {}
+[3.309484] (-) TimerEvent: {}
+[3.409770] (-) TimerEvent: {}
+[3.510044] (-) TimerEvent: {}
+[3.610299] (-) TimerEvent: {}
+[3.710572] (-) TimerEvent: {}
+[3.810837] (-) TimerEvent: {}
+[3.911098] (-) TimerEvent: {}
+[4.011394] (-) TimerEvent: {}
+[4.111668] (-) TimerEvent: {}
+[4.211941] (-) TimerEvent: {}
+[4.312210] (-) TimerEvent: {}
+[4.412482] (-) TimerEvent: {}
+[4.512695] (-) TimerEvent: {}
+[4.612941] (-) TimerEvent: {}
+[4.713183] (-) TimerEvent: {}
+[4.813399] (-) TimerEvent: {}
+[4.913670] (-) TimerEvent: {}
+[5.013982] (-) TimerEvent: {}
+[5.097757] (turtlesim) StdoutLine: {'line': b'[ 95%] \x1b[32m\x1b[1mLinking CXX executable turtlesim_node\x1b[0m\n'}
+[5.114093] (-) TimerEvent: {}
+[5.214379] (-) TimerEvent: {}
+[5.314702] (-) TimerEvent: {}
+[5.415019] (-) TimerEvent: {}
+[5.515370] (-) TimerEvent: {}
+[5.615696] (-) TimerEvent: {}
+[5.716040] (-) TimerEvent: {}
+[5.816332] (-) TimerEvent: {}
+[5.916637] (-) TimerEvent: {}
+[5.945856] (turtlesim) StdoutLine: {'line': b'[100%] Built target turtlesim_node\n'}
+[5.957350] (turtlesim) CommandEnded: {'returncode': 0}
+[5.958568] (turtlesim) JobProgress: {'identifier': 'turtlesim', 'progress': 'install'}
+[5.965958] (turtlesim) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/mparadow/Desktop/ROS2_tutorial/ros2_ws/build/turtlesim'], 'cwd': '/home/mparadow/Desktop/ROS2_tutorial/ros2_ws/build/turtlesim', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'mparadow'), ('LC_TIME', 'pl_PL.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda-12.2/lib64:'), ('HOME', '/home/mparadow'), ('OLDPWD', '/home/mparadow/Desktop/ROS2_tutorial/ros2_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'pl_PL.UTF-8'), ('SYSTEMD_EXEC_PID', '1583'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_colcon_cd_root', '/opt/ros/humble/'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'mparadow'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'mparadow'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ISAAC_ROS_WS', '/home/mparadow/workspaces/isaac_ros-dev/'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/usr/local/cuda-12.2/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/mparadow-B760-Pro-RS-WiFi:@/tmp/.ICE-unix/1555,unix/mparadow-B760-Pro-RS-WiFi:/tmp/.ICE-unix/1555'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'pl_PL.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/d191e432_c10c_4f97_a9d0_70bf7207c6ad'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'pl_PL.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.177'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '69'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'pl_PL.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'pl_PL.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'pl_PL.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/mparadow/Desktop/ROS2_tutorial/ros2_ws/build/turtlesim'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'pl_PL.UTF-8'), ('LC_PAPER', 'pl_PL.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[5.973170] (turtlesim) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[5.973402] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/mparadow/Desktop/ROS2_tutorial/ros2_ws/install/turtlesim/share/ament_index/resource_index/rosidl_interfaces/turtlesim\n'}
+[5.973548] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/mparadow/Desktop/ROS2_tutorial/ros2_ws/install/turtlesim/include/turtlesim/turtlesim\n'}
+[5.973622] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/mparadow/Desktop/ROS2_tutorial/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/msg\n'}
+[5.973682] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/mparadow/Desktop/ROS2_tutorial/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/msg/pose.h\n'}
+[5.973740] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/mparadow/Desktop/ROS2_tutorial/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/msg/rosidl_generator_c__visibility_control.h\n'}
+[5.973802] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/mparadow/Desktop/ROS2_tutorial/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/msg/color.h\n'}
+[5.973861] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/mparadow/Desktop/ROS2_tutorial/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/msg/detail\n'}
+[5.973919] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/mparadow/Desktop/ROS2_tutorial/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/msg/detail/pose__functions.c\n'}
+[5.973977] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/mparadow/Desktop/ROS2_tutorial/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/msg/detail/pose__type_support.h\n'}
+[5.974146] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/mparadow/Desktop/ROS2_tutorial/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/msg/detail/pose__struct.h\n'}
+[5.974206] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/mparadow/Desktop/ROS2_tutorial/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/msg/detail/color__functions.h\n'}
+[5.974324] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/mparadow/Desktop/ROS2_tutorial/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/msg/detail/color__struct.h\n'}
+[5.974383] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/mparadow/Desktop/ROS2_tutorial/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/msg/detail/color__type_support.h\n'}
+[5.974444] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/mparadow/Desktop/ROS2_tutorial/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/msg/detail/pose__functions.h\n'}
+[5.974502] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/mparadow/Desktop/ROS2_tutorial/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/msg/detail/color__functions.c\n'}
+[5.974560] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/mparadow/Desktop/ROS2_tutorial/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/action\n'}
+[5.974618] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/mparadow/Desktop/ROS2_tutorial/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/action/rotate_absolute.h\n'}
+[5.974675] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/mparadow/Desktop/ROS2_tutorial/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/action/detail\n'}
+[5.974732] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/mparadow/Desktop/ROS2_tutorial/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/action/detail/rotate_absolute__type_support.h\n'}
+[5.974790] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/mparadow/Desktop/ROS2_tutorial/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/action/detail/rotate_absolute__struct.h\n'}
+[5.974851] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/mparadow/Desktop/ROS2_tutorial/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/action/detail/rotate_absolute__functions.h\n'}
+[5.974909] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/mparadow/Desktop/ROS2_tutorial/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/action/detail/rotate_absolute__functions.c\n'}
+[5.975025] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/mparadow/Desktop/ROS2_tutorial/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv\n'}
+[5.975087] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/mparadow/Desktop/ROS2_tutorial/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/spawn.h\n'}
+[5.975150] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/mparadow/Desktop/ROS2_tutorial/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/set_pen.h\n'}
+[5.975244] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/mparadow/Desktop/ROS2_tutorial/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/kill.h\n'}
+[5.975360] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/mparadow/Desktop/ROS2_tutorial/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/teleport_relative.h\n'}
+[5.975417] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/mparadow/Desktop/ROS2_tutorial/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/teleport_absolute.h\n'}
+[5.975497] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/mparadow/Desktop/ROS2_tutorial/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail\n'}
+[5.975555] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/mparadow/Desktop/ROS2_tutorial/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_absolute__struct.h\n'}
+[5.975615] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/mparadow/Desktop/ROS2_tutorial/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/set_pen__struct.h\n'}
+[5.975678] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/mparadow/Desktop/ROS2_tutorial/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/kill__struct.h\n'}
+[5.975741] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/mparadow/Desktop/ROS2_tutorial/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/set_pen__functions.c\n'}
+[5.975808] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/mparadow/Desktop/ROS2_tutorial/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_absolute__functions.h\n'}
+[5.975867] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/mparadow/Desktop/ROS2_tutorial/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/spawn__type_support.h\n'}
+[5.975926] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/mparadow/Desktop/ROS2_tutorial/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_relative__struct.h\n'}
+[5.975983] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/mparadow/Desktop/ROS2_tutorial/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/kill__type_support.h\n'}
+[5.976041] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/mparadow/Desktop/ROS2_tutorial/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_absolute__functions.c\n'}
+[5.976099] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/mparadow/Desktop/ROS2_tutorial/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_relative__type_support.h\n'}
+[5.976157] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/mparadow/Desktop/ROS2_tutorial/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/set_pen__functions.h\n'}
+[5.976357] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/mparadow/Desktop/ROS2_tutorial/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/spawn__struct.h\n'}
+[5.976473] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/mparadow/Desktop/ROS2_tutorial/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/kill__functions.h\n'}
+[5.976532] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/mparadow/Desktop/ROS2_tutorial/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/set_pen__type_support.h\n'}
+[5.976591] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/mparadow/Desktop/ROS2_tutorial/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/spawn__functions.h\n'}
+[5.976696] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/mparadow/Desktop/ROS2_tutorial/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/kill__functions.c\n'}
+[5.976754] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/mparadow/Desktop/ROS2_tutorial/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_relative__functions.h\n'}
+[5.976814] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/mparadow/Desktop/ROS2_tutorial/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_relative__functions.c\n'}
+[5.976873] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/mparadow/Desktop/ROS2_tutorial/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_absolute__type_support.h\n'}
+[5.976930] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/mparadow/Desktop/ROS2_tutorial/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/spawn__functions.c\n'}
+[5.976988] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/mparadow/Desktop/ROS2_tutorial/ros2_ws/install/turtlesim/share/turtlesim/environment/library_path.sh\n'}
+[5.977047] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/mparadow/Desktop/ROS2_tutorial/ros2_ws/install/turtlesim/share/turtlesim/environment/library_path.dsv\n'}
+[5.977101] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/mparadow/Desktop/ROS2_tutorial/ros2_ws/install/turtlesim/lib/libturtlesim__rosidl_generator_c.so\n'}
+[5.977153] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/mparadow/Desktop/ROS2_tutorial/ros2_ws/install/turtlesim/include/turtlesim/turtlesim\n'}
+[5.977204] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/mparadow/Desktop/ROS2_tutorial/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/msg\n'}
+[5.977291] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/mparadow/Desktop/ROS2_tutorial/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[5.977345] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/mparadow/Desktop/ROS2_tutorial/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/msg/detail\n'}
+[5.977398] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/mparadow/Desktop/ROS2_tutorial/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/msg/detail/color__rosidl_typesupport_fastrtps_c.h\n'}
+[5.977452] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/mparadow/Desktop/ROS2_tutorial/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/msg/detail/pose__rosidl_typesupport_fastrtps_c.h\n'}
+[5.977713] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/mparadow/Desktop/ROS2_tutorial/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/action\n'}
+[5.977776] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/mparadow/Desktop/ROS2_tutorial/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/action/detail\n'}
+[5.977831] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/mparadow/Desktop/ROS2_tutorial/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/action/detail/rotate_absolute__rosidl_typesupport_fastrtps_c.h\n'}
+[5.977888] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/mparadow/Desktop/ROS2_tutorial/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv\n'}
+[5.977938] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/mparadow/Desktop/ROS2_tutorial/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail\n'}
+[5.977987] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/mparadow/Desktop/ROS2_tutorial/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_absolute__rosidl_typesupport_fastrtps_c.h\n'}
+[5.978039] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/mparadow/Desktop/ROS2_tutorial/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/spawn__rosidl_typesupport_fastrtps_c.h\n'}
+[5.978090] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/mparadow/Desktop/ROS2_tutorial/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/set_pen__rosidl_typesupport_fastrtps_c.h\n'}
+[5.978161] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/mparadow/Desktop/ROS2_tutorial/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/kill__rosidl_typesupport_fastrtps_c.h\n'}
+[5.978211] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/mparadow/Desktop/ROS2_tutorial/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_relative__rosidl_typesupport_fastrtps_c.h\n'}
+[5.978267] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/mparadow/Desktop/ROS2_tutorial/ros2_ws/install/turtlesim/lib/libturtlesim__rosidl_typesupport_fastrtps_c.so\n'}
+[5.978315] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/mparadow/Desktop/ROS2_tutorial/ros2_ws/install/turtlesim/include/turtlesim/turtlesim\n'}
+[5.978419] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/mparadow/Desktop/ROS2_tutorial/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/msg\n'}
+[5.978483] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/mparadow/Desktop/ROS2_tutorial/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/msg/color.hpp\n'}
+[5.978531] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/mparadow/Desktop/ROS2_tutorial/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/msg/pose.hpp\n'}
+[5.978578] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/mparadow/Desktop/ROS2_tutorial/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/msg/rosidl_generator_cpp__visibility_control.hpp\n'}
+[5.978621] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/mparadow/Desktop/ROS2_tutorial/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/msg/detail\n'}
+[5.978666] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/mparadow/Desktop/ROS2_tutorial/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/msg/detail/color__traits.hpp\n'}
+[5.978712] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/mparadow/Desktop/ROS2_tutorial/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/msg/detail/color__type_support.hpp\n'}
+[5.978758] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/mparadow/Desktop/ROS2_tutorial/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/msg/detail/color__builder.hpp\n'}
+[5.978843] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/mparadow/Desktop/ROS2_tutorial/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/msg/detail/pose__builder.hpp\n'}
+[5.978889] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/mparadow/Desktop/ROS2_tutorial/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/msg/detail/color__struct.hpp\n'}
+[5.978935] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/mparadow/Desktop/ROS2_tutorial/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/msg/detail/pose__traits.hpp\n'}
+[5.978981] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/mparadow/Desktop/ROS2_tutorial/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/msg/detail/pose__type_support.hpp\n'}
+[5.979025] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/mparadow/Desktop/ROS2_tutorial/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/msg/detail/pose__struct.hpp\n'}
+[5.979069] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/mparadow/Desktop/ROS2_tutorial/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/action\n'}
+[5.979111] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/mparadow/Desktop/ROS2_tutorial/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/action/rotate_absolute.hpp\n'}
+[5.979154] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/mparadow/Desktop/ROS2_tutorial/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/action/detail\n'}
+[5.979197] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/mparadow/Desktop/ROS2_tutorial/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/action/detail/rotate_absolute__type_support.hpp\n'}
+[5.979259] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/mparadow/Desktop/ROS2_tutorial/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/action/detail/rotate_absolute__struct.hpp\n'}
+[5.979344] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/mparadow/Desktop/ROS2_tutorial/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/action/detail/rotate_absolute__builder.hpp\n'}
+[5.979388] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/mparadow/Desktop/ROS2_tutorial/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/action/detail/rotate_absolute__traits.hpp\n'}
+[5.979443] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/mparadow/Desktop/ROS2_tutorial/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv\n'}
+[5.979485] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/mparadow/Desktop/ROS2_tutorial/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/teleport_relative.hpp\n'}
+[5.979526] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/mparadow/Desktop/ROS2_tutorial/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/teleport_absolute.hpp\n'}
+[5.979572] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/mparadow/Desktop/ROS2_tutorial/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/kill.hpp\n'}
+[5.979617] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/mparadow/Desktop/ROS2_tutorial/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/set_pen.hpp\n'}
+[5.979662] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/mparadow/Desktop/ROS2_tutorial/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/spawn.hpp\n'}
+[5.979708] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/mparadow/Desktop/ROS2_tutorial/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail\n'}
+[5.979754] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/mparadow/Desktop/ROS2_tutorial/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_relative__traits.hpp\n'}
+[5.979801] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/mparadow/Desktop/ROS2_tutorial/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/kill__type_support.hpp\n'}
+[5.979846] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/mparadow/Desktop/ROS2_tutorial/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/set_pen__type_support.hpp\n'}
+[5.979891] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/mparadow/Desktop/ROS2_tutorial/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_absolute__struct.hpp\n'}
+[5.979970] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/mparadow/Desktop/ROS2_tutorial/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/spawn__traits.hpp\n'}
+[5.980013] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/mparadow/Desktop/ROS2_tutorial/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_absolute__builder.hpp\n'}
+[5.980057] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/mparadow/Desktop/ROS2_tutorial/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/set_pen__struct.hpp\n'}
+[5.980115] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/mparadow/Desktop/ROS2_tutorial/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/set_pen__traits.hpp\n'}
+[5.980156] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/mparadow/Desktop/ROS2_tutorial/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/spawn__type_support.hpp\n'}
+[5.980198] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/mparadow/Desktop/ROS2_tutorial/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/set_pen__builder.hpp\n'}
+[5.980242] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/mparadow/Desktop/ROS2_tutorial/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/kill__builder.hpp\n'}
+[5.980303] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/mparadow/Desktop/ROS2_tutorial/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/spawn__builder.hpp\n'}
+[5.980345] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/mparadow/Desktop/ROS2_tutorial/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_absolute__type_support.hpp\n'}
+[5.980390] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/mparadow/Desktop/ROS2_tutorial/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_relative__type_support.hpp\n'}
+[5.980432] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/mparadow/Desktop/ROS2_tutorial/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/kill__struct.hpp\n'}
+[5.980474] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/mparadow/Desktop/ROS2_tutorial/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_absolute__traits.hpp\n'}
+[5.980520] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/mparadow/Desktop/ROS2_tutorial/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_relative__struct.hpp\n'}
+[5.980566] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/mparadow/Desktop/ROS2_tutorial/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/spawn__struct.hpp\n'}
+[5.980648] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/mparadow/Desktop/ROS2_tutorial/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/kill__traits.hpp\n'}
+[5.980696] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/mparadow/Desktop/ROS2_tutorial/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_relative__builder.hpp\n'}
+[5.980744] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/mparadow/Desktop/ROS2_tutorial/ros2_ws/install/turtlesim/include/turtlesim/turtlesim\n'}
+[5.980790] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/mparadow/Desktop/ROS2_tutorial/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/msg\n'}
+[5.980841] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/mparadow/Desktop/ROS2_tutorial/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[5.980892] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/mparadow/Desktop/ROS2_tutorial/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/msg/detail\n'}
+[5.980941] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/mparadow/Desktop/ROS2_tutorial/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/msg/detail/pose__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[5.980990] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/mparadow/Desktop/ROS2_tutorial/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/msg/detail/color__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[5.981039] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/mparadow/Desktop/ROS2_tutorial/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/msg/detail/dds_fastrtps\n'}
+[5.981088] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/mparadow/Desktop/ROS2_tutorial/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/action\n'}
+[5.981136] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/mparadow/Desktop/ROS2_tutorial/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/action/detail\n'}
+[5.981184] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/mparadow/Desktop/ROS2_tutorial/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/action/detail/dds_fastrtps\n'}
+[5.981237] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/mparadow/Desktop/ROS2_tutorial/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/action/detail/rotate_absolute__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[5.981303] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/mparadow/Desktop/ROS2_tutorial/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv\n'}
+[5.981358] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/mparadow/Desktop/ROS2_tutorial/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail\n'}
+[5.981409] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/mparadow/Desktop/ROS2_tutorial/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/set_pen__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[5.981525] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/mparadow/Desktop/ROS2_tutorial/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/spawn__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[5.981574] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/mparadow/Desktop/ROS2_tutorial/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_relative__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[5.981619] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/mparadow/Desktop/ROS2_tutorial/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/kill__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[5.981666] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/mparadow/Desktop/ROS2_tutorial/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_absolute__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[5.981713] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/mparadow/Desktop/ROS2_tutorial/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/dds_fastrtps\n'}
+[5.981759] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/mparadow/Desktop/ROS2_tutorial/ros2_ws/install/turtlesim/lib/libturtlesim__rosidl_typesupport_fastrtps_cpp.so\n'}
+[5.981806] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/mparadow/Desktop/ROS2_tutorial/ros2_ws/install/turtlesim/include/turtlesim/turtlesim\n'}
+[5.981852] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/mparadow/Desktop/ROS2_tutorial/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/msg\n'}
+[5.981900] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/mparadow/Desktop/ROS2_tutorial/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[5.981951] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/mparadow/Desktop/ROS2_tutorial/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/msg/detail\n'}
+[5.982002] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/mparadow/Desktop/ROS2_tutorial/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/msg/detail/pose__rosidl_typesupport_introspection_c.h\n'}
+[5.982053] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/mparadow/Desktop/ROS2_tutorial/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/msg/detail/color__rosidl_typesupport_introspection_c.h\n'}
+[5.982111] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/mparadow/Desktop/ROS2_tutorial/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/msg/detail/pose__type_support.c\n'}
+[5.982161] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/mparadow/Desktop/ROS2_tutorial/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/msg/detail/color__type_support.c\n'}
+[5.982213] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/mparadow/Desktop/ROS2_tutorial/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/action\n'}
+[5.982267] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/mparadow/Desktop/ROS2_tutorial/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/action/detail\n'}
+[5.982328] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/mparadow/Desktop/ROS2_tutorial/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/action/detail/rotate_absolute__type_support.c\n'}
+[5.982378] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/mparadow/Desktop/ROS2_tutorial/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/action/detail/rotate_absolute__rosidl_typesupport_introspection_c.h\n'}
+[5.982430] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/mparadow/Desktop/ROS2_tutorial/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv\n'}
+[5.982480] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/mparadow/Desktop/ROS2_tutorial/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail\n'}
+[5.982529] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/mparadow/Desktop/ROS2_tutorial/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/set_pen__type_support.c\n'}
+[5.982578] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/mparadow/Desktop/ROS2_tutorial/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_relative__type_support.c\n'}
+[5.982633] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/mparadow/Desktop/ROS2_tutorial/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_relative__rosidl_typesupport_introspection_c.h\n'}
+[5.982686] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/mparadow/Desktop/ROS2_tutorial/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/set_pen__rosidl_typesupport_introspection_c.h\n'}
+[5.982738] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/mparadow/Desktop/ROS2_tutorial/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/spawn__rosidl_typesupport_introspection_c.h\n'}
+[5.982790] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/mparadow/Desktop/ROS2_tutorial/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/kill__type_support.c\n'}
+[5.982843] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/mparadow/Desktop/ROS2_tutorial/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/spawn__type_support.c\n'}
+[5.982895] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/mparadow/Desktop/ROS2_tutorial/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_absolute__type_support.c\n'}
+[5.982953] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/mparadow/Desktop/ROS2_tutorial/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/kill__rosidl_typesupport_introspection_c.h\n'}
+[5.983004] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/mparadow/Desktop/ROS2_tutorial/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_absolute__rosidl_typesupport_introspection_c.h\n'}
+[5.983055] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/mparadow/Desktop/ROS2_tutorial/ros2_ws/install/turtlesim/lib/libturtlesim__rosidl_typesupport_introspection_c.so\n'}
+[5.983107] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/mparadow/Desktop/ROS2_tutorial/ros2_ws/install/turtlesim/lib/libturtlesim__rosidl_typesupport_c.so\n'}
+[5.983160] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/mparadow/Desktop/ROS2_tutorial/ros2_ws/install/turtlesim/include/turtlesim/turtlesim\n'}
+[5.983212] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/mparadow/Desktop/ROS2_tutorial/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/msg\n'}
+[5.983271] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/mparadow/Desktop/ROS2_tutorial/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/msg/detail\n'}
+[5.983326] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/mparadow/Desktop/ROS2_tutorial/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/msg/detail/color__rosidl_typesupport_introspection_cpp.hpp\n'}
+[5.983378] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/mparadow/Desktop/ROS2_tutorial/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/msg/detail/pose__type_support.cpp\n'}
+[5.983430] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/mparadow/Desktop/ROS2_tutorial/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/msg/detail/color__type_support.cpp\n'}
+[5.983486] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/mparadow/Desktop/ROS2_tutorial/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/msg/detail/pose__rosidl_typesupport_introspection_cpp.hpp\n'}
+[5.983546] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/mparadow/Desktop/ROS2_tutorial/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/action\n'}
+[5.983601] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/mparadow/Desktop/ROS2_tutorial/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/action/detail\n'}
+[5.983655] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/mparadow/Desktop/ROS2_tutorial/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/action/detail/rotate_absolute__type_support.cpp\n'}
+[5.983714] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/mparadow/Desktop/ROS2_tutorial/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/action/detail/rotate_absolute__rosidl_typesupport_introspection_cpp.hpp\n'}
+[5.983774] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/mparadow/Desktop/ROS2_tutorial/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv\n'}
+[5.983837] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/mparadow/Desktop/ROS2_tutorial/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail\n'}
+[5.983896] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/mparadow/Desktop/ROS2_tutorial/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/spawn__type_support.cpp\n'}
+[5.983955] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/mparadow/Desktop/ROS2_tutorial/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/kill__type_support.cpp\n'}
+[5.984013] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/mparadow/Desktop/ROS2_tutorial/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/set_pen__type_support.cpp\n'}
+[5.984072] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/mparadow/Desktop/ROS2_tutorial/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_relative__type_support.cpp\n'}
+[5.984131] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/mparadow/Desktop/ROS2_tutorial/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_absolute__rosidl_typesupport_introspection_cpp.hpp\n'}
+[5.984189] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/mparadow/Desktop/ROS2_tutorial/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/kill__rosidl_typesupport_introspection_cpp.hpp\n'}
+[5.984253] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/mparadow/Desktop/ROS2_tutorial/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_relative__rosidl_typesupport_introspection_cpp.hpp\n'}
+[5.984314] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/mparadow/Desktop/ROS2_tutorial/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_absolute__type_support.cpp\n'}
+[5.984373] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/mparadow/Desktop/ROS2_tutorial/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/set_pen__rosidl_typesupport_introspection_cpp.hpp\n'}
+[5.984432] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/mparadow/Desktop/ROS2_tutorial/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/spawn__rosidl_typesupport_introspection_cpp.hpp\n'}
+[5.984490] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/mparadow/Desktop/ROS2_tutorial/ros2_ws/install/turtlesim/lib/libturtlesim__rosidl_typesupport_introspection_cpp.so\n'}
+[5.984556] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/mparadow/Desktop/ROS2_tutorial/ros2_ws/install/turtlesim/lib/libturtlesim__rosidl_typesupport_cpp.so\n'}
+[5.984612] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/mparadow/Desktop/ROS2_tutorial/ros2_ws/install/turtlesim/share/turtlesim/environment/pythonpath.sh\n'}
+[5.984669] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/mparadow/Desktop/ROS2_tutorial/ros2_ws/install/turtlesim/share/turtlesim/environment/pythonpath.dsv\n'}
+[5.984730] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/mparadow/Desktop/ROS2_tutorial/ros2_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim-1.4.2-py3.10.egg-info\n'}
+[5.984790] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/mparadow/Desktop/ROS2_tutorial/ros2_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim-1.4.2-py3.10.egg-info/SOURCES.txt\n'}
+[5.984850] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/mparadow/Desktop/ROS2_tutorial/ros2_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim-1.4.2-py3.10.egg-info/dependency_links.txt\n'}
+[5.984912] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/mparadow/Desktop/ROS2_tutorial/ros2_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim-1.4.2-py3.10.egg-info/top_level.txt\n'}
+[5.984970] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/mparadow/Desktop/ROS2_tutorial/ros2_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim-1.4.2-py3.10.egg-info/PKG-INFO\n'}
+[5.985029] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/mparadow/Desktop/ROS2_tutorial/ros2_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim\n'}
+[5.985090] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/mparadow/Desktop/ROS2_tutorial/ros2_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/turtlesim_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[5.985145] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/mparadow/Desktop/ROS2_tutorial/ros2_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/msg\n'}
+[5.985201] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/mparadow/Desktop/ROS2_tutorial/ros2_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/msg/_color.py\n'}
+[5.985264] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/mparadow/Desktop/ROS2_tutorial/ros2_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/msg/_pose_s.c\n'}
+[5.985320] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/mparadow/Desktop/ROS2_tutorial/ros2_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/msg/_color_s.c\n'}
+[5.985375] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/mparadow/Desktop/ROS2_tutorial/ros2_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/msg/_pose.py\n'}
+[5.985432] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/mparadow/Desktop/ROS2_tutorial/ros2_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/msg/__init__.py\n'}
+[5.985487] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/mparadow/Desktop/ROS2_tutorial/ros2_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/_turtlesim_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[5.985542] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/mparadow/Desktop/ROS2_tutorial/ros2_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/action\n'}
+[5.985595] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/mparadow/Desktop/ROS2_tutorial/ros2_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/action/_rotate_absolute.py\n'}
+[5.985647] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/mparadow/Desktop/ROS2_tutorial/ros2_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/action/_rotate_absolute_s.c\n'}
+[5.985700] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/mparadow/Desktop/ROS2_tutorial/ros2_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/action/__init__.py\n'}
+[5.985753] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/mparadow/Desktop/ROS2_tutorial/ros2_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/turtlesim_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[5.985805] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/mparadow/Desktop/ROS2_tutorial/ros2_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/_turtlesim_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[5.985859] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/mparadow/Desktop/ROS2_tutorial/ros2_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/_turtlesim_s.ep.rosidl_typesupport_c.c\n'}
+[5.985912] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/mparadow/Desktop/ROS2_tutorial/ros2_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/__init__.py\n'}
+[5.985965] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/mparadow/Desktop/ROS2_tutorial/ros2_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/libturtlesim__rosidl_generator_py.so\n'}
+[5.986016] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/mparadow/Desktop/ROS2_tutorial/ros2_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/srv\n'}
+[5.986068] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/mparadow/Desktop/ROS2_tutorial/ros2_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/srv/_kill_s.c\n'}
+[5.986127] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/mparadow/Desktop/ROS2_tutorial/ros2_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/srv/_teleport_absolute.py\n'}
+[5.986179] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/mparadow/Desktop/ROS2_tutorial/ros2_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/srv/_set_pen.py\n'}
+[5.986234] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/mparadow/Desktop/ROS2_tutorial/ros2_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/srv/_teleport_relative.py\n'}
+[5.986286] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/mparadow/Desktop/ROS2_tutorial/ros2_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/srv/_kill.py\n'}
+[5.986335] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/mparadow/Desktop/ROS2_tutorial/ros2_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/srv/_spawn.py\n'}
+[5.986385] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/mparadow/Desktop/ROS2_tutorial/ros2_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/srv/_teleport_relative_s.c\n'}
+[5.986435] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/mparadow/Desktop/ROS2_tutorial/ros2_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/srv/_spawn_s.c\n'}
+[5.986485] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/mparadow/Desktop/ROS2_tutorial/ros2_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/srv/_teleport_absolute_s.c\n'}
+[5.986537] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/mparadow/Desktop/ROS2_tutorial/ros2_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/srv/__init__.py\n'}
+[5.986587] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/mparadow/Desktop/ROS2_tutorial/ros2_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/srv/_set_pen_s.c\n'}
+[5.986639] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/mparadow/Desktop/ROS2_tutorial/ros2_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/turtlesim_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[6.004405] (turtlesim) StdoutLine: {'line': b"Listing '/home/mparadow/Desktop/ROS2_tutorial/ros2_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim'...\n"}
+[6.004465] (turtlesim) StdoutLine: {'line': b"Listing '/home/mparadow/Desktop/ROS2_tutorial/ros2_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/action'...\n"}
+[6.004490] (turtlesim) StdoutLine: {'line': b"Listing '/home/mparadow/Desktop/ROS2_tutorial/ros2_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/msg'...\n"}
+[6.004513] (turtlesim) StdoutLine: {'line': b"Listing '/home/mparadow/Desktop/ROS2_tutorial/ros2_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/srv'...\n"}
+[6.006320] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/mparadow/Desktop/ROS2_tutorial/ros2_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/turtlesim_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[6.006407] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/mparadow/Desktop/ROS2_tutorial/ros2_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/turtlesim_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[6.006529] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/mparadow/Desktop/ROS2_tutorial/ros2_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/turtlesim_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[6.006594] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/mparadow/Desktop/ROS2_tutorial/ros2_ws/install/turtlesim/lib/libturtlesim__rosidl_generator_py.so\n'}
+[6.006633] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/mparadow/Desktop/ROS2_tutorial/ros2_ws/install/turtlesim/share/turtlesim/action/RotateAbsolute.idl\n'}
+[6.006669] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/mparadow/Desktop/ROS2_tutorial/ros2_ws/install/turtlesim/share/turtlesim/msg/Color.idl\n'}
+[6.006694] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/mparadow/Desktop/ROS2_tutorial/ros2_ws/install/turtlesim/share/turtlesim/msg/Pose.idl\n'}
+[6.006727] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/mparadow/Desktop/ROS2_tutorial/ros2_ws/install/turtlesim/share/turtlesim/srv/Kill.idl\n'}
+[6.006748] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/mparadow/Desktop/ROS2_tutorial/ros2_ws/install/turtlesim/share/turtlesim/srv/SetPen.idl\n'}
+[6.006785] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/mparadow/Desktop/ROS2_tutorial/ros2_ws/install/turtlesim/share/turtlesim/srv/Spawn.idl\n'}
+[6.006809] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/mparadow/Desktop/ROS2_tutorial/ros2_ws/install/turtlesim/share/turtlesim/srv/TeleportAbsolute.idl\n'}
+[6.006830] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/mparadow/Desktop/ROS2_tutorial/ros2_ws/install/turtlesim/share/turtlesim/srv/TeleportRelative.idl\n'}
+[6.006851] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/mparadow/Desktop/ROS2_tutorial/ros2_ws/install/turtlesim/share/turtlesim/action/RotateAbsolute.action\n'}
+[6.006885] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/mparadow/Desktop/ROS2_tutorial/ros2_ws/install/turtlesim/share/turtlesim/msg/Color.msg\n'}
+[6.006906] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/mparadow/Desktop/ROS2_tutorial/ros2_ws/install/turtlesim/share/turtlesim/msg/Pose.msg\n'}
+[6.006926] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/mparadow/Desktop/ROS2_tutorial/ros2_ws/install/turtlesim/share/turtlesim/srv/Kill.srv\n'}
+[6.006964] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/mparadow/Desktop/ROS2_tutorial/ros2_ws/install/turtlesim/share/turtlesim/srv/Kill_Request.msg\n'}
+[6.006985] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/mparadow/Desktop/ROS2_tutorial/ros2_ws/install/turtlesim/share/turtlesim/srv/Kill_Response.msg\n'}
+[6.007007] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/mparadow/Desktop/ROS2_tutorial/ros2_ws/install/turtlesim/share/turtlesim/srv/SetPen.srv\n'}
+[6.007028] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/mparadow/Desktop/ROS2_tutorial/ros2_ws/install/turtlesim/share/turtlesim/srv/SetPen_Request.msg\n'}
+[6.007048] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/mparadow/Desktop/ROS2_tutorial/ros2_ws/install/turtlesim/share/turtlesim/srv/SetPen_Response.msg\n'}
+[6.007069] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/mparadow/Desktop/ROS2_tutorial/ros2_ws/install/turtlesim/share/turtlesim/srv/Spawn.srv\n'}
+[6.007101] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/mparadow/Desktop/ROS2_tutorial/ros2_ws/install/turtlesim/share/turtlesim/srv/Spawn_Request.msg\n'}
+[6.007121] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/mparadow/Desktop/ROS2_tutorial/ros2_ws/install/turtlesim/share/turtlesim/srv/Spawn_Response.msg\n'}
+[6.007145] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/mparadow/Desktop/ROS2_tutorial/ros2_ws/install/turtlesim/share/turtlesim/srv/TeleportAbsolute.srv\n'}
+[6.007164] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/mparadow/Desktop/ROS2_tutorial/ros2_ws/install/turtlesim/share/turtlesim/srv/TeleportAbsolute_Request.msg\n'}
+[6.007184] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/mparadow/Desktop/ROS2_tutorial/ros2_ws/install/turtlesim/share/turtlesim/srv/TeleportAbsolute_Response.msg\n'}
+[6.007204] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/mparadow/Desktop/ROS2_tutorial/ros2_ws/install/turtlesim/share/turtlesim/srv/TeleportRelative.srv\n'}
+[6.007226] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/mparadow/Desktop/ROS2_tutorial/ros2_ws/install/turtlesim/share/turtlesim/srv/TeleportRelative_Request.msg\n'}
+[6.007249] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/mparadow/Desktop/ROS2_tutorial/ros2_ws/install/turtlesim/share/turtlesim/srv/TeleportRelative_Response.msg\n'}
+[6.007270] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/mparadow/Desktop/ROS2_tutorial/ros2_ws/install/turtlesim/lib/turtlesim/turtlesim_node\n'}
+[6.011270] (turtlesim) StdoutLine: {'line': b'-- Set runtime path of "/home/mparadow/Desktop/ROS2_tutorial/ros2_ws/install/turtlesim/lib/turtlesim/turtlesim_node" to ""\n'}
+[6.011334] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/mparadow/Desktop/ROS2_tutorial/ros2_ws/install/turtlesim/lib/turtlesim/turtle_teleop_key\n'}
+[6.011453] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/mparadow/Desktop/ROS2_tutorial/ros2_ws/install/turtlesim/lib/turtlesim/draw_square\n'}
+[6.011519] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/mparadow/Desktop/ROS2_tutorial/ros2_ws/install/turtlesim/lib/turtlesim/mimic\n'}
+[6.011561] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/mparadow/Desktop/ROS2_tutorial/ros2_ws/install/turtlesim/share/turtlesim/images\n'}
+[6.011592] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/mparadow/Desktop/ROS2_tutorial/ros2_ws/install/turtlesim/share/turtlesim/images/galactic.png\n'}
+[6.011636] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/mparadow/Desktop/ROS2_tutorial/ros2_ws/install/turtlesim/share/turtlesim/images/ardent.png\n'}
+[6.011661] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/mparadow/Desktop/ROS2_tutorial/ros2_ws/install/turtlesim/share/turtlesim/images/humble.png\n'}
+[6.011684] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/mparadow/Desktop/ROS2_tutorial/ros2_ws/install/turtlesim/share/turtlesim/images/bouncy.png\n'}
+[6.011706] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/mparadow/Desktop/ROS2_tutorial/ros2_ws/install/turtlesim/share/turtlesim/images/crystal.png\n'}
+[6.011732] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/mparadow/Desktop/ROS2_tutorial/ros2_ws/install/turtlesim/share/turtlesim/images/eloquent.png\n'}
+[6.011754] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/mparadow/Desktop/ROS2_tutorial/ros2_ws/install/turtlesim/share/turtlesim/images/rolling.png\n'}
+[6.011775] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/mparadow/Desktop/ROS2_tutorial/ros2_ws/install/turtlesim/share/turtlesim/images/dashing.png\n'}
+[6.011804] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/mparadow/Desktop/ROS2_tutorial/ros2_ws/install/turtlesim/share/turtlesim/images/foxy.png\n'}
+[6.011853] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/mparadow/Desktop/ROS2_tutorial/ros2_ws/install/turtlesim/share/turtlesim/launch\n'}
+[6.011877] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/mparadow/Desktop/ROS2_tutorial/ros2_ws/install/turtlesim/share/turtlesim/launch/multisim.launch.py\n'}
+[6.011904] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/mparadow/Desktop/ROS2_tutorial/ros2_ws/install/turtlesim/share/ament_index/resource_index/package_run_dependencies/turtlesim\n'}
+[6.011926] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/mparadow/Desktop/ROS2_tutorial/ros2_ws/install/turtlesim/share/ament_index/resource_index/parent_prefix_path/turtlesim\n'}
+[6.011957] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/mparadow/Desktop/ROS2_tutorial/ros2_ws/install/turtlesim/share/turtlesim/environment/ament_prefix_path.sh\n'}
+[6.011979] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/mparadow/Desktop/ROS2_tutorial/ros2_ws/install/turtlesim/share/turtlesim/environment/ament_prefix_path.dsv\n'}
+[6.012012] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/mparadow/Desktop/ROS2_tutorial/ros2_ws/install/turtlesim/share/turtlesim/environment/path.sh\n'}
+[6.012032] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/mparadow/Desktop/ROS2_tutorial/ros2_ws/install/turtlesim/share/turtlesim/environment/path.dsv\n'}
+[6.012053] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/mparadow/Desktop/ROS2_tutorial/ros2_ws/install/turtlesim/share/turtlesim/local_setup.bash\n'}
+[6.012074] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/mparadow/Desktop/ROS2_tutorial/ros2_ws/install/turtlesim/share/turtlesim/local_setup.sh\n'}
+[6.012105] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/mparadow/Desktop/ROS2_tutorial/ros2_ws/install/turtlesim/share/turtlesim/local_setup.zsh\n'}
+[6.012126] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/mparadow/Desktop/ROS2_tutorial/ros2_ws/install/turtlesim/share/turtlesim/local_setup.dsv\n'}
+[6.012155] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/mparadow/Desktop/ROS2_tutorial/ros2_ws/install/turtlesim/share/turtlesim/package.dsv\n'}
+[6.012177] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/mparadow/Desktop/ROS2_tutorial/ros2_ws/install/turtlesim/share/ament_index/resource_index/packages/turtlesim\n'}
+[6.012198] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/mparadow/Desktop/ROS2_tutorial/ros2_ws/install/turtlesim/share/turtlesim/cmake/export_turtlesim__rosidl_generator_cExport.cmake\n'}
+[6.012219] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/mparadow/Desktop/ROS2_tutorial/ros2_ws/install/turtlesim/share/turtlesim/cmake/export_turtlesim__rosidl_generator_cExport-noconfig.cmake\n'}
+[6.012255] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/mparadow/Desktop/ROS2_tutorial/ros2_ws/install/turtlesim/share/turtlesim/cmake/export_turtlesim__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[6.012277] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/mparadow/Desktop/ROS2_tutorial/ros2_ws/install/turtlesim/share/turtlesim/cmake/export_turtlesim__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[6.012306] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/mparadow/Desktop/ROS2_tutorial/ros2_ws/install/turtlesim/share/turtlesim/cmake/export_turtlesim__rosidl_generator_cppExport.cmake\n'}
+[6.012328] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/mparadow/Desktop/ROS2_tutorial/ros2_ws/install/turtlesim/share/turtlesim/cmake/export_turtlesim__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[6.012349] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/mparadow/Desktop/ROS2_tutorial/ros2_ws/install/turtlesim/share/turtlesim/cmake/export_turtlesim__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[6.012370] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/mparadow/Desktop/ROS2_tutorial/ros2_ws/install/turtlesim/share/turtlesim/cmake/turtlesim__rosidl_typesupport_introspection_cExport.cmake\n'}
+[6.012390] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/mparadow/Desktop/ROS2_tutorial/ros2_ws/install/turtlesim/share/turtlesim/cmake/turtlesim__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[6.012411] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/mparadow/Desktop/ROS2_tutorial/ros2_ws/install/turtlesim/share/turtlesim/cmake/turtlesim__rosidl_typesupport_cExport.cmake\n'}
+[6.012433] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/mparadow/Desktop/ROS2_tutorial/ros2_ws/install/turtlesim/share/turtlesim/cmake/turtlesim__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[6.012454] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/mparadow/Desktop/ROS2_tutorial/ros2_ws/install/turtlesim/share/turtlesim/cmake/turtlesim__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[6.012475] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/mparadow/Desktop/ROS2_tutorial/ros2_ws/install/turtlesim/share/turtlesim/cmake/turtlesim__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[6.012505] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/mparadow/Desktop/ROS2_tutorial/ros2_ws/install/turtlesim/share/turtlesim/cmake/turtlesim__rosidl_typesupport_cppExport.cmake\n'}
+[6.012551] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/mparadow/Desktop/ROS2_tutorial/ros2_ws/install/turtlesim/share/turtlesim/cmake/turtlesim__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[6.012572] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/mparadow/Desktop/ROS2_tutorial/ros2_ws/install/turtlesim/share/turtlesim/cmake/export_turtlesim__rosidl_generator_pyExport.cmake\n'}
+[6.012592] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/mparadow/Desktop/ROS2_tutorial/ros2_ws/install/turtlesim/share/turtlesim/cmake/export_turtlesim__rosidl_generator_pyExport-noconfig.cmake\n'}
+[6.012612] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/mparadow/Desktop/ROS2_tutorial/ros2_ws/install/turtlesim/share/turtlesim/cmake/rosidl_cmake-extras.cmake\n'}
+[6.012634] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/mparadow/Desktop/ROS2_tutorial/ros2_ws/install/turtlesim/share/turtlesim/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[6.012654] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/mparadow/Desktop/ROS2_tutorial/ros2_ws/install/turtlesim/share/turtlesim/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[6.012678] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/mparadow/Desktop/ROS2_tutorial/ros2_ws/install/turtlesim/share/turtlesim/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[6.012697] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/mparadow/Desktop/ROS2_tutorial/ros2_ws/install/turtlesim/share/turtlesim/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[6.012717] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/mparadow/Desktop/ROS2_tutorial/ros2_ws/install/turtlesim/share/turtlesim/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[6.012737] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/mparadow/Desktop/ROS2_tutorial/ros2_ws/install/turtlesim/share/turtlesim/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[6.012756] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/mparadow/Desktop/ROS2_tutorial/ros2_ws/install/turtlesim/share/turtlesim/cmake/turtlesimConfig.cmake\n'}
+[6.012775] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/mparadow/Desktop/ROS2_tutorial/ros2_ws/install/turtlesim/share/turtlesim/cmake/turtlesimConfig-version.cmake\n'}
+[6.012794] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/mparadow/Desktop/ROS2_tutorial/ros2_ws/install/turtlesim/share/turtlesim/package.xml\n'}
+[6.013676] (turtlesim) CommandEnded: {'returncode': 0}
+[6.016681] (-) TimerEvent: {}
+[6.022527] (turtlesim) JobEnded: {'identifier': 'turtlesim', 'rc': 0}
+[6.022766] (-) EventReactorShutdown: {}

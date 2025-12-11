@@ -1,0 +1,1 @@
+/usr/bin/g++ -g -rdynamic CMakeFiles/unit_tests.dir/test_song.cpp.o CMakeFiles/unit_tests.dir/test_playlist.cpp.o -o unit_tests  ../src/libsong.a ../_deps/catch2-build/src/libCatch2Maind.a ../src/libplaylist.a ../_deps/catch2-build/src/libCatch2Maind.a ../_deps/catch2-build/src/libCatch2d.a ../fmt-10.2.1/libfmtd.a 

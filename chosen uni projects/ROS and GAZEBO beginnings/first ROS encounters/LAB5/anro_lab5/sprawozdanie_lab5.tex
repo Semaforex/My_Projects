@@ -1,0 +1,91 @@
+\documentclass[a4paper,12pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage{graphicx}
+\usepackage{geometry}
+\geometry{margin=2.5cm}
+\usepackage{hyperref}
+\usepackage{listings}
+\usepackage{caption}
+\captionsetup[figure]{labelfont=bf}
+
+\title{Sprawozdanie z Pracy Domowej\\ANRO - Laboratorium 5}
+\author{Imię Nazwisko}
+\date{\today}
+
+\begin{document}
+
+\maketitle
+
+\section{Wstęp}
+Celem pracy domowej było wykonanie analizy systemu opartego o ROS z wykorzystaniem narzędzia MeROS oraz dokumentacji i kodu z laboratorium 3. W ramach zadania należało przygotować i omówić diagramy systemu oraz powiązać je z kodem źródłowym.
+
+\section{Zadanie 1: Diagram BDD kompozycji <<System>> z perspektywy Workspace i repozytoriów}
+Diagram BDD (Block Definition Diagram) przedstawia główne komponenty systemu zorganizowane w przestrzeni roboczej (Workspace) oraz repozytoriach. Pokazuje, jak poszczególne bloki (np. węzły ROS, pakiety, tematy komunikacyjne) są powiązane i jakie stereotypy im przypisano zgodnie z metodyką MeROS. Diagram ten pozwala zrozumieć ogólną architekturę systemu przed jego uruchomieniem, a także relacje między elementami logicznymi i fizycznymi w projekcie.
+
+\begin{figure}[h!]
+    \centering
+    \includegraphics[width=0.9\textwidth]{bdd_Dobot_WS.png}
+    \caption{Diagram BDD kompozycji <<System>> z perspektywy Workspace}
+\end{figure}
+
+\section{Zadanie 2: Diagramy systemu na podstawie rqt\_graph i kodu źródłowego}
+
+\subsection{Diagram rqt\_graph (rosgraph)}
+Diagram rqt\_graph przedstawia rzeczywisty stan uruchomionego systemu ROS, pokazując aktywne węzły, tematy oraz połączenia komunikacyjne między nimi. Jest to automatycznie generowany graficzny widok architektury systemu, który pozwala zweryfikować, czy implementacja odpowiada założeniom projektowym. Diagram ten stanowi podstawę do dalszej analizy i tworzenia diagramów BDD, IBD oraz SD.
+
+\begin{figure}[h!]
+    \centering
+    \includegraphics[width=0.9\textwidth]{rosgraph.png}
+    \caption{Diagram rqt\_graph (rosgraph) uruchomionego systemu}
+\end{figure}
+
+\subsection{Diagram BDD kompozycji <<System>> z perspektywy uruchomionego systemu}
+Ten diagram BDD prezentuje strukturę systemu po jego uruchomieniu, bazując na rzeczywistym stanie widocznym w narzędziu rqt\_graph oraz analizie kodu źródłowego. Pokazuje, które węzły, tematy i połączenia są aktywne w działającym systemie, oraz jak są one powiązane. Dzięki temu możliwa jest weryfikacja zgodności implementacji z założeniami projektowymi oraz identyfikacja rzeczywistych interakcji między komponentami.
+
+\begin{figure}[h!]
+    \centering
+    \includegraphics[width=0.9\textwidth]{bdd_Dobot_RS.png}
+    \caption{Diagram BDD kompozycji <<System>> z perspektywy uruchomionego systemu}
+\end{figure}
+
+\subsection{Diagram IBD struktury <<System>>}
+Diagram IBD (Internal Block Diagram) przedstawia szczegółową strukturę wewnętrzną systemu, pokazując interakcje pomiędzy poszczególnymi częściami (part property) oraz przepływ informacji. W tym przypadku diagram odzwierciedla implementację klasy \texttt{ForwardKin} oraz jej powiązania z innymi elementami systemu, takimi jak wejścia/wyjścia, tematy ROS czy inne komponenty funkcjonalne. Pozwala to na analizę, jak dane przepływają przez system i jakie są zależności między jego częściami.
+
+\begin{figure}[h!]
+    \centering
+    \includegraphics[width=0.9\textwidth]{ibd_Donot_RS.png}
+    \caption{Diagram IBD struktury <<System>>}
+\end{figure}
+
+\subsection{Diagram SD działania <<System>>}
+Diagram SD (Sequence Diagram) ilustruje przebieg działania systemu w czasie, pokazując wymianę komunikatów pomiędzy jego elementami. W szczególności przedstawia, jak wywoływane są metody klasy \texttt{ForwardKin}, jak obsługiwane są komunikaty ROS oraz jakie operacje są wykonywane w odpowiedzi na zdarzenia. Diagram ten pozwala prześledzić logikę działania systemu krok po kroku i zrozumieć kolejność interakcji.
+
+\begin{figure}[h!]
+    \centering
+    \includegraphics[width=0.9\textwidth]{sd_Dobot_Forward_Kin.png}
+    \caption{Diagram SD działania <<System>>}
+\end{figure}
+
+\subsection{Diagram BDD kompozycji <<Workspace>>}
+Ten diagram BDD prezentuje strukturę przestrzeni roboczej (Workspace) z uwzględnieniem typów zgodnych z diagramem <<System>>. Pokazuje, które pakiety, węzły i inne elementy zostały zaimplementowane w Workspace podczas realizacji zadania, oraz jak są one powiązane. Diagram ten pozwala zidentyfikować, które części systemu są obecne w środowisku deweloperskim i jak odpowiadają one rzeczywistej implementacji.
+
+\begin{figure}[h!]
+    \centering
+    \includegraphics[width=0.9\textwidth]{bdd_Dobot_WS.png}
+    \caption{Diagram BDD kompozycji <<Workspace>>}
+\end{figure}
+
+\section{Zadanie 3: Omówienie i powiązanie diagramów z kodem}
+Diagramy zostały przygotowane zgodnie z wymaganiami instrukcji. Struktura i działanie systemu zostały odwzorowane na podstawie kodu źródłowego, w szczególności klasy \texttt{ForwardKin} oraz funkcji \texttt{main} w pliku \texttt{forward_kin.py}. Diagramy odzwierciedlają strukturę blokową, połączenia oraz przebieg działania systemu.
+
+\subsection*{Powiązanie z kodem}
+\begin{itemize}
+    \item \texttt{ForwardKin} -- główna klasa realizująca kinematykę robota.
+    \item \texttt{main} -- funkcja uruchamiająca węzeł ROS.
+    \item Pozostałe metody klasy odpowiadają za ładowanie parametrów, obliczenia kinematyki oraz obsługę komunikacji.
+\end{itemize}
+
+\section{Wnioski}
+W ramach pracy domowej wykonano analizę systemu, przygotowano wymagane diagramy oraz powiązano je z kodem źródłowym. Diagramy zostały wygenerowane zgodnie z wytycznymi, z zachowaniem odpowiednich stereotypów i typów.
+
+\end{document}

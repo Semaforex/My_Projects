@@ -1,0 +1,25 @@
+[35m[1mConsolidate compiler generated dependencies of target piaciokotforemny[0m
+[ 25%] [32mBuilding CXX object CMakeFiles/piaciokotforemny.dir/src/piaciokotforemny.cpp.o[0m
+[ 50%] [32m[1mLinking CXX executable piaciokotforemny[0m
+[ 50%] Built target piaciokotforemny
+[35m[1mConsolidate compiler generated dependencies of target odometry_info[0m
+[100%] Built target odometry_info
+-- Install configuration: ""
+-- Installing: /home/student/Desktop/stero_25z_mp_ms/nawigacja/nav_lab1/install/nav_lab1/lib/nav_lab1/piaciokotforemny
+-- Set runtime path of "/home/student/Desktop/stero_25z_mp_ms/nawigacja/nav_lab1/install/nav_lab1/lib/nav_lab1/piaciokotforemny" to ""
+-- Up-to-date: /home/student/Desktop/stero_25z_mp_ms/nawigacja/nav_lab1/install/nav_lab1/lib/nav_lab1/odometry_info
+-- Up-to-date: /home/student/Desktop/stero_25z_mp_ms/nawigacja/nav_lab1/install/nav_lab1/share/ament_index/resource_index/package_run_dependencies/nav_lab1
+-- Up-to-date: /home/student/Desktop/stero_25z_mp_ms/nawigacja/nav_lab1/install/nav_lab1/share/ament_index/resource_index/parent_prefix_path/nav_lab1
+-- Up-to-date: /home/student/Desktop/stero_25z_mp_ms/nawigacja/nav_lab1/install/nav_lab1/share/nav_lab1/environment/ament_prefix_path.sh
+-- Up-to-date: /home/student/Desktop/stero_25z_mp_ms/nawigacja/nav_lab1/install/nav_lab1/share/nav_lab1/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/student/Desktop/stero_25z_mp_ms/nawigacja/nav_lab1/install/nav_lab1/share/nav_lab1/environment/path.sh
+-- Up-to-date: /home/student/Desktop/stero_25z_mp_ms/nawigacja/nav_lab1/install/nav_lab1/share/nav_lab1/environment/path.dsv
+-- Up-to-date: /home/student/Desktop/stero_25z_mp_ms/nawigacja/nav_lab1/install/nav_lab1/share/nav_lab1/local_setup.bash
+-- Up-to-date: /home/student/Desktop/stero_25z_mp_ms/nawigacja/nav_lab1/install/nav_lab1/share/nav_lab1/local_setup.sh
+-- Up-to-date: /home/student/Desktop/stero_25z_mp_ms/nawigacja/nav_lab1/install/nav_lab1/share/nav_lab1/local_setup.zsh
+-- Up-to-date: /home/student/Desktop/stero_25z_mp_ms/nawigacja/nav_lab1/install/nav_lab1/share/nav_lab1/local_setup.dsv
+-- Installing: /home/student/Desktop/stero_25z_mp_ms/nawigacja/nav_lab1/install/nav_lab1/share/nav_lab1/package.dsv
+-- Up-to-date: /home/student/Desktop/stero_25z_mp_ms/nawigacja/nav_lab1/install/nav_lab1/share/ament_index/resource_index/packages/nav_lab1
+-- Up-to-date: /home/student/Desktop/stero_25z_mp_ms/nawigacja/nav_lab1/install/nav_lab1/share/nav_lab1/cmake/nav_lab1Config.cmake
+-- Up-to-date: /home/student/Desktop/stero_25z_mp_ms/nawigacja/nav_lab1/install/nav_lab1/share/nav_lab1/cmake/nav_lab1Config-version.cmake
+-- Up-to-date: /home/student/Desktop/stero_25z_mp_ms/nawigacja/nav_lab1/install/nav_lab1/share/nav_lab1/package.xml

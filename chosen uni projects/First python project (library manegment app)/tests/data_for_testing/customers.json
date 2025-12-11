@@ -1,0 +1,29 @@
+[
+      {
+            "username": "customer1",
+            "data": {
+                  "password": "password",
+                  "history": [],
+                  "activity": 0,
+                  "books": []
+            }
+      },
+      {
+            "username": "customer2",
+            "data": {
+                  "password": "password",
+                  "history": [],
+                  "activity": 0,
+                  "books": []
+            }
+      },
+      {
+            "username": "customer3",
+            "data": {
+                  "password": "password",
+                  "history": [],
+                  "activity": 0,
+                  "books": []
+            }
+      }
+]

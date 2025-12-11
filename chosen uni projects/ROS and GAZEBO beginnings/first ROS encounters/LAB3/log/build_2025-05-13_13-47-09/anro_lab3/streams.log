@@ -1,0 +1,48 @@
+[1.647s] Invoking command in '/home/student/Desktop/paradowski-sosnowski-arno-25l-grupa103/LAB3/anro_lab3': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/student/Desktop/paradowski-sosnowski-arno-25l-grupa103/LAB3/build/anro_lab3/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/student/Desktop/paradowski-sosnowski-arno-25l-grupa103/LAB3/install/anro_lab3/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/anro_lab3 build --build-base /home/student/Desktop/paradowski-sosnowski-arno-25l-grupa103/LAB3/build/anro_lab3/build install --record /home/student/Desktop/paradowski-sosnowski-arno-25l-grupa103/LAB3/build/anro_lab3/install.log --single-version-externally-managed install_data
+[2.030s] running egg_info
+[2.030s] creating ../build/anro_lab3/anro_lab3.egg-info
+[2.063s] writing ../build/anro_lab3/anro_lab3.egg-info/PKG-INFO
+[2.063s] writing dependency_links to ../build/anro_lab3/anro_lab3.egg-info/dependency_links.txt
+[2.063s] writing entry points to ../build/anro_lab3/anro_lab3.egg-info/entry_points.txt
+[2.064s] writing requirements to ../build/anro_lab3/anro_lab3.egg-info/requires.txt
+[2.064s] writing top-level names to ../build/anro_lab3/anro_lab3.egg-info/top_level.txt
+[2.064s] writing manifest file '../build/anro_lab3/anro_lab3.egg-info/SOURCES.txt'
+[2.128s] reading manifest file '../build/anro_lab3/anro_lab3.egg-info/SOURCES.txt'
+[2.128s] writing manifest file '../build/anro_lab3/anro_lab3.egg-info/SOURCES.txt'
+[2.128s] running build
+[2.128s] running build_py
+[2.130s] creating /home/student/Desktop/paradowski-sosnowski-arno-25l-grupa103/LAB3/build/anro_lab3/build
+[2.130s] creating /home/student/Desktop/paradowski-sosnowski-arno-25l-grupa103/LAB3/build/anro_lab3/build/lib
+[2.130s] creating /home/student/Desktop/paradowski-sosnowski-arno-25l-grupa103/LAB3/build/anro_lab3/build/lib/anro_lab3
+[2.130s] copying anro_lab3/rvizToDobot.py -> /home/student/Desktop/paradowski-sosnowski-arno-25l-grupa103/LAB3/build/anro_lab3/build/lib/anro_lab3
+[2.130s] copying anro_lab3/forward_kin.py -> /home/student/Desktop/paradowski-sosnowski-arno-25l-grupa103/LAB3/build/anro_lab3/build/lib/anro_lab3
+[2.130s] copying anro_lab3/__init__.py -> /home/student/Desktop/paradowski-sosnowski-arno-25l-grupa103/LAB3/build/anro_lab3/build/lib/anro_lab3
+[2.130s] running install
+[2.136s] running install_lib
+[2.168s] creating /home/student/Desktop/paradowski-sosnowski-arno-25l-grupa103/LAB3/install/anro_lab3/lib/python3.12/site-packages/anro_lab3
+[2.168s] copying /home/student/Desktop/paradowski-sosnowski-arno-25l-grupa103/LAB3/build/anro_lab3/build/lib/anro_lab3/rvizToDobot.py -> /home/student/Desktop/paradowski-sosnowski-arno-25l-grupa103/LAB3/install/anro_lab3/lib/python3.12/site-packages/anro_lab3
+[2.169s] copying /home/student/Desktop/paradowski-sosnowski-arno-25l-grupa103/LAB3/build/anro_lab3/build/lib/anro_lab3/forward_kin.py -> /home/student/Desktop/paradowski-sosnowski-arno-25l-grupa103/LAB3/install/anro_lab3/lib/python3.12/site-packages/anro_lab3
+[2.169s] copying /home/student/Desktop/paradowski-sosnowski-arno-25l-grupa103/LAB3/build/anro_lab3/build/lib/anro_lab3/__init__.py -> /home/student/Desktop/paradowski-sosnowski-arno-25l-grupa103/LAB3/install/anro_lab3/lib/python3.12/site-packages/anro_lab3
+[2.169s] byte-compiling /home/student/Desktop/paradowski-sosnowski-arno-25l-grupa103/LAB3/install/anro_lab3/lib/python3.12/site-packages/anro_lab3/rvizToDobot.py to rvizToDobot.cpython-312.pyc
+[2.170s] byte-compiling /home/student/Desktop/paradowski-sosnowski-arno-25l-grupa103/LAB3/install/anro_lab3/lib/python3.12/site-packages/anro_lab3/forward_kin.py to forward_kin.cpython-312.pyc
+[2.172s] byte-compiling /home/student/Desktop/paradowski-sosnowski-arno-25l-grupa103/LAB3/install/anro_lab3/lib/python3.12/site-packages/anro_lab3/__init__.py to __init__.cpython-312.pyc
+[2.172s] running install_data
+[2.173s] creating /home/student/Desktop/paradowski-sosnowski-arno-25l-grupa103/LAB3/install/anro_lab3/share/ament_index
+[2.173s] creating /home/student/Desktop/paradowski-sosnowski-arno-25l-grupa103/LAB3/install/anro_lab3/share/ament_index/resource_index
+[2.173s] creating /home/student/Desktop/paradowski-sosnowski-arno-25l-grupa103/LAB3/install/anro_lab3/share/ament_index/resource_index/packages
+[2.173s] copying resource/anro_lab3 -> /home/student/Desktop/paradowski-sosnowski-arno-25l-grupa103/LAB3/install/anro_lab3/share/ament_index/resource_index/packages
+[2.173s] copying package.xml -> /home/student/Desktop/paradowski-sosnowski-arno-25l-grupa103/LAB3/install/anro_lab3/share/anro_lab3
+[2.173s] creating /home/student/Desktop/paradowski-sosnowski-arno-25l-grupa103/LAB3/install/anro_lab3/share/anro_lab3/launch
+[2.173s] copying launch/FkDisplay.launch.py -> /home/student/Desktop/paradowski-sosnowski-arno-25l-grupa103/LAB3/install/anro_lab3/share/anro_lab3/launch
+[2.173s] copying launch/display.launch.py -> /home/student/Desktop/paradowski-sosnowski-arno-25l-grupa103/LAB3/install/anro_lab3/share/anro_lab3/launch
+[2.173s] creating /home/student/Desktop/paradowski-sosnowski-arno-25l-grupa103/LAB3/install/anro_lab3/share/anro_lab3/urdf
+[2.174s] copying urdf/dobot.urdf.xacro -> /home/student/Desktop/paradowski-sosnowski-arno-25l-grupa103/LAB3/install/anro_lab3/share/anro_lab3/urdf
+[2.174s] creating /home/student/Desktop/paradowski-sosnowski-arno-25l-grupa103/LAB3/install/anro_lab3/share/anro_lab3/config
+[2.174s] copying config/robot_params.yaml -> /home/student/Desktop/paradowski-sosnowski-arno-25l-grupa103/LAB3/install/anro_lab3/share/anro_lab3/config
+[2.174s] running install_egg_info
+[2.208s] Copying ../build/anro_lab3/anro_lab3.egg-info to /home/student/Desktop/paradowski-sosnowski-arno-25l-grupa103/LAB3/install/anro_lab3/lib/python3.12/site-packages/anro_lab3-0.0.0-py3.12.egg-info
+[2.212s] running install_scripts
+[2.403s] Installing forward_kin script to /home/student/Desktop/paradowski-sosnowski-arno-25l-grupa103/LAB3/install/anro_lab3/lib/anro_lab3
+[2.404s] Installing rvizToDobot script to /home/student/Desktop/paradowski-sosnowski-arno-25l-grupa103/LAB3/install/anro_lab3/lib/anro_lab3
+[2.404s] writing list of installed files to '/home/student/Desktop/paradowski-sosnowski-arno-25l-grupa103/LAB3/build/anro_lab3/install.log'
+[2.453s] Invoked command in '/home/student/Desktop/paradowski-sosnowski-arno-25l-grupa103/LAB3/anro_lab3' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/student/Desktop/paradowski-sosnowski-arno-25l-grupa103/LAB3/build/anro_lab3/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/student/Desktop/paradowski-sosnowski-arno-25l-grupa103/LAB3/install/anro_lab3/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/anro_lab3 build --build-base /home/student/Desktop/paradowski-sosnowski-arno-25l-grupa103/LAB3/build/anro_lab3/build install --record /home/student/Desktop/paradowski-sosnowski-arno-25l-grupa103/LAB3/build/anro_lab3/install.log --single-version-externally-managed install_data

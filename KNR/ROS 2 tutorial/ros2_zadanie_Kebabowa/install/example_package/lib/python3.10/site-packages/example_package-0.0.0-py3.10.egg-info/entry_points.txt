@@ -1,0 +1,4 @@
+[console_scripts]
+listener = example_package.pose_processor:main
+talker = example_package.pose_generator:main
+

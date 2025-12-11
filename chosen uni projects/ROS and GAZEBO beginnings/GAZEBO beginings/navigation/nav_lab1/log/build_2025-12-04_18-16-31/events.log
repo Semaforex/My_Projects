@@ -1,0 +1,417 @@
+[0.000000] (-) TimerEvent: {}
+[0.000407] (nav_lab1) JobQueued: {'identifier': 'nav_lab1', 'dependencies': OrderedDict()}
+[0.000989] (nav_lab1) JobStarted: {'identifier': 'nav_lab1'}
+[0.022599] (nav_lab1) JobProgress: {'identifier': 'nav_lab1', 'progress': 'cmake'}
+[0.023738] (nav_lab1) Command: {'cmd': ['/usr/bin/cmake', '/home/student/Desktop/stero_25z_mp_ms/nawigacja/nav_lab1', '-DCMAKE_INSTALL_PREFIX=/home/student/Desktop/stero_25z_mp_ms/nawigacja/nav_lab1/install/nav_lab1'], 'cwd': '/home/student/Desktop/stero_25z_mp_ms/nawigacja/nav_lab1/build/nav_lab1', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'student'), ('LC_TIME', 'pl_PL.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/student/tiago_public_ws/install/play_motion2/lib:/home/student/tiago_public_ws/install/play_motion2_msgs/lib:/home/student/tiago_public_ws/install/pal_gazebo_plugins/lib:/home/student/tiago_public_ws/install/gazebo_grasp_plugin/lib:/home/student/tiago_public_ws/install/gazebo_version_helpers/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/iron/opt/rviz_ogre_vendor/lib:/opt/ros/iron/lib/x86_64-linux-gnu:/opt/ros/iron/lib'), ('HOME', '/home/student'), ('OLDPWD', '/home/student/Desktop/stero_25z_mp_ms/nawigacja'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'pl_PL.UTF-8'), ('SYSTEMD_EXEC_PID', '4146'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1001/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/student/Desktop/stero_25z_mp_ms/nawigacja/install:/home/student/tiago_public_ws/install'), ('ROS_DISTRO', 'iron'), ('LOGNAME', 'student'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'student'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('PATH', '/opt/ros/iron/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/gepard:@/tmp/.ICE-unix/1532,unix/gepard:/tmp/.ICE-unix/1532'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'pl_PL.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/7b370cb5_3821_4109_ba91_62aa6024f2e6'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1001'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'pl_PL.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1001/.mutter-Xwaylandauth.X7NDH3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.156'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1001/keyring/ssh'), ('ROS_DOMAIN_ID', '47'), ('AMENT_PREFIX_PATH', '/home/student/Desktop/stero_25z_mp_ms/nawigacja/install/nav_lab1:/home/student/tiago_public_ws/install/urdf_test:/home/student/tiago_public_ws/install/tiago_simulation:/home/student/tiago_public_ws/install/tiago_robot:/home/student/tiago_public_ws/install/tiago_navigation:/home/student/tiago_public_ws/install/tiago_gazebo:/home/student/tiago_public_ws/install/tiago_moveit_config:/home/student/tiago_public_ws/install/tiago_2dnav:/home/student/tiago_public_ws/install/tiago_laser_sensors:/home/student/tiago_public_ws/install/tiago_bringup:/home/student/tiago_public_ws/install/tiago_description:/home/student/tiago_public_ws/install/tiago_controller_configuration:/home/student/tiago_public_ws/install/pmb2_robot:/home/student/tiago_public_ws/install/pmb2_navigation:/home/student/tiago_public_ws/install/pmb2_2dnav:/home/student/tiago_public_ws/install/pmb2_laser_sensors:/home/student/tiago_public_ws/install/pmb2_bringup:/home/student/tiago_public_ws/install/pmb2_description:/home/student/tiago_public_ws/install/pmb2_controller_configuration:/home/student/tiago_public_ws/install/play_motion2:/home/student/tiago_public_ws/install/play_motion2_msgs:/home/student/tiago_public_ws/install/pal_hey5:/home/student/tiago_public_ws/install/pal_hey5_description:/home/student/tiago_public_ws/install/pal_gripper_simulation:/home/student/tiago_public_ws/install/pal_gripper:/home/student/tiago_public_ws/install/pal_gripper_description:/home/student/tiago_public_ws/install/pal_urdf_utils:/home/student/tiago_public_ws/install/pal_robotiq_gripper:/home/student/tiago_public_ws/install/pal_robotiq_description:/home/student/tiago_public_ws/install/pal_robotiq_controller_configuration:/home/student/tiago_public_ws/install/pal_navigation_cfg:/home/student/tiago_public_ws/install/pal_navigation_cfg_bringup:/home/student/tiago_public_ws/install/pal_navigation_cfg_params:/home/student/tiago_public_ws/install/pal_maps:/home/student/tiago_public_ws/install/pal_hey5_controller_configuration:/home/student/tiago_public_ws/install/pal_gripper_controller_configuration:/home/student/tiago_public_ws/install/pal_gazebo_worlds:/home/student/tiago_public_ws/install/pal_gazebo_plugins:/home/student/tiago_public_ws/install/launch_pal:/home/student/tiago_public_ws/install/gazebo_grasp_plugin:/home/student/tiago_public_ws/install/gazebo_version_helpers:/opt/ros/iron'), ('SHELL', '/bin/bash'), ('LC_NAME', 'pl_PL.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'pl_PL.UTF-8'), ('LC_IDENTIFICATION', 'pl_PL.UTF-8'), ('ROS_AUTOMATIC_DISCOVERY_RANGE', 'SUBNET'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/student/Desktop/stero_25z_mp_ms/nawigacja/nav_lab1/build/nav_lab1'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/student/tiago_public_ws/install/urdf_test/lib/python3.10/site-packages:/home/student/tiago_public_ws/install/tiago_description/lib/python3.10/site-packages:/home/student/tiago_public_ws/install/pmb2_description/lib/python3.10/site-packages:/home/student/tiago_public_ws/install/play_motion2_msgs/lib/python3.10/site-packages:/home/student/tiago_public_ws/build/launch_pal:/home/student/tiago_public_ws/install/launch_pal/lib/python3.10/site-packages:/opt/ros/iron/lib/python3.10/site-packages'), ('LC_NUMERIC', 'pl_PL.UTF-8'), ('LC_PAPER', 'pl_PL.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/student/Desktop/stero_25z_mp_ms/nawigacja/install/nav_lab1:/home/student/tiago_public_ws/install/urdf_test:/home/student/tiago_public_ws/install/tiago_simulation:/home/student/tiago_public_ws/install/tiago_robot:/home/student/tiago_public_ws/install/tiago_navigation:/home/student/tiago_public_ws/install/tiago_gazebo:/home/student/tiago_public_ws/install/tiago_moveit_config:/home/student/tiago_public_ws/install/tiago_2dnav:/home/student/tiago_public_ws/install/tiago_laser_sensors:/home/student/tiago_public_ws/install/tiago_bringup:/home/student/tiago_public_ws/install/tiago_description:/home/student/tiago_public_ws/install/tiago_controller_configuration:/home/student/tiago_public_ws/install/pmb2_robot:/home/student/tiago_public_ws/install/pmb2_navigation:/home/student/tiago_public_ws/install/pmb2_2dnav:/home/student/tiago_public_ws/install/pmb2_laser_sensors:/home/student/tiago_public_ws/install/pmb2_bringup:/home/student/tiago_public_ws/install/pmb2_description:/home/student/tiago_public_ws/install/pmb2_controller_configuration:/home/student/tiago_public_ws/install/play_motion2:/home/student/tiago_public_ws/install/play_motion2_msgs:/home/student/tiago_public_ws/install/pal_hey5:/home/student/tiago_public_ws/install/pal_hey5_description:/home/student/tiago_public_ws/install/pal_gripper_simulation:/home/student/tiago_public_ws/install/pal_gripper:/home/student/tiago_public_ws/install/pal_gripper_description:/home/student/tiago_public_ws/install/pal_urdf_utils:/home/student/tiago_public_ws/install/pal_robotiq_gripper:/home/student/tiago_public_ws/install/pal_robotiq_description:/home/student/tiago_public_ws/install/pal_robotiq_controller_configuration:/home/student/tiago_public_ws/install/pal_navigation_cfg:/home/student/tiago_public_ws/install/pal_navigation_cfg_bringup:/home/student/tiago_public_ws/install/pal_navigation_cfg_params:/home/student/tiago_public_ws/install/pal_maps:/home/student/tiago_public_ws/install/pal_hey5_controller_configuration:/home/student/tiago_public_ws/install/pal_gripper_controller_configuration:/home/student/tiago_public_ws/install/pal_gazebo_worlds:/home/student/tiago_public_ws/install/pal_gazebo_plugins:/home/student/tiago_public_ws/install/gazebo_grasp_plugin:/home/student/tiago_public_ws/install/gazebo_version_helpers:/home/student/tiago_public_ws/install/launch_pal:/opt/ros/iron')]), 'shell': False}
+[0.103073] (-) TimerEvent: {}
+[0.165633] (nav_lab1) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.203849] (-) TimerEvent: {}
+[0.271618] (nav_lab1) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.282905] (nav_lab1) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.304023] (-) TimerEvent: {}
+[0.406007] (-) TimerEvent: {}
+[0.483370] (nav_lab1) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.493004] (nav_lab1) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.493216] (nav_lab1) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.493676] (nav_lab1) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.498088] (nav_lab1) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.506544] (-) TimerEvent: {}
+[0.606974] (-) TimerEvent: {}
+[0.686205] (nav_lab1) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.698085] (nav_lab1) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.698565] (nav_lab1) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.699121] (nav_lab1) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.707009] (-) TimerEvent: {}
+[0.709788] (nav_lab1) StdoutLine: {'line': b'-- Found ament_cmake: 2.0.6 (/opt/ros/iron/share/ament_cmake/cmake)\n'}
+[0.807555] (-) TimerEvent: {}
+[0.908337] (-) TimerEvent: {}
+[1.008796] (-) TimerEvent: {}
+[1.089206] (nav_lab1) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter \n'}
+[1.108904] (-) TimerEvent: {}
+[1.209304] (-) TimerEvent: {}
+[1.309931] (-) TimerEvent: {}
+[1.318757] (nav_lab1) StdoutLine: {'line': b'-- Found rclcpp: 21.0.7 (/opt/ros/iron/share/rclcpp/cmake)\n'}
+[1.410129] (-) TimerEvent: {}
+[1.431609] (nav_lab1) StdoutLine: {'line': b'-- Found rosidl_generator_c: 4.0.1 (/opt/ros/iron/share/rosidl_generator_c/cmake)\n'}
+[1.459193] (nav_lab1) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 4.0.1 (/opt/ros/iron/share/rosidl_generator_cpp/cmake)\n'}
+[1.501488] (nav_lab1) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.510196] (-) TimerEvent: {}
+[1.542625] (nav_lab1) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.610391] (-) TimerEvent: {}
+[1.712113] (-) TimerEvent: {}
+[1.811787] (nav_lab1) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 7.1.0 (/opt/ros/iron/share/rmw_implementation_cmake/cmake)\n'}
+[1.812502] (-) TimerEvent: {}
+[1.820416] (nav_lab1) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 7.1.4 (/opt/ros/iron/share/rmw_fastrtps_cpp/cmake)\n'}
+[1.913019] (-) TimerEvent: {}
+[2.013386] (-) TimerEvent: {}
+[2.067002] (nav_lab1) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[2.113711] (-) TimerEvent: {}
+[2.143234] (nav_lab1) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/iron/include  \n'}
+[2.213852] (-) TimerEvent: {}
+[2.228164] (nav_lab1) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[2.314009] (-) TimerEvent: {}
+[2.415346] (-) TimerEvent: {}
+[2.489853] (nav_lab1) StdoutLine: {'line': b'-- Found nav_msgs: 5.0.1 (/opt/ros/iron/share/nav_msgs/cmake)\n'}
+[2.516058] (-) TimerEvent: {}
+[2.617263] (-) TimerEvent: {}
+[2.718685] (-) TimerEvent: {}
+[2.819663] (nav_lab1) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.14.4 (/opt/ros/iron/share/ament_lint_auto/cmake)\n'}
+[2.820254] (-) TimerEvent: {}
+[2.924074] (-) TimerEvent: {}
+[3.024874] (-) TimerEvent: {}
+[3.032756] (nav_lab1) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[3.034264] (nav_lab1) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[3.034469] (nav_lab1) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[3.037162] (nav_lab1) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[3.044478] (nav_lab1) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[3.044691] (nav_lab1) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[3.047190] (nav_lab1) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[3.052101] (nav_lab1) StdoutLine: {'line': b'-- Configuring done\n'}
+[3.083828] (nav_lab1) StdoutLine: {'line': b'-- Generating done\n'}
+[3.087012] (nav_lab1) StdoutLine: {'line': b'-- Build files have been written to: /home/student/Desktop/stero_25z_mp_ms/nawigacja/nav_lab1/build/nav_lab1\n'}
+[3.108703] (nav_lab1) CommandEnded: {'returncode': 0}
+[3.110813] (nav_lab1) JobProgress: {'identifier': 'nav_lab1', 'progress': 'build'}
+[3.111009] (nav_lab1) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/student/Desktop/stero_25z_mp_ms/nawigacja/nav_lab1/build/nav_lab1', '--', '-j4', '-l4'], 'cwd': '/home/student/Desktop/stero_25z_mp_ms/nawigacja/nav_lab1/build/nav_lab1', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'student'), ('LC_TIME', 'pl_PL.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/student/tiago_public_ws/install/play_motion2/lib:/home/student/tiago_public_ws/install/play_motion2_msgs/lib:/home/student/tiago_public_ws/install/pal_gazebo_plugins/lib:/home/student/tiago_public_ws/install/gazebo_grasp_plugin/lib:/home/student/tiago_public_ws/install/gazebo_version_helpers/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/iron/opt/rviz_ogre_vendor/lib:/opt/ros/iron/lib/x86_64-linux-gnu:/opt/ros/iron/lib'), ('HOME', '/home/student'), ('OLDPWD', '/home/student/Desktop/stero_25z_mp_ms/nawigacja'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'pl_PL.UTF-8'), ('SYSTEMD_EXEC_PID', '4146'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1001/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/student/Desktop/stero_25z_mp_ms/nawigacja/install:/home/student/tiago_public_ws/install'), ('ROS_DISTRO', 'iron'), ('LOGNAME', 'student'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'student'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('PATH', '/opt/ros/iron/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/gepard:@/tmp/.ICE-unix/1532,unix/gepard:/tmp/.ICE-unix/1532'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'pl_PL.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/7b370cb5_3821_4109_ba91_62aa6024f2e6'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1001'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'pl_PL.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1001/.mutter-Xwaylandauth.X7NDH3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.156'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1001/keyring/ssh'), ('ROS_DOMAIN_ID', '47'), ('AMENT_PREFIX_PATH', '/home/student/Desktop/stero_25z_mp_ms/nawigacja/install/nav_lab1:/home/student/tiago_public_ws/install/urdf_test:/home/student/tiago_public_ws/install/tiago_simulation:/home/student/tiago_public_ws/install/tiago_robot:/home/student/tiago_public_ws/install/tiago_navigation:/home/student/tiago_public_ws/install/tiago_gazebo:/home/student/tiago_public_ws/install/tiago_moveit_config:/home/student/tiago_public_ws/install/tiago_2dnav:/home/student/tiago_public_ws/install/tiago_laser_sensors:/home/student/tiago_public_ws/install/tiago_bringup:/home/student/tiago_public_ws/install/tiago_description:/home/student/tiago_public_ws/install/tiago_controller_configuration:/home/student/tiago_public_ws/install/pmb2_robot:/home/student/tiago_public_ws/install/pmb2_navigation:/home/student/tiago_public_ws/install/pmb2_2dnav:/home/student/tiago_public_ws/install/pmb2_laser_sensors:/home/student/tiago_public_ws/install/pmb2_bringup:/home/student/tiago_public_ws/install/pmb2_description:/home/student/tiago_public_ws/install/pmb2_controller_configuration:/home/student/tiago_public_ws/install/play_motion2:/home/student/tiago_public_ws/install/play_motion2_msgs:/home/student/tiago_public_ws/install/pal_hey5:/home/student/tiago_public_ws/install/pal_hey5_description:/home/student/tiago_public_ws/install/pal_gripper_simulation:/home/student/tiago_public_ws/install/pal_gripper:/home/student/tiago_public_ws/install/pal_gripper_description:/home/student/tiago_public_ws/install/pal_urdf_utils:/home/student/tiago_public_ws/install/pal_robotiq_gripper:/home/student/tiago_public_ws/install/pal_robotiq_description:/home/student/tiago_public_ws/install/pal_robotiq_controller_configuration:/home/student/tiago_public_ws/install/pal_navigation_cfg:/home/student/tiago_public_ws/install/pal_navigation_cfg_bringup:/home/student/tiago_public_ws/install/pal_navigation_cfg_params:/home/student/tiago_public_ws/install/pal_maps:/home/student/tiago_public_ws/install/pal_hey5_controller_configuration:/home/student/tiago_public_ws/install/pal_gripper_controller_configuration:/home/student/tiago_public_ws/install/pal_gazebo_worlds:/home/student/tiago_public_ws/install/pal_gazebo_plugins:/home/student/tiago_public_ws/install/launch_pal:/home/student/tiago_public_ws/install/gazebo_grasp_plugin:/home/student/tiago_public_ws/install/gazebo_version_helpers:/opt/ros/iron'), ('SHELL', '/bin/bash'), ('LC_NAME', 'pl_PL.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'pl_PL.UTF-8'), ('LC_IDENTIFICATION', 'pl_PL.UTF-8'), ('ROS_AUTOMATIC_DISCOVERY_RANGE', 'SUBNET'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/student/Desktop/stero_25z_mp_ms/nawigacja/nav_lab1/build/nav_lab1'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/student/tiago_public_ws/install/urdf_test/lib/python3.10/site-packages:/home/student/tiago_public_ws/install/tiago_description/lib/python3.10/site-packages:/home/student/tiago_public_ws/install/pmb2_description/lib/python3.10/site-packages:/home/student/tiago_public_ws/install/play_motion2_msgs/lib/python3.10/site-packages:/home/student/tiago_public_ws/build/launch_pal:/home/student/tiago_public_ws/install/launch_pal/lib/python3.10/site-packages:/opt/ros/iron/lib/python3.10/site-packages'), ('LC_NUMERIC', 'pl_PL.UTF-8'), ('LC_PAPER', 'pl_PL.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/student/Desktop/stero_25z_mp_ms/nawigacja/install/nav_lab1:/home/student/tiago_public_ws/install/urdf_test:/home/student/tiago_public_ws/install/tiago_simulation:/home/student/tiago_public_ws/install/tiago_robot:/home/student/tiago_public_ws/install/tiago_navigation:/home/student/tiago_public_ws/install/tiago_gazebo:/home/student/tiago_public_ws/install/tiago_moveit_config:/home/student/tiago_public_ws/install/tiago_2dnav:/home/student/tiago_public_ws/install/tiago_laser_sensors:/home/student/tiago_public_ws/install/tiago_bringup:/home/student/tiago_public_ws/install/tiago_description:/home/student/tiago_public_ws/install/tiago_controller_configuration:/home/student/tiago_public_ws/install/pmb2_robot:/home/student/tiago_public_ws/install/pmb2_navigation:/home/student/tiago_public_ws/install/pmb2_2dnav:/home/student/tiago_public_ws/install/pmb2_laser_sensors:/home/student/tiago_public_ws/install/pmb2_bringup:/home/student/tiago_public_ws/install/pmb2_description:/home/student/tiago_public_ws/install/pmb2_controller_configuration:/home/student/tiago_public_ws/install/play_motion2:/home/student/tiago_public_ws/install/play_motion2_msgs:/home/student/tiago_public_ws/install/pal_hey5:/home/student/tiago_public_ws/install/pal_hey5_description:/home/student/tiago_public_ws/install/pal_gripper_simulation:/home/student/tiago_public_ws/install/pal_gripper:/home/student/tiago_public_ws/install/pal_gripper_description:/home/student/tiago_public_ws/install/pal_urdf_utils:/home/student/tiago_public_ws/install/pal_robotiq_gripper:/home/student/tiago_public_ws/install/pal_robotiq_description:/home/student/tiago_public_ws/install/pal_robotiq_controller_configuration:/home/student/tiago_public_ws/install/pal_navigation_cfg:/home/student/tiago_public_ws/install/pal_navigation_cfg_bringup:/home/student/tiago_public_ws/install/pal_navigation_cfg_params:/home/student/tiago_public_ws/install/pal_maps:/home/student/tiago_public_ws/install/pal_hey5_controller_configuration:/home/student/tiago_public_ws/install/pal_gripper_controller_configuration:/home/student/tiago_public_ws/install/pal_gazebo_worlds:/home/student/tiago_public_ws/install/pal_gazebo_plugins:/home/student/tiago_public_ws/install/gazebo_grasp_plugin:/home/student/tiago_public_ws/install/gazebo_version_helpers:/home/student/tiago_public_ws/install/launch_pal:/opt/ros/iron')]), 'shell': False}
+[3.125066] (-) TimerEvent: {}
+[3.225550] (-) TimerEvent: {}
+[3.257177] (nav_lab1) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/piaciokotforemny.dir/src/piaciokotforemny.cpp.o\x1b[0m\n'}
+[3.325662] (-) TimerEvent: {}
+[3.426174] (-) TimerEvent: {}
+[3.526768] (-) TimerEvent: {}
+[3.628041] (-) TimerEvent: {}
+[3.728836] (-) TimerEvent: {}
+[3.830020] (-) TimerEvent: {}
+[3.930908] (-) TimerEvent: {}
+[4.031563] (-) TimerEvent: {}
+[4.132799] (-) TimerEvent: {}
+[4.233768] (-) TimerEvent: {}
+[4.334353] (-) TimerEvent: {}
+[4.434783] (-) TimerEvent: {}
+[4.536221] (-) TimerEvent: {}
+[4.637164] (-) TimerEvent: {}
+[4.737869] (-) TimerEvent: {}
+[4.839154] (-) TimerEvent: {}
+[4.940573] (-) TimerEvent: {}
+[5.042680] (-) TimerEvent: {}
+[5.143216] (-) TimerEvent: {}
+[5.243864] (-) TimerEvent: {}
+[5.347014] (-) TimerEvent: {}
+[5.447511] (-) TimerEvent: {}
+[5.548112] (-) TimerEvent: {}
+[5.648733] (-) TimerEvent: {}
+[5.749285] (-) TimerEvent: {}
+[5.851122] (-) TimerEvent: {}
+[5.955130] (-) TimerEvent: {}
+[6.055493] (-) TimerEvent: {}
+[6.155925] (-) TimerEvent: {}
+[6.256632] (-) TimerEvent: {}
+[6.357453] (-) TimerEvent: {}
+[6.458258] (-) TimerEvent: {}
+[6.558777] (-) TimerEvent: {}
+[6.662256] (-) TimerEvent: {}
+[6.762600] (-) TimerEvent: {}
+[6.863074] (-) TimerEvent: {}
+[6.963726] (-) TimerEvent: {}
+[7.064408] (-) TimerEvent: {}
+[7.167793] (-) TimerEvent: {}
+[7.268263] (-) TimerEvent: {}
+[7.369013] (-) TimerEvent: {}
+[7.470181] (-) TimerEvent: {}
+[7.570916] (-) TimerEvent: {}
+[7.672791] (-) TimerEvent: {}
+[7.773529] (-) TimerEvent: {}
+[7.874144] (-) TimerEvent: {}
+[7.975190] (-) TimerEvent: {}
+[8.076741] (-) TimerEvent: {}
+[8.177862] (-) TimerEvent: {}
+[8.278489] (-) TimerEvent: {}
+[8.379766] (-) TimerEvent: {}
+[8.480793] (-) TimerEvent: {}
+[8.582184] (-) TimerEvent: {}
+[8.683003] (-) TimerEvent: {}
+[8.783657] (-) TimerEvent: {}
+[8.885226] (-) TimerEvent: {}
+[8.985911] (-) TimerEvent: {}
+[9.089664] (-) TimerEvent: {}
+[9.190135] (-) TimerEvent: {}
+[9.290984] (-) TimerEvent: {}
+[9.392008] (-) TimerEvent: {}
+[9.493088] (-) TimerEvent: {}
+[9.594307] (-) TimerEvent: {}
+[9.696032] (-) TimerEvent: {}
+[9.796865] (-) TimerEvent: {}
+[9.898480] (-) TimerEvent: {}
+[9.999501] (-) TimerEvent: {}
+[10.100953] (-) TimerEvent: {}
+[10.202893] (-) TimerEvent: {}
+[10.303879] (-) TimerEvent: {}
+[10.407017] (-) TimerEvent: {}
+[10.507584] (-) TimerEvent: {}
+[10.608003] (-) TimerEvent: {}
+[10.708637] (-) TimerEvent: {}
+[10.810550] (-) TimerEvent: {}
+[10.911911] (-) TimerEvent: {}
+[11.013012] (-) TimerEvent: {}
+[11.113692] (-) TimerEvent: {}
+[11.215735] (-) TimerEvent: {}
+[11.317341] (-) TimerEvent: {}
+[11.419101] (-) TimerEvent: {}
+[11.520260] (-) TimerEvent: {}
+[11.622022] (-) TimerEvent: {}
+[11.722379] (-) TimerEvent: {}
+[11.823028] (-) TimerEvent: {}
+[11.926058] (-) TimerEvent: {}
+[12.026881] (-) TimerEvent: {}
+[12.131394] (-) TimerEvent: {}
+[12.232588] (-) TimerEvent: {}
+[12.333293] (-) TimerEvent: {}
+[12.434009] (-) TimerEvent: {}
+[12.535973] (-) TimerEvent: {}
+[12.637543] (-) TimerEvent: {}
+[12.739091] (-) TimerEvent: {}
+[12.840569] (-) TimerEvent: {}
+[12.941512] (-) TimerEvent: {}
+[13.043299] (-) TimerEvent: {}
+[13.144488] (-) TimerEvent: {}
+[13.246003] (-) TimerEvent: {}
+[13.347083] (-) TimerEvent: {}
+[13.450201] (-) TimerEvent: {}
+[13.552440] (-) TimerEvent: {}
+[13.652953] (-) TimerEvent: {}
+[13.754207] (-) TimerEvent: {}
+[13.854717] (-) TimerEvent: {}
+[13.957280] (-) TimerEvent: {}
+[14.059930] (-) TimerEvent: {}
+[14.161210] (-) TimerEvent: {}
+[14.264339] (-) TimerEvent: {}
+[14.364726] (-) TimerEvent: {}
+[14.465083] (-) TimerEvent: {}
+[14.565478] (-) TimerEvent: {}
+[14.665883] (-) TimerEvent: {}
+[14.766268] (-) TimerEvent: {}
+[14.867730] (-) TimerEvent: {}
+[14.969722] (-) TimerEvent: {}
+[15.071192] (-) TimerEvent: {}
+[15.171879] (-) TimerEvent: {}
+[15.273168] (-) TimerEvent: {}
+[15.374306] (-) TimerEvent: {}
+[15.474910] (-) TimerEvent: {}
+[15.575829] (-) TimerEvent: {}
+[15.678402] (-) TimerEvent: {}
+[15.779359] (-) TimerEvent: {}
+[15.880022] (-) TimerEvent: {}
+[15.983990] (-) TimerEvent: {}
+[16.084781] (-) TimerEvent: {}
+[16.185672] (-) TimerEvent: {}
+[16.286149] (-) TimerEvent: {}
+[16.388600] (-) TimerEvent: {}
+[16.490331] (-) TimerEvent: {}
+[16.590766] (-) TimerEvent: {}
+[16.692219] (-) TimerEvent: {}
+[16.793660] (-) TimerEvent: {}
+[16.894690] (-) TimerEvent: {}
+[16.995724] (-) TimerEvent: {}
+[17.100113] (-) TimerEvent: {}
+[17.201122] (-) TimerEvent: {}
+[17.303823] (-) TimerEvent: {}
+[17.406209] (-) TimerEvent: {}
+[17.506642] (-) TimerEvent: {}
+[17.608888] (-) TimerEvent: {}
+[17.711182] (-) TimerEvent: {}
+[17.812164] (-) TimerEvent: {}
+[17.913017] (-) TimerEvent: {}
+[18.016155] (-) TimerEvent: {}
+[18.116597] (-) TimerEvent: {}
+[18.221338] (-) TimerEvent: {}
+[18.322024] (-) TimerEvent: {}
+[18.423736] (-) TimerEvent: {}
+[18.524563] (-) TimerEvent: {}
+[18.580757] (nav_lab1) StdoutLine: {'line': b'[ 50%] \x1b[32m\x1b[1mLinking CXX executable piaciokotforemny\x1b[0m\n'}
+[18.625235] (-) TimerEvent: {}
+[18.727532] (-) TimerEvent: {}
+[18.828949] (-) TimerEvent: {}
+[18.930062] (-) TimerEvent: {}
+[19.031097] (-) TimerEvent: {}
+[19.132436] (-) TimerEvent: {}
+[19.233612] (-) TimerEvent: {}
+[19.334596] (-) TimerEvent: {}
+[19.435655] (-) TimerEvent: {}
+[19.522784] (nav_lab1) StdoutLine: {'line': b'[ 50%] Built target piaciokotforemny\n'}
+[19.536534] (-) TimerEvent: {}
+[19.559622] (nav_lab1) StdoutLine: {'line': b'[ 75%] \x1b[32mBuilding CXX object CMakeFiles/odometry_info.dir/src/odometry_info.cpp.o\x1b[0m\n'}
+[19.637021] (-) TimerEvent: {}
+[19.739917] (-) TimerEvent: {}
+[19.841964] (-) TimerEvent: {}
+[19.945535] (-) TimerEvent: {}
+[20.047038] (-) TimerEvent: {}
+[20.149919] (-) TimerEvent: {}
+[20.251658] (-) TimerEvent: {}
+[20.352964] (-) TimerEvent: {}
+[20.453982] (-) TimerEvent: {}
+[20.556784] (-) TimerEvent: {}
+[20.659546] (-) TimerEvent: {}
+[20.760869] (-) TimerEvent: {}
+[20.862416] (-) TimerEvent: {}
+[20.964182] (-) TimerEvent: {}
+[21.065266] (-) TimerEvent: {}
+[21.168284] (-) TimerEvent: {}
+[21.268915] (-) TimerEvent: {}
+[21.369396] (-) TimerEvent: {}
+[21.470064] (-) TimerEvent: {}
+[21.571454] (-) TimerEvent: {}
+[21.674878] (-) TimerEvent: {}
+[21.775339] (-) TimerEvent: {}
+[21.875686] (-) TimerEvent: {}
+[21.976114] (-) TimerEvent: {}
+[22.078269] (-) TimerEvent: {}
+[22.179481] (-) TimerEvent: {}
+[22.280351] (-) TimerEvent: {}
+[22.381221] (-) TimerEvent: {}
+[22.481894] (-) TimerEvent: {}
+[22.582929] (-) TimerEvent: {}
+[22.683876] (-) TimerEvent: {}
+[22.785537] (-) TimerEvent: {}
+[22.887051] (-) TimerEvent: {}
+[22.988300] (-) TimerEvent: {}
+[23.089397] (-) TimerEvent: {}
+[23.190235] (-) TimerEvent: {}
+[23.291130] (-) TimerEvent: {}
+[23.393369] (-) TimerEvent: {}
+[23.494732] (-) TimerEvent: {}
+[23.600043] (-) TimerEvent: {}
+[23.700684] (-) TimerEvent: {}
+[23.801680] (-) TimerEvent: {}
+[23.903072] (-) TimerEvent: {}
+[24.003643] (-) TimerEvent: {}
+[24.104345] (-) TimerEvent: {}
+[24.205098] (-) TimerEvent: {}
+[24.306998] (-) TimerEvent: {}
+[24.407407] (-) TimerEvent: {}
+[24.509307] (-) TimerEvent: {}
+[24.610050] (-) TimerEvent: {}
+[24.710751] (-) TimerEvent: {}
+[24.811631] (-) TimerEvent: {}
+[24.913883] (-) TimerEvent: {}
+[25.014498] (-) TimerEvent: {}
+[25.115282] (-) TimerEvent: {}
+[25.216574] (-) TimerEvent: {}
+[25.317290] (-) TimerEvent: {}
+[25.418662] (-) TimerEvent: {}
+[25.519772] (-) TimerEvent: {}
+[25.620198] (-) TimerEvent: {}
+[25.721083] (-) TimerEvent: {}
+[25.822400] (-) TimerEvent: {}
+[25.922741] (-) TimerEvent: {}
+[26.023240] (-) TimerEvent: {}
+[26.123975] (-) TimerEvent: {}
+[26.225324] (-) TimerEvent: {}
+[26.326237] (-) TimerEvent: {}
+[26.427026] (-) TimerEvent: {}
+[26.528204] (-) TimerEvent: {}
+[26.629482] (-) TimerEvent: {}
+[26.729891] (-) TimerEvent: {}
+[26.833837] (-) TimerEvent: {}
+[26.935049] (-) TimerEvent: {}
+[27.035559] (-) TimerEvent: {}
+[27.137605] (-) TimerEvent: {}
+[27.239025] (-) TimerEvent: {}
+[27.341235] (-) TimerEvent: {}
+[27.444864] (-) TimerEvent: {}
+[27.545965] (-) TimerEvent: {}
+[27.647470] (-) TimerEvent: {}
+[27.748762] (-) TimerEvent: {}
+[27.851720] (-) TimerEvent: {}
+[27.954306] (-) TimerEvent: {}
+[28.055856] (-) TimerEvent: {}
+[28.161047] (-) TimerEvent: {}
+[28.261907] (-) TimerEvent: {}
+[28.363265] (-) TimerEvent: {}
+[28.464186] (-) TimerEvent: {}
+[28.565976] (-) TimerEvent: {}
+[28.666309] (-) TimerEvent: {}
+[28.767340] (-) TimerEvent: {}
+[28.869054] (-) TimerEvent: {}
+[28.971230] (-) TimerEvent: {}
+[29.072585] (-) TimerEvent: {}
+[29.175918] (-) TimerEvent: {}
+[29.276688] (-) TimerEvent: {}
+[29.378501] (-) TimerEvent: {}
+[29.481428] (-) TimerEvent: {}
+[29.581789] (-) TimerEvent: {}
+[29.682293] (-) TimerEvent: {}
+[29.782982] (-) TimerEvent: {}
+[29.883276] (-) TimerEvent: {}
+[29.983644] (-) TimerEvent: {}
+[30.084715] (-) TimerEvent: {}
+[30.185726] (-) TimerEvent: {}
+[30.286923] (-) TimerEvent: {}
+[30.387357] (-) TimerEvent: {}
+[30.488346] (-) TimerEvent: {}
+[30.589229] (-) TimerEvent: {}
+[30.691888] (-) TimerEvent: {}
+[30.792233] (-) TimerEvent: {}
+[30.892617] (-) TimerEvent: {}
+[30.993485] (-) TimerEvent: {}
+[31.094180] (-) TimerEvent: {}
+[31.195289] (-) TimerEvent: {}
+[31.296630] (-) TimerEvent: {}
+[31.397622] (-) TimerEvent: {}
+[31.499993] (-) TimerEvent: {}
+[31.600357] (-) TimerEvent: {}
+[31.700734] (-) TimerEvent: {}
+[31.801582] (-) TimerEvent: {}
+[31.903669] (-) TimerEvent: {}
+[32.004278] (-) TimerEvent: {}
+[32.105269] (-) TimerEvent: {}
+[32.205932] (-) TimerEvent: {}
+[32.307100] (-) TimerEvent: {}
+[32.408328] (-) TimerEvent: {}
+[32.509141] (-) TimerEvent: {}
+[32.610081] (-) TimerEvent: {}
+[32.711179] (-) TimerEvent: {}
+[32.815510] (-) TimerEvent: {}
+[32.915968] (-) TimerEvent: {}
+[33.021466] (-) TimerEvent: {}
+[33.121854] (-) TimerEvent: {}
+[33.222608] (-) TimerEvent: {}
+[33.323768] (-) TimerEvent: {}
+[33.425861] (-) TimerEvent: {}
+[33.474804] (nav_lab1) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable odometry_info\x1b[0m\n'}
+[33.526386] (-) TimerEvent: {}
+[33.628907] (-) TimerEvent: {}
+[33.732116] (-) TimerEvent: {}
+[33.836495] (-) TimerEvent: {}
+[33.936891] (-) TimerEvent: {}
+[34.037868] (-) TimerEvent: {}
+[34.138690] (-) TimerEvent: {}
+[34.239601] (-) TimerEvent: {}
+[34.256118] (nav_lab1) StdoutLine: {'line': b'[100%] Built target odometry_info\n'}
+[34.281053] (nav_lab1) CommandEnded: {'returncode': 0}
+[34.339842] (-) TimerEvent: {}
+[34.343558] (nav_lab1) JobProgress: {'identifier': 'nav_lab1', 'progress': 'install'}
+[34.367316] (nav_lab1) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/student/Desktop/stero_25z_mp_ms/nawigacja/nav_lab1/build/nav_lab1'], 'cwd': '/home/student/Desktop/stero_25z_mp_ms/nawigacja/nav_lab1/build/nav_lab1', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'student'), ('LC_TIME', 'pl_PL.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/student/tiago_public_ws/install/play_motion2/lib:/home/student/tiago_public_ws/install/play_motion2_msgs/lib:/home/student/tiago_public_ws/install/pal_gazebo_plugins/lib:/home/student/tiago_public_ws/install/gazebo_grasp_plugin/lib:/home/student/tiago_public_ws/install/gazebo_version_helpers/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/iron/opt/rviz_ogre_vendor/lib:/opt/ros/iron/lib/x86_64-linux-gnu:/opt/ros/iron/lib'), ('HOME', '/home/student'), ('OLDPWD', '/home/student/Desktop/stero_25z_mp_ms/nawigacja'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'pl_PL.UTF-8'), ('SYSTEMD_EXEC_PID', '4146'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1001/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/student/Desktop/stero_25z_mp_ms/nawigacja/install:/home/student/tiago_public_ws/install'), ('ROS_DISTRO', 'iron'), ('LOGNAME', 'student'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'student'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('PATH', '/opt/ros/iron/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/gepard:@/tmp/.ICE-unix/1532,unix/gepard:/tmp/.ICE-unix/1532'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'pl_PL.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/7b370cb5_3821_4109_ba91_62aa6024f2e6'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1001'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'pl_PL.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1001/.mutter-Xwaylandauth.X7NDH3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.156'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1001/keyring/ssh'), ('ROS_DOMAIN_ID', '47'), ('AMENT_PREFIX_PATH', '/home/student/Desktop/stero_25z_mp_ms/nawigacja/install/nav_lab1:/home/student/tiago_public_ws/install/urdf_test:/home/student/tiago_public_ws/install/tiago_simulation:/home/student/tiago_public_ws/install/tiago_robot:/home/student/tiago_public_ws/install/tiago_navigation:/home/student/tiago_public_ws/install/tiago_gazebo:/home/student/tiago_public_ws/install/tiago_moveit_config:/home/student/tiago_public_ws/install/tiago_2dnav:/home/student/tiago_public_ws/install/tiago_laser_sensors:/home/student/tiago_public_ws/install/tiago_bringup:/home/student/tiago_public_ws/install/tiago_description:/home/student/tiago_public_ws/install/tiago_controller_configuration:/home/student/tiago_public_ws/install/pmb2_robot:/home/student/tiago_public_ws/install/pmb2_navigation:/home/student/tiago_public_ws/install/pmb2_2dnav:/home/student/tiago_public_ws/install/pmb2_laser_sensors:/home/student/tiago_public_ws/install/pmb2_bringup:/home/student/tiago_public_ws/install/pmb2_description:/home/student/tiago_public_ws/install/pmb2_controller_configuration:/home/student/tiago_public_ws/install/play_motion2:/home/student/tiago_public_ws/install/play_motion2_msgs:/home/student/tiago_public_ws/install/pal_hey5:/home/student/tiago_public_ws/install/pal_hey5_description:/home/student/tiago_public_ws/install/pal_gripper_simulation:/home/student/tiago_public_ws/install/pal_gripper:/home/student/tiago_public_ws/install/pal_gripper_description:/home/student/tiago_public_ws/install/pal_urdf_utils:/home/student/tiago_public_ws/install/pal_robotiq_gripper:/home/student/tiago_public_ws/install/pal_robotiq_description:/home/student/tiago_public_ws/install/pal_robotiq_controller_configuration:/home/student/tiago_public_ws/install/pal_navigation_cfg:/home/student/tiago_public_ws/install/pal_navigation_cfg_bringup:/home/student/tiago_public_ws/install/pal_navigation_cfg_params:/home/student/tiago_public_ws/install/pal_maps:/home/student/tiago_public_ws/install/pal_hey5_controller_configuration:/home/student/tiago_public_ws/install/pal_gripper_controller_configuration:/home/student/tiago_public_ws/install/pal_gazebo_worlds:/home/student/tiago_public_ws/install/pal_gazebo_plugins:/home/student/tiago_public_ws/install/launch_pal:/home/student/tiago_public_ws/install/gazebo_grasp_plugin:/home/student/tiago_public_ws/install/gazebo_version_helpers:/opt/ros/iron'), ('SHELL', '/bin/bash'), ('LC_NAME', 'pl_PL.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'pl_PL.UTF-8'), ('LC_IDENTIFICATION', 'pl_PL.UTF-8'), ('ROS_AUTOMATIC_DISCOVERY_RANGE', 'SUBNET'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/student/Desktop/stero_25z_mp_ms/nawigacja/nav_lab1/build/nav_lab1'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/student/tiago_public_ws/install/urdf_test/lib/python3.10/site-packages:/home/student/tiago_public_ws/install/tiago_description/lib/python3.10/site-packages:/home/student/tiago_public_ws/install/pmb2_description/lib/python3.10/site-packages:/home/student/tiago_public_ws/install/play_motion2_msgs/lib/python3.10/site-packages:/home/student/tiago_public_ws/build/launch_pal:/home/student/tiago_public_ws/install/launch_pal/lib/python3.10/site-packages:/opt/ros/iron/lib/python3.10/site-packages'), ('LC_NUMERIC', 'pl_PL.UTF-8'), ('LC_PAPER', 'pl_PL.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/student/Desktop/stero_25z_mp_ms/nawigacja/install/nav_lab1:/home/student/tiago_public_ws/install/urdf_test:/home/student/tiago_public_ws/install/tiago_simulation:/home/student/tiago_public_ws/install/tiago_robot:/home/student/tiago_public_ws/install/tiago_navigation:/home/student/tiago_public_ws/install/tiago_gazebo:/home/student/tiago_public_ws/install/tiago_moveit_config:/home/student/tiago_public_ws/install/tiago_2dnav:/home/student/tiago_public_ws/install/tiago_laser_sensors:/home/student/tiago_public_ws/install/tiago_bringup:/home/student/tiago_public_ws/install/tiago_description:/home/student/tiago_public_ws/install/tiago_controller_configuration:/home/student/tiago_public_ws/install/pmb2_robot:/home/student/tiago_public_ws/install/pmb2_navigation:/home/student/tiago_public_ws/install/pmb2_2dnav:/home/student/tiago_public_ws/install/pmb2_laser_sensors:/home/student/tiago_public_ws/install/pmb2_bringup:/home/student/tiago_public_ws/install/pmb2_description:/home/student/tiago_public_ws/install/pmb2_controller_configuration:/home/student/tiago_public_ws/install/play_motion2:/home/student/tiago_public_ws/install/play_motion2_msgs:/home/student/tiago_public_ws/install/pal_hey5:/home/student/tiago_public_ws/install/pal_hey5_description:/home/student/tiago_public_ws/install/pal_gripper_simulation:/home/student/tiago_public_ws/install/pal_gripper:/home/student/tiago_public_ws/install/pal_gripper_description:/home/student/tiago_public_ws/install/pal_urdf_utils:/home/student/tiago_public_ws/install/pal_robotiq_gripper:/home/student/tiago_public_ws/install/pal_robotiq_description:/home/student/tiago_public_ws/install/pal_robotiq_controller_configuration:/home/student/tiago_public_ws/install/pal_navigation_cfg:/home/student/tiago_public_ws/install/pal_navigation_cfg_bringup:/home/student/tiago_public_ws/install/pal_navigation_cfg_params:/home/student/tiago_public_ws/install/pal_maps:/home/student/tiago_public_ws/install/pal_hey5_controller_configuration:/home/student/tiago_public_ws/install/pal_gripper_controller_configuration:/home/student/tiago_public_ws/install/pal_gazebo_worlds:/home/student/tiago_public_ws/install/pal_gazebo_plugins:/home/student/tiago_public_ws/install/gazebo_grasp_plugin:/home/student/tiago_public_ws/install/gazebo_version_helpers:/home/student/tiago_public_ws/install/launch_pal:/opt/ros/iron')]), 'shell': False}
+[34.397643] (nav_lab1) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[34.398915] (nav_lab1) StdoutLine: {'line': b'-- Installing: /home/student/Desktop/stero_25z_mp_ms/nawigacja/nav_lab1/install/nav_lab1/lib/nav_lab1/piaciokotforemny\n'}
+[34.409551] (nav_lab1) StdoutLine: {'line': b'-- Set runtime path of "/home/student/Desktop/stero_25z_mp_ms/nawigacja/nav_lab1/install/nav_lab1/lib/nav_lab1/piaciokotforemny" to ""\n'}
+[34.410300] (nav_lab1) StdoutLine: {'line': b'-- Installing: /home/student/Desktop/stero_25z_mp_ms/nawigacja/nav_lab1/install/nav_lab1/lib/nav_lab1/odometry_info\n'}
+[34.415616] (nav_lab1) StdoutLine: {'line': b'-- Set runtime path of "/home/student/Desktop/stero_25z_mp_ms/nawigacja/nav_lab1/install/nav_lab1/lib/nav_lab1/odometry_info" to ""\n'}
+[34.416262] (nav_lab1) StdoutLine: {'line': b'-- Installing: /home/student/Desktop/stero_25z_mp_ms/nawigacja/nav_lab1/install/nav_lab1/share/ament_index/resource_index/package_run_dependencies/nav_lab1\n'}
+[34.417377] (nav_lab1) StdoutLine: {'line': b'-- Installing: /home/student/Desktop/stero_25z_mp_ms/nawigacja/nav_lab1/install/nav_lab1/share/ament_index/resource_index/parent_prefix_path/nav_lab1\n'}
+[34.418046] (nav_lab1) StdoutLine: {'line': b'-- Installing: /home/student/Desktop/stero_25z_mp_ms/nawigacja/nav_lab1/install/nav_lab1/share/nav_lab1/environment/ament_prefix_path.sh\n'}
+[34.418243] (nav_lab1) StdoutLine: {'line': b'-- Installing: /home/student/Desktop/stero_25z_mp_ms/nawigacja/nav_lab1/install/nav_lab1/share/nav_lab1/environment/ament_prefix_path.dsv\n'}
+[34.418862] (nav_lab1) StdoutLine: {'line': b'-- Installing: /home/student/Desktop/stero_25z_mp_ms/nawigacja/nav_lab1/install/nav_lab1/share/nav_lab1/environment/path.sh\n'}
+[34.418985] (nav_lab1) StdoutLine: {'line': b'-- Installing: /home/student/Desktop/stero_25z_mp_ms/nawigacja/nav_lab1/install/nav_lab1/share/nav_lab1/environment/path.dsv\n'}
+[34.419118] (nav_lab1) StdoutLine: {'line': b'-- Installing: /home/student/Desktop/stero_25z_mp_ms/nawigacja/nav_lab1/install/nav_lab1/share/nav_lab1/local_setup.bash\n'}
+[34.419229] (nav_lab1) StdoutLine: {'line': b'-- Installing: /home/student/Desktop/stero_25z_mp_ms/nawigacja/nav_lab1/install/nav_lab1/share/nav_lab1/local_setup.sh\n'}
+[34.419361] (nav_lab1) StdoutLine: {'line': b'-- Installing: /home/student/Desktop/stero_25z_mp_ms/nawigacja/nav_lab1/install/nav_lab1/share/nav_lab1/local_setup.zsh\n'}
+[34.419441] (nav_lab1) StdoutLine: {'line': b'-- Installing: /home/student/Desktop/stero_25z_mp_ms/nawigacja/nav_lab1/install/nav_lab1/share/nav_lab1/local_setup.dsv\n'}
+[34.419550] (nav_lab1) StdoutLine: {'line': b'-- Installing: /home/student/Desktop/stero_25z_mp_ms/nawigacja/nav_lab1/install/nav_lab1/share/nav_lab1/package.dsv\n'}
+[34.419614] (nav_lab1) StdoutLine: {'line': b'-- Installing: /home/student/Desktop/stero_25z_mp_ms/nawigacja/nav_lab1/install/nav_lab1/share/ament_index/resource_index/packages/nav_lab1\n'}
+[34.419722] (nav_lab1) StdoutLine: {'line': b'-- Installing: /home/student/Desktop/stero_25z_mp_ms/nawigacja/nav_lab1/install/nav_lab1/share/nav_lab1/cmake/nav_lab1Config.cmake\n'}
+[34.420070] (nav_lab1) StdoutLine: {'line': b'-- Installing: /home/student/Desktop/stero_25z_mp_ms/nawigacja/nav_lab1/install/nav_lab1/share/nav_lab1/cmake/nav_lab1Config-version.cmake\n'}
+[34.420196] (nav_lab1) StdoutLine: {'line': b'-- Installing: /home/student/Desktop/stero_25z_mp_ms/nawigacja/nav_lab1/install/nav_lab1/share/nav_lab1/package.xml\n'}
+[34.426024] (nav_lab1) CommandEnded: {'returncode': 0}
+[34.440120] (-) TimerEvent: {}
+[34.540393] (-) TimerEvent: {}
+[34.540927] (nav_lab1) JobEnded: {'identifier': 'nav_lab1', 'rc': 0}
+[34.543214] (-) EventReactorShutdown: {}

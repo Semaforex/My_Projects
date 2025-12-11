@@ -1,0 +1,128 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install"
+		],
+		"files" : 
+		[
+			"fmt-10.2.1/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 392,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 404,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 407,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 410,
+				"parent" : 0
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"fmt-10.2.1/libfmtd.a"
+			],
+			"targetId" : "fmt::@960d4caa5bca50a8388f",
+			"targetIndex" : 31,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "include/fmt",
+			"paths" : 
+			[
+				"fmt-10.2.1/include/fmt/args.h",
+				"fmt-10.2.1/include/fmt/chrono.h",
+				"fmt-10.2.1/include/fmt/color.h",
+				"fmt-10.2.1/include/fmt/compile.h",
+				"fmt-10.2.1/include/fmt/core.h",
+				"fmt-10.2.1/include/fmt/format.h",
+				"fmt-10.2.1/include/fmt/format-inl.h",
+				"fmt-10.2.1/include/fmt/os.h",
+				"fmt-10.2.1/include/fmt/ostream.h",
+				"fmt-10.2.1/include/fmt/printf.h",
+				"fmt-10.2.1/include/fmt/ranges.h",
+				"fmt-10.2.1/include/fmt/std.h",
+				"fmt-10.2.1/include/fmt/xchar.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 2,
+			"component" : "Unspecified",
+			"destination" : "lib/cmake/fmt",
+			"paths" : 
+			[
+				"/home/mparadow/PROI_projekt/build/fmt-10.2.1/fmt-config.cmake",
+				"/home/mparadow/PROI_projekt/build/fmt-10.2.1/fmt-config-version.cmake"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 3,
+			"component" : "Unspecified",
+			"destination" : "lib/cmake/fmt",
+			"exportName" : "fmt-targets",
+			"exportTargets" : 
+			[
+				{
+					"id" : "fmt::@960d4caa5bca50a8388f",
+					"index" : 31
+				},
+				{
+					"id" : "fmt-header-only::@960d4caa5bca50a8388f",
+					"index" : 0
+				}
+			],
+			"paths" : 
+			[
+				"fmt-10.2.1/CMakeFiles/Export/lib/cmake/fmt/fmt-targets.cmake"
+			],
+			"type" : "export"
+		},
+		{
+			"backtrace" : 4,
+			"component" : "Unspecified",
+			"destination" : "lib/pkgconfig",
+			"paths" : 
+			[
+				"/home/mparadow/PROI_projekt/build/fmt-10.2.1/fmt.pc"
+			],
+			"type" : "file"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "fmt-10.2.1",
+		"source" : "fmt-10.2.1"
+	}
+}

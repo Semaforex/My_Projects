@@ -1,0 +1,54 @@
+[
+         {
+                  "id": 0,
+                  "data": {
+                           "author": "Author1",
+                           "title": "Book1",
+                           "time_limit": 30,
+                           "reserved": null,
+                           "extentions_left": 3,
+                           "return_date": null,
+                           "popularity": 0
+                  },
+                  "body": "for testing"
+         },
+         {
+                  "id": 1,
+                  "data": {
+                           "author": "Author2",
+                           "title": "Book2",
+                           "time_limit": 30,
+                           "reserved": null,
+                           "extentions_left": 3,
+                           "return_date": null,
+                           "popularity": 0
+                  },
+                  "body": "for testing"
+         },
+         {
+                  "id": 2,
+                  "data": {
+                           "author": "Author3",
+                           "title": "Book3",
+                           "time_limit": 30,
+                           "reserved": null,
+                           "extentions_left": 3,
+                           "return_date": null,
+                           "popularity": 0
+                  },
+                  "body": "for testing"
+         },
+         {
+                  "id": 3,
+                  "data": {
+                           "author": "Author1",
+                           "title": "Book1",
+                           "time_limit": 30,
+                           "reserved": null,
+                           "extentions_left": 3,
+                           "return_date": null,
+                           "popularity": 0
+                  },
+                  "body": "for testing"
+         }
+]

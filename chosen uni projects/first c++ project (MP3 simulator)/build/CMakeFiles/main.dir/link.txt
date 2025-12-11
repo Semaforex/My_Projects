@@ -1,0 +1,1 @@
+/usr/bin/g++ -g -rdynamic CMakeFiles/main.dir/main.cpp.o -o main  src/libplaylist.a src/libsong.a src/libplayer.a src/libplaylist.a src/libsong.a fmt-10.2.1/libfmtd.a 

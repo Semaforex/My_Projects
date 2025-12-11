@@ -1,0 +1,4 @@
+Invoking command in '/home/mparadow/Desktop/ROS2_tutorial/ros2_ws/build/turtlesim': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/mparadow/Desktop/ROS2_tutorial/ros2_ws/build/turtlesim -- -j24 -l24
+Invoked command in '/home/mparadow/Desktop/ROS2_tutorial/ros2_ws/build/turtlesim' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/mparadow/Desktop/ROS2_tutorial/ros2_ws/build/turtlesim -- -j24 -l24
+Invoking command in '/home/mparadow/Desktop/ROS2_tutorial/ros2_ws/build/turtlesim': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/mparadow/Desktop/ROS2_tutorial/ros2_ws/build/turtlesim
+Invoked command in '/home/mparadow/Desktop/ROS2_tutorial/ros2_ws/build/turtlesim' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/mparadow/Desktop/ROS2_tutorial/ros2_ws/build/turtlesim

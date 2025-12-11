@@ -1,0 +1,29 @@
+[0.020s] Invoking command in '/home/student/Desktop/stero_25z_mp_ms/nawigacja/nav_lab1/build/nav_lab1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/student/tiago_public_ws/install/launch_pal:/opt/ros/iron /usr/bin/cmake --build /home/student/Desktop/stero_25z_mp_ms/nawigacja/nav_lab1/build/nav_lab1 -- -j4 -l4
+[0.224s] [35m[1mConsolidate compiler generated dependencies of target piaciokotforemny[0m
+[0.272s] [ 25%] [32mBuilding CXX object CMakeFiles/piaciokotforemny.dir/src/piaciokotforemny.cpp.o[0m
+[17.204s] [ 50%] [32m[1mLinking CXX executable piaciokotforemny[0m
+[18.229s] [ 50%] Built target piaciokotforemny
+[18.244s] [35m[1mConsolidate compiler generated dependencies of target odometry_info[0m
+[18.278s] [100%] Built target odometry_info
+[18.300s] Invoked command in '/home/student/Desktop/stero_25z_mp_ms/nawigacja/nav_lab1/build/nav_lab1' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/student/tiago_public_ws/install/launch_pal:/opt/ros/iron /usr/bin/cmake --build /home/student/Desktop/stero_25z_mp_ms/nawigacja/nav_lab1/build/nav_lab1 -- -j4 -l4
+[18.421s] Invoking command in '/home/student/Desktop/stero_25z_mp_ms/nawigacja/nav_lab1/build/nav_lab1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/student/tiago_public_ws/install/launch_pal:/opt/ros/iron /usr/bin/cmake --install /home/student/Desktop/stero_25z_mp_ms/nawigacja/nav_lab1/build/nav_lab1
+[18.448s] -- Install configuration: ""
+[18.449s] -- Installing: /home/student/Desktop/stero_25z_mp_ms/nawigacja/nav_lab1/install/nav_lab1/lib/nav_lab1/piaciokotforemny
+[18.455s] -- Set runtime path of "/home/student/Desktop/stero_25z_mp_ms/nawigacja/nav_lab1/install/nav_lab1/lib/nav_lab1/piaciokotforemny" to ""
+[18.455s] -- Up-to-date: /home/student/Desktop/stero_25z_mp_ms/nawigacja/nav_lab1/install/nav_lab1/lib/nav_lab1/odometry_info
+[18.456s] -- Up-to-date: /home/student/Desktop/stero_25z_mp_ms/nawigacja/nav_lab1/install/nav_lab1/share/ament_index/resource_index/package_run_dependencies/nav_lab1
+[18.456s] -- Up-to-date: /home/student/Desktop/stero_25z_mp_ms/nawigacja/nav_lab1/install/nav_lab1/share/ament_index/resource_index/parent_prefix_path/nav_lab1
+[18.456s] -- Up-to-date: /home/student/Desktop/stero_25z_mp_ms/nawigacja/nav_lab1/install/nav_lab1/share/nav_lab1/environment/ament_prefix_path.sh
+[18.457s] -- Up-to-date: /home/student/Desktop/stero_25z_mp_ms/nawigacja/nav_lab1/install/nav_lab1/share/nav_lab1/environment/ament_prefix_path.dsv
+[18.457s] -- Up-to-date: /home/student/Desktop/stero_25z_mp_ms/nawigacja/nav_lab1/install/nav_lab1/share/nav_lab1/environment/path.sh
+[18.457s] -- Up-to-date: /home/student/Desktop/stero_25z_mp_ms/nawigacja/nav_lab1/install/nav_lab1/share/nav_lab1/environment/path.dsv
+[18.457s] -- Up-to-date: /home/student/Desktop/stero_25z_mp_ms/nawigacja/nav_lab1/install/nav_lab1/share/nav_lab1/local_setup.bash
+[18.458s] -- Up-to-date: /home/student/Desktop/stero_25z_mp_ms/nawigacja/nav_lab1/install/nav_lab1/share/nav_lab1/local_setup.sh
+[18.458s] -- Up-to-date: /home/student/Desktop/stero_25z_mp_ms/nawigacja/nav_lab1/install/nav_lab1/share/nav_lab1/local_setup.zsh
+[18.458s] -- Up-to-date: /home/student/Desktop/stero_25z_mp_ms/nawigacja/nav_lab1/install/nav_lab1/share/nav_lab1/local_setup.dsv
+[18.459s] -- Installing: /home/student/Desktop/stero_25z_mp_ms/nawigacja/nav_lab1/install/nav_lab1/share/nav_lab1/package.dsv
+[18.459s] -- Up-to-date: /home/student/Desktop/stero_25z_mp_ms/nawigacja/nav_lab1/install/nav_lab1/share/ament_index/resource_index/packages/nav_lab1
+[18.459s] -- Up-to-date: /home/student/Desktop/stero_25z_mp_ms/nawigacja/nav_lab1/install/nav_lab1/share/nav_lab1/cmake/nav_lab1Config.cmake
+[18.459s] -- Up-to-date: /home/student/Desktop/stero_25z_mp_ms/nawigacja/nav_lab1/install/nav_lab1/share/nav_lab1/cmake/nav_lab1Config-version.cmake
+[18.461s] -- Up-to-date: /home/student/Desktop/stero_25z_mp_ms/nawigacja/nav_lab1/install/nav_lab1/share/nav_lab1/package.xml
+[18.464s] Invoked command in '/home/student/Desktop/stero_25z_mp_ms/nawigacja/nav_lab1/build/nav_lab1' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/student/tiago_public_ws/install/launch_pal:/opt/ros/iron /usr/bin/cmake --install /home/student/Desktop/stero_25z_mp_ms/nawigacja/nav_lab1/build/nav_lab1

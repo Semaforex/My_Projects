@@ -1,0 +1,11 @@
+/home/student/Desktop/stero_25z_mp_ms/nawigacja/nav_lab1/build/nav_lab1/CMakeFiles/uninstall.dir
+/home/student/Desktop/stero_25z_mp_ms/nawigacja/nav_lab1/build/nav_lab1/CMakeFiles/nav_lab1_uninstall.dir
+/home/student/Desktop/stero_25z_mp_ms/nawigacja/nav_lab1/build/nav_lab1/CMakeFiles/piaciokotforemny.dir
+/home/student/Desktop/stero_25z_mp_ms/nawigacja/nav_lab1/build/nav_lab1/CMakeFiles/odometry_info.dir
+/home/student/Desktop/stero_25z_mp_ms/nawigacja/nav_lab1/build/nav_lab1/CMakeFiles/test.dir
+/home/student/Desktop/stero_25z_mp_ms/nawigacja/nav_lab1/build/nav_lab1/CMakeFiles/edit_cache.dir
+/home/student/Desktop/stero_25z_mp_ms/nawigacja/nav_lab1/build/nav_lab1/CMakeFiles/rebuild_cache.dir
+/home/student/Desktop/stero_25z_mp_ms/nawigacja/nav_lab1/build/nav_lab1/CMakeFiles/list_install_components.dir
+/home/student/Desktop/stero_25z_mp_ms/nawigacja/nav_lab1/build/nav_lab1/CMakeFiles/install.dir
+/home/student/Desktop/stero_25z_mp_ms/nawigacja/nav_lab1/build/nav_lab1/CMakeFiles/install/local.dir
+/home/student/Desktop/stero_25z_mp_ms/nawigacja/nav_lab1/build/nav_lab1/CMakeFiles/install/strip.dir

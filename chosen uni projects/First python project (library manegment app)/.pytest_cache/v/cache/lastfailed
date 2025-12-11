@@ -1,0 +1,5 @@
+{
+  "tests/test_database.py::test_delete_book_error": true,
+  "tests/test_database.py::test_delete_user": true,
+  "tests/test_database.py::test_delete_librarian": true
+}
