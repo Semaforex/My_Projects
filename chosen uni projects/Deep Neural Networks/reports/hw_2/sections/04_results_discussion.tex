@@ -1,0 +1,35 @@
+We evaluated both pipelines on a subset of the test dataset using three metrics:
+\begin{itemize}
+    \item \textbf{Hit Rate:} The proportion of generated foreground/background points that fall within the correct area.
+    \item \textbf{Distance:} The average Euclidean distance from the generated foreground points to the center of mass of the ground-truth mask.
+    \item \textbf{IoU (Intersection over Union):} The overlap between the predicted segmentation mask and the ground truth.
+\end{itemize}
+
+\subsection{Quantitative Results}
+The performance of the two pipelines is summarized in Table \ref{tab:sam_results}.
+
+\begin{table}[H]
+    \centering
+    \caption{Performance comparison of automated SAM Pipelines}
+    \label{tab:sam_results}
+    \begin{tabular}{l c c c c}
+        \toprule
+        \textbf{Pipeline} & \textbf{Fg Hit Rate} & \textbf{Bg Hit Rate} & \textbf{Distance (px)} & \textbf{mIoU} \\
+        \midrule
+        Pipeline 1 (FG only) & 0.815 & - & 3.848 & 0.860 \\
+        Pipeline 2 (FG + BG) & 0.815 & 1.000 & 3.848 & 0.831 \\
+        \bottomrule
+    \end{tabular}
+\end{table}
+
+\subsection{Discussion}
+Both pipelines achieved excellent segmentation performance, significantly exceeding the target IoU of 65\%. 
+
+\begin{itemize}
+    \item \textbf{Pipeline 1 (Foreground Only):} Achieved the highest mIoU of \textbf{0.860}. This suggests that for distinct geometric shapes on relatively clean backgrounds, identifying the core of the object is sufficient for SAM to infer the correct boundary. The "Hit Rate" of 0.815 indicates that our Grad-CAM derived points reliably fall within the object boundaries.
+    
+    \item \textbf{Pipeline 2 (FG + BG):} Achieved a slightly lower mIoU of \textbf{0.831}. While intuition suggests that background points should help constrain the mask, they may have introduced ambiguity if the low-activation regions were too close to the object boundary, or if SAM's internal biases for this specific dataset favored unconstrained expansion from a strong center seed.
+\end{itemize}
+
+\textbf{Potential Improvements:} 
+The main issue was that no matter the background points, Pipeline 2 worked worse than Pipeline 1, even tho the only difference was the addition of background points. The proposed improvement would be to introduce background points, only if there were any leakages detected based on Grad-CAM after the initial segmentation with foreground points. The segmentation could then be recomputed. This way, background points would only be added when necessary, potentially improving the segmentation without introducing unnecessary noise.

@@ -1,0 +1,23 @@
+\subsection{Methodology}
+Grad-CAM\cite{gradcam} uses the gradients of any target concept (e.g., 'circle') flowing into the final convolutional layer to produce a coarse localization map highlighting the important regions in the image for predicting the concept. 
+
+We implemented a custom \texttt{GradCAM} class in PyTorch without relying on external interpretability libraries.
+% Key implementation details include:
+% \begin{itemize}
+%     \item \textbf{Hooks:} Forward and backward hooks were registered on the target layers (the last convolutional block of the ResNet-18 model) to capture feature maps and gradients during the forward and backward passes.
+%     \item \textbf{Weights Calculation:} The neuron importance weights $\alpha_k^c$ were computed by global average pooling the gradients over the width and height dimensions.
+%     \item \textbf{Heatmap Generation:} The weighted combination of feature maps is passed through a ReLU activation to focus only on features that have a positive influence on the class of interest. The result is upsampled to the input image resolution and normalized between 0 and 1 per image.
+% \end{itemize}
+
+\subsection{Visual Results}
+Figure \ref{fig:gradcam_vis} illustrates the Grad-CAM output for selected test samples. The heatmaps successfully localize the geometric shapes, indicating that the classifier is focusing on relevant object features rather than background noise. In some cases (such as the second image), Grad-CAM shows that the classifier focuses on the edge of the shape rather than the middle part.
+
+\begin{figure}[H]
+    \centering
+    % Note: Ensure you save the output of example_gradcam() as this filename in your figures folder
+    \includegraphics[width=0.9\textwidth]{gradcam_visualization.png}
+    \includegraphics[width=0.9\textwidth]{gradcam_visualization_2.png} 
+    \includegraphics[width=0.9\textwidth]{gradcam_visualization_3.png} 
+    \caption{Grad-CAM visualization showing the Input Image, the generated Heatmap, an Overlay, and the Ground Truth Mask.}
+    \label{fig:gradcam_vis}
+\end{figure}

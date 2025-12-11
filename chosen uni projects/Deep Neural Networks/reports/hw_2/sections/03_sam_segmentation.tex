@@ -1,0 +1,15 @@
+The Segment Anything Model (SAM) requires prompts (points, boxes) to segment objects. We automated this prompting process using the localization priors from our Grad-CAM implementation. We compared two approaches:
+
+\subsection{Pipeline 1: Foreground Points Only}
+(\texttt{SamForegroundPipeline}) relies on positive cues from Grad-CAM heatmaps:
+\begin{itemize}
+    \item \textbf{Point Selection:} We identify the peak activation in the heatmap and calculate the center of mass for regions exceeding 80\% of this maximum value.
+    \item \textbf{Augmentation:} We generate a $3 \times 3$ grid of foreground points centered on this location (the center point plus its 8 neighbors with an offset of 1 pixel).
+\end{itemize}
+
+\subsection{Pipeline 2: Foreground and Background Points}
+(\texttt{SamBackgroundPipeline}) adds negative constraints to refine the segmentation boundary.
+\begin{itemize}
+    \item \textbf{Foreground:} Identical to Pipeline 1.
+    \item \textbf{Background:} We identify regions with very low activation (heatmap values $< 0.1$). From these "cold" regions, we select 4 spatially distinct points (top-most, bottom-most, left-most, right-most) to explicitly signal background areas to SAM.
+\end{itemize}

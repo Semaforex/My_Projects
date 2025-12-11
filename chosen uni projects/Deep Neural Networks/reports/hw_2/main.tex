@@ -1,0 +1,50 @@
+\documentclass[a4paper,11pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage{geometry}
+\geometry{margin=1in}
+\usepackage{graphicx}
+\graphicspath{{figures}}
+\usepackage{booktabs}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{float}
+\usepackage{hyperref}
+\usepackage{caption}
+\usepackage{subcaption}
+
+\title{\textbf{Deep Learning HW2: Grad-CAM and Automated SAM Segmentation}}
+\author{Michał Paradowski}
+\date{\today}
+
+\begin{document}
+\maketitle
+
+% \section{Introduction}
+% \input{sections/01_introduction}
+
+\section{Grad-CAM Implementation}
+\input{sections/02_gradcam}
+
+\section{Automated SAM Segmentation}
+\input{sections/03_sam_segmentation}
+
+\section{Results and Discussion}
+\input{sections/04_results_discussion}
+
+% --- PASTE THIS BLOCK HERE ---
+\begin{thebibliography}{9}
+
+\bibitem{gradcam}
+Selvaraju, R. R., Cogswell, M., Das, A., Vedantam, R., Parikh, D., \& Batra, D. (2017). 
+\textit{Grad-CAM: Visual Explanations from Deep Networks via Gradient-based Localization}. 
+Proceedings of the IEEE International Conference on Computer Vision (ICCV).
+
+\bibitem{sam}
+Kirillov, A., Mintun, E., Ravi, N., Mao, H., Rolge, C., ... \& Girshick, R. (2023). 
+\textit{Segment Anything}. 
+Proceedings of the IEEE/CVF International Conference on Computer Vision (ICCV).
+
+\end{thebibliography}
+% -----------------------------
+
+\end{document}
