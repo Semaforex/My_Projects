@@ -1,0 +1,24 @@
+{
+  "configurations": [
+    {
+      "browse": {
+        "databaseFilename": "${workspaceFolder}/.vscode/browse.vc.db",
+        "limitSymbolsToIncludedHeaders": false
+      },
+      "includePath": [
+        "/home/mparadow/tiago_public_ws/install/play_motion2/include/**",
+        "/home/mparadow/tiago_public_ws/install/play_motion2_msgs/include/**",
+        "/home/mparadow/tiago_public_ws/install/pal_gazebo_plugins/include/**",
+        "/home/mparadow/tiago_public_ws/install/gazebo_version_helpers/include/**",
+        "/opt/ros/iron/include/**",
+        "/usr/include/**"
+      ],
+      "name": "ros2",
+      "intelliSenseMode": "gcc-x64",
+      "compilerPath": "/usr/bin/gcc",
+      "cStandard": "gnu11",
+      "cppStandard": "c++17"
+    }
+  ],
+  "version": 4
+}
