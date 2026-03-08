@@ -6,7 +6,12 @@
         "limitSymbolsToIncludedHeaders": false
       },
       "includePath": [
-        "/opt/ros/humble/include/**",
+        "/home/mparadow/stero/install/nav_pro2/include/**",
+        "/home/mparadow/tiago_public_ws/install/play_motion2/include/**",
+        "/home/mparadow/tiago_public_ws/install/play_motion2_msgs/include/**",
+        "/home/mparadow/tiago_public_ws/install/pal_gazebo_plugins/include/**",
+        "/home/mparadow/tiago_public_ws/install/gazebo_version_helpers/include/**",
+        "/opt/ros/iron/include/**",
         "/usr/include/**"
       ],
       "name": "ros2",

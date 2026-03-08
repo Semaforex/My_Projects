@@ -1,20 +1,10 @@
 {
     "python.autoComplete.extraPaths": [
-        "/home/mparadow/tiago_public_ws/install/urdf_test/lib/python3.10/site-packages",
-        "/home/mparadow/tiago_public_ws/install/tiago_description/lib/python3.10/site-packages",
-        "/home/mparadow/tiago_public_ws/install/pmb2_description/lib/python3.10/site-packages",
-        "/home/mparadow/tiago_public_ws/install/play_motion2_msgs/lib/python3.10/site-packages",
-        "/home/mparadow/tiago_public_ws/build/launch_pal",
-        "/home/mparadow/tiago_public_ws/install/launch_pal/lib/python3.10/site-packages",
-        "/opt/ros/iron/lib/python3.10/site-packages"
+        "/opt/ros/humble/lib/python3.10/site-packages",
+        "/opt/ros/humble/local/lib/python3.10/dist-packages"
     ],
     "python.analysis.extraPaths": [
-        "/home/mparadow/tiago_public_ws/install/urdf_test/lib/python3.10/site-packages",
-        "/home/mparadow/tiago_public_ws/install/tiago_description/lib/python3.10/site-packages",
-        "/home/mparadow/tiago_public_ws/install/pmb2_description/lib/python3.10/site-packages",
-        "/home/mparadow/tiago_public_ws/install/play_motion2_msgs/lib/python3.10/site-packages",
-        "/home/mparadow/tiago_public_ws/build/launch_pal",
-        "/home/mparadow/tiago_public_ws/install/launch_pal/lib/python3.10/site-packages",
-        "/opt/ros/iron/lib/python3.10/site-packages"
+        "/opt/ros/humble/lib/python3.10/site-packages",
+        "/opt/ros/humble/local/lib/python3.10/dist-packages"
     ]
 }
