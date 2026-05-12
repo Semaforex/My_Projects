@@ -1,0 +1,7 @@
+ustalić zakres parametrów i zakres sygnałów
+
+dobrać okres próbkowania do liczby oscylacji
+
+prawo regulacji z wymuszonym całkowaniem
+
+interpretacja neural ODE
