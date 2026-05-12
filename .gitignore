@@ -1,13 +1,14 @@
 # ============================================================
 # VS Code
 # ============================================================
-.vscode/browse.vc.db
-.vscode/browse.vc.db-shm
-.vscode/browse.vc.db-wal
-.vscode/*.VC.db
-.vscode/.ropeproject
-.history/
+*.vscode/browse.vc.db
+*.vscode/browse.vc.db-shm
+*.vscode/browse.vc.db-wal
+*.vscode/*.VC.db
+*.vscode/.ropeproject
+*.history/
 *.code-workspace
+*browse.vc.db
 
 # ============================================================
 # Python
