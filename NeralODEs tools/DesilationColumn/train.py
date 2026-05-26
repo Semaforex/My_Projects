@@ -71,10 +71,11 @@ def train_model(model, trajectories_train, steering_table_train, trajectories_va
     print("Rozpoczęcie fazy 2: L-BFGS (Pełne trajektorie)")
     optimizer_lbfgs = torch.optim.LBFGS(
         model.parameters(), 
-        lr=0.1, 
-        max_iter=20, 
-        history_size=50, 
-        line_search_fn='strong_wolfe'
+        max_iter=100, 
+        tolerance_grad=1e-5, 
+        tolerance_change=1e-9, 
+        history_size=50,
+        line_search_fn="strong_wolfe"
     )
     VAL_FREQ = 1
 
