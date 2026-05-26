@@ -1,0 +1,54 @@
+Rozpoczęcie fazy 1: Adam
+Adam Epoch 000 | Train Loss: 3.362696 | Val Loss: 0.238475
+Adam Epoch 010 | Train Loss: 0.004569 | Val Loss: 0.004285
+Adam Epoch 020 | Train Loss: 0.001912 | Val Loss: 0.001854
+Adam Epoch 030 | Train Loss: 0.001350 | Val Loss: 0.001271
+Adam Epoch 040 | Train Loss: 0.001120 | Val Loss: 0.000965
+Adam Epoch 050 | Train Loss: 0.000936 | Val Loss: 0.000791
+Adam Epoch 060 | Train Loss: 0.000786 | Val Loss: 0.000647
+Adam Epoch 070 | Train Loss: 0.000707 | Val Loss: 0.000554
+Adam Epoch 080 | Train Loss: 0.000621 | Val Loss: 0.000481
+Adam Epoch 090 | Train Loss: 0.000555 | Val Loss: 0.000438
+Adam Epoch 100 | Train Loss: 0.000534 | Val Loss: 0.000406
+Adam Epoch 110 | Train Loss: 0.000466 | Val Loss: 0.000352
+Adam Epoch 120 | Train Loss: 0.000475 | Val Loss: 0.000406
+Adam Epoch 130 | Train Loss: 0.000447 | Val Loss: 0.000596
+Adam Epoch 140 | Train Loss: 0.000414 | Val Loss: 0.000426
+Adam Epoch 149 | Train Loss: 0.000354 | Val Loss: 0.000291
+Rozpoczęcie fazy 2: L-BFGS (Pełne trajektorie)
+L-BFGS Step 000 | Train Loss: 0.000586 | Val Loss: 0.000276
+L-BFGS Step 001 | Train Loss: 0.000271 | Val Loss: 0.000201
+L-BFGS Step 002 | Train Loss: 0.000208 | Val Loss: 0.000153
+L-BFGS Step 003 | Train Loss: 0.000163 | Val Loss: 0.000115
+L-BFGS Step 004 | Train Loss: 0.000123 | Val Loss: 0.000082
+L-BFGS Step 005 | Train Loss: 0.000090 | Val Loss: 0.000066
+L-BFGS Step 006 | Train Loss: 0.000073 | Val Loss: 0.000056
+L-BFGS Step 007 | Train Loss: 0.000060 | Val Loss: 0.000048
+L-BFGS Step 008 | Train Loss: 0.000050 | Val Loss: 0.000041
+L-BFGS Step 009 | Train Loss: 0.000042 | Val Loss: 0.000035
+L-BFGS Step 010 | Train Loss: 0.000035 | Val Loss: 0.000029
+L-BFGS Step 011 | Train Loss: 0.000029 | Val Loss: 0.000025
+L-BFGS Step 012 | Train Loss: 0.000025 | Val Loss: 0.000022
+L-BFGS Step 013 | Train Loss: 0.000022 | Val Loss: 0.000021
+L-BFGS Step 014 | Train Loss: 0.000021 | Val Loss: 0.000019
+L-BFGS Step 015 | Train Loss: 0.000019 | Val Loss: 0.000017
+L-BFGS Step 016 | Train Loss: 0.000017 | Val Loss: 0.000016
+L-BFGS Step 017 | Train Loss: 0.000016 | Val Loss: 0.000014
+L-BFGS Step 018 | Train Loss: 0.000014 | Val Loss: 0.000013
+L-BFGS Step 019 | Train Loss: 0.000013 | Val Loss: 0.000012
+L-BFGS Step 020 | Train Loss: 0.000013 | Val Loss: 0.000012
+L-BFGS Step 021 | Train Loss: 0.000012 | Val Loss: 0.000011
+L-BFGS Step 022 | Train Loss: 0.000011 | Val Loss: 0.000010
+L-BFGS Step 023 | Train Loss: 0.000011 | Val Loss: 0.000010
+L-BFGS Step 024 | Train Loss: 0.000010 | Val Loss: 0.000010
+L-BFGS Step 025 | Train Loss: 0.000010 | Val Loss: 0.000010
+L-BFGS Step 026 | Train Loss: 0.000009 | Val Loss: 0.000009
+L-BFGS Step 027 | Train Loss: 0.000009 | Val Loss: 0.000009
+L-BFGS Step 028 | Train Loss: 0.000009 | Val Loss: 0.000008
+L-BFGS Step 029 | Train Loss: 0.000008 | Val Loss: 0.000008
+Model saved successfully to models/model_20260525_205550.pt
+
+--- Evaluation Metrics ---
+Total Train MSE: 0.000008
+Total Val MSE:   0.000008
+--------------------------
