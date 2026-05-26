@@ -2,7 +2,7 @@ from model import DynamicsModel
 from dynamics import num_dim
 from data import generate_initial_conditions, generate_trajectories
 from plot import plot_data
-from train import train_model, eval_model
+from traincopy import train_model, eval_model
 import datetime
 import torch
 import numpy as np

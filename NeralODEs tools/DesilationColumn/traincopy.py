@@ -69,48 +69,54 @@ def train_model(model, trajectories_train, steering_table_train, trajectories_va
 
     # --- FAZA 2: L-BFGS (Pełne trajektorie) ---
     print("Rozpoczęcie fazy 2: L-BFGS (Pełne trajektorie)")
-    optimizer_lbfgs = torch.optim.LBFGS(
+    lbfgs_optimizer = torch.optim.LBFGS(
         model.parameters(), 
-        lr=0.1, 
-        max_iter=20, 
-        history_size=50, 
-        line_search_fn='strong_wolfe'
+        max_iter=100, 
+        tolerance_grad=1e-5, 
+        tolerance_change=1e-9, 
+        history_size=50,
+        line_search_fn="strong_wolfe"
     )
-    VAL_FREQ = 1
-
-
+    
     for step in range(num_steps_lbfgs):
-        model.train()
 
         def closure():
-            optimizer_lbfgs.zero_grad()
-            pred = odeint(
-                nn_dynamics, 
-                trajectories_train[0], 
-                ts, 
-                method='rk4', 
-                options={'step_size': dt}
-            )
-            loss = criterion(pred, trajectories_train)
-            loss.backward()
-            return loss
+            lbfgs_optimizer.zero_grad()
+            epoch_loss = 0.0
+            
+            for i in range(num_chunks):
+                start_idx = i * chunk_steps
+                end_idx = start_idx + chunk_steps
+                
+                if end_idx > len(ts):
+                    break
+                    
+                t_chunk = ts[start_idx:end_idx]
+                
+                # FIXED: Changed `trajectories` to `trajectories_train`
+                y0_chunk = trajectories_train[start_idx]
+                target_chunk = trajectories_train[start_idx:end_idx]
 
-        loss_val = optimizer_lbfgs.step(closure)
-        step_loss = loss_val.item()
-
-        if step % VAL_FREQ == 0 or step == num_steps_lbfgs - 1:
-            model.eval()
-            with torch.no_grad():
-                pred_val = odeint(
-                    nn_dynamics_val, 
-                    trajectories_val[0], 
-                    ts, 
+                pred_chunk = odeint(
+                    nn_dynamics, 
+                    y0_chunk, 
+                    t_chunk, 
                     method='rk4', 
                     options={'step_size': dt}
                 )
-                val_loss = criterion(pred_val, trajectories_val).item()
-                    
-            print(f"L-BFGS Step {step:03d} | Train Loss: {step_loss:.6f} | Val Loss: {val_loss:.6f}")
+                
+                loss = criterion(pred_chunk, target_chunk)
+                loss.backward()
+                epoch_loss += loss.item()
+                
+            return epoch_loss
+
+        # Wywołanie optymalizatora i pobranie wartości loss bezpośrednio z kroku
+        loss_val = lbfgs_optimizer.step(closure)
+        
+        # Obliczenie końcowego błędu po kroku dla wyświetlenia
+        current_loss = loss_val / num_chunks
+        print(f"L-BFGS Step {step:02d} | Train Loss: {current_loss:.6f}")
 
 def eval_model(model, y_0s, y_0s_val, trajectories, trajectories_val, steering_table, steering_table_val, ts, dt):
     import matplotlib.pyplot as plt

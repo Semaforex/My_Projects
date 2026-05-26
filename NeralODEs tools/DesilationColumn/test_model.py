@@ -68,26 +68,18 @@ def main():
     y_0s_train = y_0s_train.to(device)
     y_0s_val = y_0s_val.to(device)
 
-    train_model(
-        model, 
-        trajectories_train, 
-        steering_table_train, 
-        trajectories_val, 
-        steering_table_val, 
-        dt, 
-        num_epochs_adam=150, 
-        num_steps_lbfgs=30,
-        num_chunks=TOTAL_STEPS // CHUNK_LEN,
-        chunk_steps=CHUNK_LEN, 
-        ts=ts
-    )
+
 
     os.makedirs("models", exist_ok=True)
     timestamp = datetime.datetime.now().strftime("%Y%m%d_%H%M%S")
-    save_path = os.path.join("models", f"model_{timestamp}.pt")
+    save_path = os.path.join("models", f"best_model.pt")  # Fixed name for the best model
     
-    torch.save(model.state_dict(), save_path)
-    print(f"Model saved successfully to {save_path}")
+    if os.path.exists(save_path):
+        model.load_state_dict(torch.load(save_path))
+        print(f"Model loaded successfully from {save_path}")
+    else:
+        torch.save(model.state_dict(), save_path)
+        print(f"Model saved successfully to {save_path}")
 
     eval_model(
         model, 
